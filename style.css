@@ -134,3 +134,24 @@ video#bgvid {
     bottom: 0px;
     margin: auto;
 }
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#example {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.alerting {
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
