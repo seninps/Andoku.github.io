@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-.round-button {
+.round-button, .close-icon {
     display:block;
     position: fixed;
     right: 40px;
@@ -22,6 +22,12 @@
 }
 .round-button:hover {
     background: #262626;
+}
+
+.close-icon {
+    right: 40px;
+    top: 40px;
+    botton: auto;
 }
 
 .rectangular-button {
