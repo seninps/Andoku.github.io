@@ -33,3 +33,4 @@ myBlurFunction2 = function(state) {
         containerElement.setAttribute('class', null);
     } */
 };
+document.onclick = function() { document.getElementById('overlay').style.display='none'; document.getElementById('example').className=''; };
