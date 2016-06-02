@@ -16,6 +16,7 @@
     text-align: center;
     text-decoration: none;
     background: #464646;
+    background: rgba(0, 0, 0, 0.7);
     box-shadow: 0 0 3px gray;
     font-size: 20px;
     font-weight: bold;
@@ -24,6 +25,7 @@
 }
 .round-button:hover {
     background: #262626;
+    background: rgba(0, 0, 0, 1);
     background-image: url('img/icon.png');
     background-position: -1px -1px;
 }
@@ -46,22 +48,22 @@
     font: menu;
     width: 300px;
     height: 100px;
-    
     margin:15px;
-
     line-height: 90px;
     border: 2px solid #f5f5f5;
     border-radius: 10px;
     color:#f5f5f5;
     text-align: center;
     text-decoration: none;
-    background: #464646;
+    background: rgba(0, 0, 0, 0.7); /*#464646;*/
+
     box-shadow: 0 0 3px gray;
     font-size: 30px;
     font-weight: bold;
 }
 .rectangular-button:hover {
     background: #262626;
+    background: rgba(0, 0, 0, 1);
 }
 
 .divider{
@@ -99,6 +101,12 @@ h2 {
     left: 10px;
 }
 
+.social {
+    position: fixed;
+    bottom: center;
+    left: center;
+    text-align: center;
+}
 
 video#bgvid { 
     position: fixed;
