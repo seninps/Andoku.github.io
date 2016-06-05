@@ -14,10 +14,10 @@ myBlurFunction = function(state) {
 
 myBlurFunction2 = function(state) {
     if (state) {
-        document.getElementById('example').className='alerting';
+        document.getElementById('blur-div').className='alerting';
         document.getElementById('overlay').style.display='block';
     } else {
-        document.getElementById('example').className='';
+        document.getElementById('blur-div').className='';
         document.getElementById('overlay').style.display='none';
     }
 
@@ -33,4 +33,4 @@ myBlurFunction2 = function(state) {
         containerElement.setAttribute('class', null);
     } */
 };
-document.onclick = function() { document.getElementById('overlay').style.display='none'; document.getElementById('example').className=''; };
+document.onclick = function() { document.getElementById('overlay').style.display='none'; document.getElementById('blur-div').className=''; };
