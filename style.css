@@ -77,11 +77,11 @@
     color:#f5f5f5;
     font-size: 30px;
     font-weight: bold;
-    border-bottom: 3px dotted white;
+    border-bottom: 2px dotted white;
 }
 .delivery:hover {
     color:#f9e387;
-    border-bottom: 3px dotted #f9e387;
+    border-bottom: 2px dotted #f9e387;
 }
 
 .close-icon {
