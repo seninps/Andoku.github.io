@@ -15,18 +15,19 @@
     color: #f5f5f5;
     text-align: center;
     text-decoration: none;
-    background: #464646;
+    /*background: #464646;*/
     background: rgba(0, 0, 0, 0.7);
     box-shadow: 0 0 3px gray;
     font-size: 20px;
     font-weight: bold;
-    background-image: url('img/icon.png');
+    background-image: url('img/social.png');
     background-position: -1px -1px;
 }
 .round-button:hover {
-    background: #262626;
+    /*background: #262626;*/
     background: rgba(0, 0, 0, 1);
-    background-image: url('img/icon.png');
+    border: 2px solid #f9e387;
+    background-image: url('img/social_creme.png');
     background-position: -1px -1px;
 }
 
@@ -49,11 +50,17 @@
     background-image: url('img/phone.png');
     background-position: -1px -1px;
 }
+
 .phone-button:hover {
-    background: #262626;
     background: rgba(0, 0, 0, 1);
-    background-image: url('img/phone.png');
+    border: 2px solid #f9e387;
+    background-image: url('img/phone_creme.png');
     background-position: -1px -1px;
+}
+
+.phone-button:hover ~ .delivery {
+    color:#f9e387;
+    border-bottom: 2px dotted #f9e387;
 }
 
 .phone {
@@ -100,19 +107,18 @@
 .rectangular-button {
     display: inline-block;
     font: menu;
-    width: 300px;
-    height: 100px;
-    margin:15px;
-    line-height: 90px;
+    width: 210px;
+    height: 70px;
+    margin: 10px;
+    line-height: 74px;
     border: 2px solid #f5f5f5;
     border-radius: 10px;
-    color:#f5f5f5;
+    color: #f5f5f5;
     text-align: center;
     text-decoration: none;
     background: rgba(0, 0, 0, 0.7); /*#464646;*/
-
     box-shadow: 0 0 3px gray;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
 }
 .rectangular-button:hover {
@@ -321,10 +327,10 @@ body {
     background-image: url(images/8.jpg);
     animation-delay: 42s; 
 }
-.cb-slideshow li:nth-child(9) span { 
+/*.cb-slideshow li:nth-child(9) span { 
     background-image: url(images/9.jpg);
     animation-delay: 48s; 
-}
+}*/
 /*.cb-slideshow li:nth-child(10) span { 
     background-image: url(images/10.jpg);
     animation-delay: 54s; 
@@ -351,9 +357,9 @@ body {
 .cb-slideshow li:nth-child(8) div { 
     animation-delay: 42s; 
 }
-.cb-slideshow li:nth-child(9) div { 
-    animation-delay: 48s; 
-}
+/*.cb-slideshow li:nth-child(9) div { 
+    animation-delay: 48s;
+} */
 /*.cb-slideshow li:nth-child(10) div { 
     animation-delay: 54s; 
 }*/
