@@ -118,8 +118,9 @@
 .rectangular-button:hover {
     /*background: #262626;*/
     background: rgba(0, 0, 0, 1);
-    background: #f9e387;
-    /*color:#000;*/
+    /*background: #f9e387;*/
+    color: #f9e387;
+    border: 2px solid #f9e387;
 }
 
 .divider{
