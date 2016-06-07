@@ -13,12 +13,16 @@ myBlurFunction = function(state) {
 };
 
 myBlurFunction2 = function(state) {
-    if (state) {
+    if (state == 1) {
         document.getElementById('blur-div').className='alerting';
-        document.getElementById('overlay').style.display='block';
-    } else {
+        document.getElementById('overlay1').style.display='block';
+    } else if (state == 2) {
+        document.getElementById('blur-div').className='alerting';
+        document.getElementById('delivery').style.display='block';
+    }else {
         document.getElementById('blur-div').className='';
-        document.getElementById('overlay').style.display='none';
+        document.getElementById('overlay1').style.display='none';
+        document.getElementById('delivery').style.display='none';
     }
 
     /* state can be 1 or 0 
