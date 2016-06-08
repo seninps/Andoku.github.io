@@ -22,11 +22,15 @@ myBlurFunction2 = function(state) {
     } else if (state == 3) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('about').style.display='block';
-    } else {
+    } else if (state == 4) {
+        document.getElementById('blur-div').className='alerting';
+        document.getElementById('product').style.display='block';
+    }else {
         document.getElementById('blur-div').className='';
         document.getElementById('overlay1').style.display='none';
         document.getElementById('delivery').style.display='none';
         document.getElementById('about').style.display='none';
+        document.getElementById('product').style.display='none';
     }
 
     /* state can be 1 or 0 
