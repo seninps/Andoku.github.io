@@ -209,6 +209,7 @@ p {
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
 }
+
 #overlay1, #delivery, #about, #product {
     position: fixed;
     display: none;
@@ -219,6 +220,7 @@ p {
     background: rgba(0, 0, 0, 0.7);
     z-index: 999;
 }
+
 #popup {
     position: absolute;
     width: 600px;
@@ -230,6 +232,10 @@ p {
     top: 0px;
     bottom: 0px;
     margin: auto;
+}
+
+#about p, #product p {
+    text-align: left;
 }
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,th,td { 
