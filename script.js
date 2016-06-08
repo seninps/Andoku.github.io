@@ -15,7 +15,7 @@ myBlurFunction = function(state) {
 myBlurFunction2 = function(state) {
     if (state == 1) {
         document.getElementById('blur-div').className='alerting';
-        document.getElementById('overlay1').style.display='block';
+        document.getElementById('social').style.display='block';
     } else if (state == 2) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('delivery').style.display='block';
@@ -27,7 +27,7 @@ myBlurFunction2 = function(state) {
         document.getElementById('product').style.display='block';
     }else {
         document.getElementById('blur-div').className='';
-        document.getElementById('overlay1').style.display='none';
+        document.getElementById('social').style.display='none';
         document.getElementById('delivery').style.display='none';
         document.getElementById('about').style.display='none';
         document.getElementById('product').style.display='none';
@@ -47,8 +47,8 @@ myBlurFunction2 = function(state) {
 };
 document.onclick = function() {
     document.getElementById('blur-div').className=''; 
-    document.getElementById('overlay1').style.display='none';
-    document.getElementById('overlay1').style.display='none';
+    document.getElementById('social').style.display='none';
+    document.getElementById('social').style.display='none';
     document.getElementById('delivery').style.display='none';
     document.getElementById('about').style.display='none';
     document.getElementById('product').style.display='none';
