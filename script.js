@@ -45,4 +45,11 @@ myBlurFunction2 = function(state) {
         containerElement.setAttribute('class', null);
     } */
 };
-document.onclick = function() { document.getElementById('overlay').style.display='none'; document.getElementById('blur-div').className=''; };
+document.onclick = function() {
+    document.getElementById('blur-div').className=''; 
+    document.getElementById('overlay1').style.display='none';
+    document.getElementById('overlay1').style.display='none';
+    document.getElementById('delivery').style.display='none';
+    document.getElementById('about').style.display='none';
+    document.getElementById('product').style.display='none';
+};
