@@ -192,8 +192,9 @@ p, #about li, #product li {
 }
 
 .logo p {
-    font-size: 40px;    
+    font-size: 24px;    
     font-style: italic;
+    margin: 0px;
 }
 
 .number {
