@@ -238,7 +238,7 @@ p, #about li, #product li {
     margin: 20px auto;
 }
 
-#about p, #product p, #about li {
+#about p, #product p, #about li, #product li {
     text-align: left;
     font-weight: normal;
     font-size: 18px;
