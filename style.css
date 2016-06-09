@@ -240,7 +240,11 @@ p, #about li, #product li {
 }
 
 #photo #popup {
-    width: 110px;
+    width: 1350px;
+}
+
+#photo img {
+    height:150px;
 }
 
 #about p, #product p, #about li, #product li {
