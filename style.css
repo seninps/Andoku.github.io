@@ -241,6 +241,7 @@ p, #about li, #product li {
 
 #photo #popup {
     width: 1350px;
+    margin: 50px auto;
 }
 
 #photo img {
