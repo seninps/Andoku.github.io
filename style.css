@@ -191,7 +191,7 @@ p, #about li, #product li {
     font-weight: bold;
 }
 
-#logo p {
+.logo p {
     font-size: 40px;    
     font-style: italic;
 }
@@ -233,7 +233,7 @@ p, #about li, #product li {
 }
 
 
-#about #popup {
+#about #popup, #product #popup {
     width: 1200px;
     margin: 20px auto;
 }
@@ -247,6 +247,7 @@ p, #about li, #product li {
 ul {
     list-style: square outside;
 }
+
 body,div,dl,dt,dd,ol,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,th,td { 
     margin:0;
     padding:0;
