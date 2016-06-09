@@ -25,12 +25,16 @@ myBlurFunction2 = function(state) {
     } else if (state == 4) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('product').style.display='block';
-    }else {
+    } else if (state == 5) {
+        document.getElementById('blur-div').className='alerting';
+        document.getElementById('photo').style.display='block';
+    } else {
         document.getElementById('blur-div').className='';
         document.getElementById('social').style.display='none';
         document.getElementById('delivery').style.display='none';
         document.getElementById('about').style.display='none';
         document.getElementById('product').style.display='none';
+        document.getElementById('photo').style.display='none';
     }
 
     /* state can be 1 or 0 
