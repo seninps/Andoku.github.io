@@ -245,11 +245,6 @@ p, #about li, #product li {
     font-size: 18px;
 }
 
-ul {
-    list-style: square outside;
-    margin-top: -1em;
-}
-
 body,div,dl,dt,dd,ul, li,ol,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,th,td { 
     margin:0;
     padding:0;
