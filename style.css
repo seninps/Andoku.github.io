@@ -197,6 +197,11 @@ p, #about li, #product li {
     margin: 0px;
 }
 
+.phone p {
+    margin: 0px;
+    font-size: 30px;
+    color: white;
+}
 .number {
     color: #f9e387;
 }
