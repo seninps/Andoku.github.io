@@ -144,7 +144,7 @@
 
 h1 {
     font-family: "TexGyreHeros", "Helvetica Neue", Verdana, Arial, sans-serif;
-    font-size: 44px;
+    font-size: 38px;
     color: #F0E68C;
     margin: 0;
     /*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; */
@@ -262,6 +262,10 @@ p, #about li, #product li {
     text-align: left;
     font-weight: normal;
     font-size: 18px;
+}
+
+#social a.rectangular-button {
+    margin: 20px;
 }
 
 body,div,dl,dt,dd,ul, li,ol,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,th,td { 
