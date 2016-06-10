@@ -60,6 +60,4 @@ document.onclick = function() {
     document.getElementById('delivery').style.display='none';
     document.getElementById('about').style.display='none';
     document.getElementById('product').style.display='none';
-    document.getElementById('photo').style.display='none';
-    document.getElementById('menu').style.display='none';
 };
