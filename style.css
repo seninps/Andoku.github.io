@@ -252,8 +252,19 @@ p, #about li, #product li {
 }
 
 #photo #popup {
-    width: 1350px;
+    width: 1250px;
     margin: 50px auto;
+}
+
+.image {
+	width:200px;
+	height:150px;
+	display:inline-block;
+	text-align:center;
+}
+	
+.image img {
+    vertical-align: middle;
 }
 
 #menu #popup {
@@ -261,9 +272,6 @@ p, #about li, #product li {
     margin: 50px auto;
 }
 
-#photo img {
-    height:150px;
-}
 
 #about p, #product p, #about li, #product li {
     text-align: left;
