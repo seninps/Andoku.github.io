@@ -28,6 +28,9 @@ myBlurFunction2 = function(state) {
     } else if (state == 5) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('photo').style.display='block';
+    } else if (state == 6) {
+        document.getElementById('blur-div').className='alerting';
+        document.getElementById('menu').style.display='block';
     } else {
         document.getElementById('blur-div').className='';
         document.getElementById('social').style.display='none';
@@ -35,6 +38,7 @@ myBlurFunction2 = function(state) {
         document.getElementById('about').style.display='none';
         document.getElementById('product').style.display='none';
         document.getElementById('photo').style.display='none';
+        document.getElementById('menu').style.display='none';
     }
 
     /* state can be 1 or 0 
@@ -56,4 +60,6 @@ document.onclick = function() {
     document.getElementById('delivery').style.display='none';
     document.getElementById('about').style.display='none';
     document.getElementById('product').style.display='none';
+    document.getElementById('photo').style.display='none';
+    document.getElementById('menu').style.display='none';
 };
