@@ -151,6 +151,10 @@ h1 {
     text-shadow: 2px 2px 0px black;
 }
 
+#social h1 {
+    margin-bottom: 20px;
+}
+
 h2 {
     font-family: "TexGyreHeros", "Helvetica Neue", Verdana, Arial, sans-serif;
     font-size: 34px;
@@ -238,6 +242,9 @@ p, #about li, #product li {
     margin: auto;
 }
 
+#social #popup {
+    text-align:center;
+}
 
 #about #popup, #product #popup {
     width: 1200px;
