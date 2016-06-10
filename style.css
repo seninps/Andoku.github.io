@@ -197,14 +197,9 @@ p, #about li, #product li {
     margin: 0px;
 }
 
-.phone p {
-    margin: 0px;
-    font-size: 30px;
-    color: white;
-}
-
 .phone a {
     color: #f5f5f5;
+    text-decoration: none;
 }
 
 .number {
