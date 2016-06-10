@@ -228,7 +228,7 @@ $(document).ready(function() {
 		version: '2.1.5',
 
 		defaults: {
-			padding : 7.5,
+			padding : 4,
 			margin  : 20,
 
 			width     : 800,
