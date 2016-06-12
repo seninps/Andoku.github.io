@@ -1,14 +1,3 @@
-document.onclick = function() {
-    if ( document.getElementById('blur-div').className=='alerting' && document.getElementById('menu').style.display=='none' && document.getElementById('photo').style.display=='none'; ) {
-        document.getElementById('blur-div').className=''; 
-        document.getElementById('social').style.display='none';
-        document.getElementById('delivery').style.display='none';
-        document.getElementById('about').style.display='none';
-        document.getElementById('product').style.display='none';
-        document.getElementById('background').style.display='none';
-    }
-};
-
 myBlurFunction = function(state) {
     /* state can be 1 or 0 */
     var containerElement = document.getElementById('main_container');
@@ -44,7 +33,6 @@ myBlurFunction2 = function(state) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('photo').style.display='block';
         document.getElementById('background').style.display='block';
-        a
     } else if (state == 6) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('menu').style.display='block';
@@ -64,7 +52,6 @@ myBlurFunction2 = function(state) {
     /* state can be 1 or 0 
     var containerElement = document.getElementById('main_container');
     var overlayEle = document.getElementById('overlay');
-
     if (state) {
         overlayEle.style.display = 'block';
         containerElement.setAttribute('class', 'blur');
@@ -72,4 +59,12 @@ myBlurFunction2 = function(state) {
         overlayEle.style.display = 'none';
         containerElement.setAttribute('class', null);
     } */
+};
+document.onclick = function() {
+    document.getElementById('blur-div').className=''; 
+    document.getElementById('social').style.display='none';
+    document.getElementById('delivery').style.display='none';
+    document.getElementById('about').style.display='none';
+    document.getElementById('product').style.display='none';
+    document.getElementById('background').style.display='none';
 };
