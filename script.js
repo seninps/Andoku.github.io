@@ -60,6 +60,11 @@ myBlurFunction2 = function(state) {
         containerElement.setAttribute('class', null);
     } */
 };
+document.ready = function() {
+	document.getElementById('menu').style.display='none';
+	document.getElementById('photo').style.display='none';
+};
+
 document.onclick = function() {
     if (document.getElementById('blur-div').className=='alerting' && document.getElementById('menu').style.display=='none' && document.getElementById('photo').style.display=='none' ) {
         document.getElementById('blur-div').className='';
