@@ -16,21 +16,27 @@ myBlurFunction2 = function(state) {
     if (state == 1) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('social').style.display='block';
+        document.getElementById('background').style.display='block';
     } else if (state == 2) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('delivery').style.display='block';
+        document.getElementById('background').style.display='block';
     } else if (state == 3) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('about').style.display='block';
+        document.getElementById('background').style.display='block';
     } else if (state == 4) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('product').style.display='block';
+        document.getElementById('background').style.display='block';
     } else if (state == 5) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('photo').style.display='block';
+        document.getElementById('background').style.display='block';
     } else if (state == 6) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('menu').style.display='block';
+        document.getElementById('background').style.display='block';
     } else {
         document.getElementById('blur-div').className='';
         document.getElementById('social').style.display='none';
@@ -39,6 +45,8 @@ myBlurFunction2 = function(state) {
         document.getElementById('product').style.display='none';
         document.getElementById('photo').style.display='none';
         document.getElementById('menu').style.display='none';
+        document.getElementById('background').style.display='none';
+        
     }
 
     /* state can be 1 or 0 
