@@ -64,7 +64,7 @@ myBlurFunction2 = function(state) {
 };
 
 document.onclick = function() {
-    if ( document.getElementById('menu').style.display!=='block' && document.getElementById('photo').style.display=='block'; ) {
+    if ( document.getElementById('blur-div').className='alerting' && document.getElementById('menu').style.display=='none' && document.getElementById('photo').style.display=='none'; ) {
         document.getElementById('blur-div').className=''; 
         document.getElementById('social').style.display='none';
         document.getElementById('delivery').style.display='none';
