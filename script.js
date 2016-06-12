@@ -61,5 +61,7 @@ myBlurFunction2 = function(state) {
     } */
 };
 document.onclick = function() {
-    document.getElementById('blur-div').className='lala';
+    if (document.getElementById('blur-div').className=='alerting') {
+        document.getElementById('blur-div').className='lala';
+    }
 };
