@@ -242,6 +242,12 @@ p, #about li, #product li {
     margin: auto;
 }
 
+#product {
+	min-height: 770px;
+	min-width: 1200px;
+	position: absolute;
+}
+
 #social #popup {
     text-align:center;
 }
