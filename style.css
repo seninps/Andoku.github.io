@@ -256,6 +256,8 @@ p, #about li, #product li {
     width: 1200px;
     margin: 20px auto;
     height: auto;
+    min-height: 770px;
+    position: relative ;
 }
 
 #photo #popup {
