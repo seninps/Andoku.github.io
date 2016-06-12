@@ -225,7 +225,6 @@ p, #about li, #product li {
     top: 0px;
     right: 0px;
     bottom: 0px;
-    background: rgba(0, 0, 0, 0.7);
     z-index: 999;
 }
 
