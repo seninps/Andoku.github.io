@@ -243,7 +243,7 @@ p, #about li, #product li {
 }
 
 #product {
-	min-height: 870px;
+	min-height: 970px;
 	min-width: 1440px;
 	position: absolute;
 }
@@ -255,8 +255,6 @@ p, #about li, #product li {
 #about #popup, #product #popup {
     width: 1200px;
     margin: 20px auto;
-    height: auto;
-    min-height: 770px;
 }
 
 #photo #popup {
