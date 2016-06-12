@@ -246,6 +246,7 @@ p, #about li, #product li {
 	min-height: 870px;
 	min-width: 1340px;
 	overflow: visible;
+	position: absolute;
 }
 
 #social #popup {
