@@ -219,7 +219,7 @@ p, #about li, #product li {
 }
 
 #social, #delivery, #about, #product, #photo, #menu {
-    position: fixed;
+    position: absolute;
     display: none;
     left: 0px;
     top: 0px;
@@ -249,12 +249,6 @@ p, #about li, #product li {
     top: 0px;
     bottom: 0px;
     margin: auto;
-}
-
-#product {
-	min-height: 970px;
-	min-width: 1440px;
-	position: absolute;
 }
 
 #social #popup {
