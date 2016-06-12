@@ -229,6 +229,16 @@ p, #about li, #product li {
     z-index: 999;
 }
 
+#background {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	display: none;
+}
+
 #popup {
     position: absolute;
     width: 600px;
@@ -249,7 +259,7 @@ p, #about li, #product li {
 }
 
 #social #popup {
-    text-align:center;
+    text-align: center;
 }
 
 #about #popup, #product #popup {
