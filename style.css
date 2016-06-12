@@ -245,7 +245,6 @@ p, #about li, #product li {
 #product {
 	min-height: 770px;
 	min-width: 1240px;
-	position: absolute;
 }
 
 #social #popup {
@@ -257,7 +256,6 @@ p, #about li, #product li {
     margin: 20px auto;
     height: auto;
     min-height: 770px;
-    position: relative ;
 }
 
 #photo #popup {
