@@ -1,3 +1,14 @@
+document.onclick = function() {
+    if ( document.getElementById('blur-div').className='alerting' && document.getElementById('menu').style.display=='none' && document.getElementById('photo').style.display=='none'; ) {
+        document.getElementById('blur-div').className=''; 
+        document.getElementById('social').style.display='none';
+        document.getElementById('delivery').style.display='none';
+        document.getElementById('about').style.display='none';
+        document.getElementById('product').style.display='none';
+        document.getElementById('background').style.display='none';
+    }
+};
+
 myBlurFunction = function(state) {
     /* state can be 1 or 0 */
     var containerElement = document.getElementById('main_container');
@@ -61,15 +72,4 @@ myBlurFunction2 = function(state) {
         overlayEle.style.display = 'none';
         containerElement.setAttribute('class', null);
     } */
-};
-
-document.onclick = function() {
-    if ( document.getElementById('blur-div').className='alerting' && document.getElementById('menu').style.display=='none' && document.getElementById('photo').style.display=='none'; ) {
-        document.getElementById('blur-div').className=''; 
-        document.getElementById('social').style.display='none';
-        document.getElementById('delivery').style.display='none';
-        document.getElementById('about').style.display='none';
-        document.getElementById('product').style.display='none';
-        document.getElementById('background').style.display='none';
-    }
 };
