@@ -243,8 +243,8 @@ p, #about li, #product li {
 }
 
 #product {
-	min-height: 770px;
-	min-width: 1240px;
+	min-height: 870px;
+	min-width: 1340px;
 	overflow: visible;
 }
 
