@@ -24,15 +24,15 @@
     background-position: -1px -1px;*/
 }
 
-.round-button:hover {
-    /* background: #262626;
+*/ .round-button:hover {
+    background: #262626;
     background: rgba(0, 0, 0, 1);
-    border: 2px solid #f9e387;*/
-    background-image: url('img/social-dark.png');
-   /* background-position: -1px -1px;
+    border: 2px solid #f9e387;
+    background-image: url('img/social_creme.png');
+    background-position: -1px -1px;
 }*/
 
-/* .phone-button {
+.phone-button {
     display:block;
     position: fixed;
     width: 70px;
@@ -52,7 +52,7 @@
     background-position: -1px -1px;
 }
 
-.phone-button:hover {
+/*.phone-button:hover {
     background: rgba(0, 0, 0, 1);
     border: 2px solid #f9e387;
     background-image: url('img/phone_creme.png');
