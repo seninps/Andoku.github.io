@@ -67,14 +67,14 @@
     position: fixed;
     left: 5%;
     top: 5%;
-    display: block;
-    font: menu;
+    display: block;    
+    width: 470px;
+    /*font: menu;
     font-size: 30px;
     font-weight: bold;
     color: white;
     text-align: center;
-    width: 470px;
-    /*line-height: 72px;*/
+    line-height: 72px;*/
 }
 
 /* .delivery {
@@ -242,8 +242,9 @@ p, #about li, #product li {
 
 .phone-logo {
 	width: 370px;
-	height: 80px;
+	height: 75px;
 	background-image: url(img/phone-new.png);
+	margin: auto;
 }
 
 .phone-logo:hover {
@@ -254,6 +255,7 @@ p, #about li, #product li {
 	width: 150px;
 	height: 42px;
 	background-image: url(img/delivery.png);
+	margin: auto;
 }
 
 .delivery-logo:hover {
