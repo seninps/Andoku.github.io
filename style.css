@@ -316,10 +316,15 @@ p, #about li, #product li {
     vertical-align: middle;
 }
 
+#menu {
+	min-height: 700px;
+}
+
 #menu #popup {
     width: 1200px;
-    margin: 50px auto;
+    margin: auto;
     text-align: center;
+    height: 606px
 }
 
 
