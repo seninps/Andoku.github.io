@@ -223,12 +223,6 @@ p, #about li, #product li {
     font-weight: bold;
 }
 
-.logo p {
-    font-size: 24px;    
-    font-style: italic;
-    margin: 0px;
-}
-
 .phone a {
     color: #f5f5f5;
     text-decoration: none;
@@ -311,7 +305,7 @@ p, #about li, #product li {
 
 
 #about p, #product p, #about li, #product li {
-    text-align: left;
+    text-align: justify;
     font-weight: normal;
     font-size: 18px;
 }
@@ -321,8 +315,8 @@ p, #about li, #product li {
 }
 
 body,div,dl,dt,dd,ul, li,ol,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,th,td { 
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 #about ul, #product ul {
