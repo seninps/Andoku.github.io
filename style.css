@@ -290,13 +290,22 @@ p, #about li, #product li {
 	margin: auto;	
 }
 
-
 #about, #product {
 	min-width: 960px;
 }
+
+#about {
+	min-height: 863px;
+}
+
 #about #popup, #product #popup {
     width: 900px;
     margin: 30px auto;
+}
+
+#about #popup {
+	height: 803px;	
+	margin: auto;
 }
 
 #photo {
