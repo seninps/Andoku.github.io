@@ -78,7 +78,7 @@
     /*line-height: 72px;*/
 }
 
-.delivery {
+/* .delivery {
     display: inline-block;
     font: menu;
     text-decoration: none;
@@ -90,7 +90,7 @@
 .delivery:hover {
     color:#f9e387;
     border-bottom: 2px dotted #f9e387;
-}
+}*/
 
 .close-icon {
     display: block;
