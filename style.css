@@ -299,10 +299,14 @@ p, #about li, #product li {
     margin: 30px auto;
 }
 
+#photo {
+	min-height: 1040px;
+}
 #photo #popup {
     width: 1350px;
-    margin: 50px auto;
+    margin: auto;
     text-align: center;
+    height: 940px;
 }
 
 .image {
