@@ -269,7 +269,8 @@ p, #about li, #product li {
     left: 0px;
     right: 0px;
     top: 0px;
-    bottom: 0px;
+    bottom: 0px;	
+	margin: auto;
 }
 
 #social {
@@ -278,7 +279,6 @@ p, #about li, #product li {
 
 #social #popup {
     text-align: center;
-    margin: auto;
 }
 
 #delivery {
@@ -286,12 +286,12 @@ p, #about li, #product li {
 	min-height: 460px;
 }
 
-#delivery #popup {
-	margin: auto;	
-}
-
 #about, #product {
 	min-width: 960px;
+}
+
+#product {
+	min-height: 900px;
 }
 
 #about {
@@ -300,12 +300,14 @@ p, #about li, #product li {
 
 #about #popup, #product #popup {
     width: 900px;
-    margin: 30px auto;
 }
 
 #about #popup {
-	height: 823px;	
-	margin: auto;
+	height: 823px;
+}
+
+#product #popup {
+	height: 850px;
 }
 
 #photo {
@@ -314,7 +316,6 @@ p, #about li, #product li {
 
 #photo #popup {
     width: 1350px;
-    margin: auto;
     text-align: center;
     height: 940px;
 }
@@ -336,7 +337,6 @@ p, #about li, #product li {
 
 #menu #popup {
     width: 1200px;
-    margin: auto;
     text-align: center;
     height: 606px
 }
