@@ -272,9 +272,13 @@ p, #about li, #product li {
     bottom: 0px;
 }
 
+#social {
+	min-height: 460px;	
+}
+
 #social #popup {
     text-align: center;
-    margin: 30px auto;
+    margin: auto;
 }
 
 #delivery {
