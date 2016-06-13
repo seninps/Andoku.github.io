@@ -142,9 +142,9 @@
     /* background: url(img/ok.png) no-repeat;*/
 }
 
-.rectangular-button span{
+/* .rectangular-button span {
     padding-left: 36px;
-}
+}*/
 
 .rectangular-button.fb {
     width: 300px;
@@ -354,7 +354,7 @@ p, #about li, #product li {
 }
 
 #social a.rectangular-button {
-    margin: 20px;
+    margin: 40px;
 }
 
 body,div,dl,dt,dd,ul, li,ol,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,th,td { 
