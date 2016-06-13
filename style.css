@@ -243,7 +243,8 @@ p, #about li, #product li {
 
 .menu-block {
 	width: 214px;
-	height:80px;
+	height: 80px;
+	margin: 5px 0px;
 }
 
 .menu {
