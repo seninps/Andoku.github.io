@@ -270,21 +270,34 @@ p, #about li, #product li {
     right: 0px;
     top: 0px;
     bottom: 0px;
-    margin: auto;
 }
 
 #social #popup {
     text-align: center;
+    margin: 30px auto;
 }
 
+#delivery {
+	min-width: 860px;
+}
+
+#delivery #popup {
+	margin: 30px auto;	
+}
+
+
+#about, #product {
+	min-width: 960px;
+}
 #about #popup, #product #popup {
     width: 900px;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
 #photo #popup {
-    width: 1250px;
+    width: 1350px;
     margin: 50px auto;
+    text-align: center;
 }
 
 .image {
@@ -299,7 +312,7 @@ p, #about li, #product li {
 }
 
 #menu #popup {
-    width: 1100px;
+    width: 1200px;
     margin: 50px auto;
 }
 
