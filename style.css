@@ -310,6 +310,10 @@ p, #about li, #product li {
     font-size: 18px;
 }
 
+#about p:nth-child(4) {
+    text-align: center;
+}
+
 #social a.rectangular-button {
     margin: 20px;
 }
