@@ -27,8 +27,8 @@
  .round-button:hover {
  	background-image: url('img/social-dark.png');
     	background: #262626;
-    	/*background: rgba(0, 0, 0, 1);
-    	border: 2px solid #f9e387;*/
+    	background: rgba(0, 0, 0, 1);
+    	border: 2px solid #f9e387;
     	background-position: -1px -1px;
 }
 
