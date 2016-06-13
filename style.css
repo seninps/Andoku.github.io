@@ -52,14 +52,14 @@
     background-position: -1px -1px;
 }
 
-.phone-button:hover {
+/*.phone-button:hover {
     background: rgba(0, 0, 0, 1);
     border: 2px solid #f9e387;
     background-image: url('img/phone_creme.png');
     background-position: -1px -1px;
 }
 
-/* .phone-button:hover ~ .delivery {
+ .phone-button:hover ~ .delivery {
     color:#f9e387;
     border-bottom: 2px dotted #f9e387;
 }*/
