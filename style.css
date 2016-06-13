@@ -255,7 +255,7 @@ p, #about li, #product li {
 	width: 150px;
 	height: 42px;
 	background-image: url(img/delivery.png);
-	margin: auto;
+	margin: 5px auto;
 }
 
 .delivery-logo:hover {
