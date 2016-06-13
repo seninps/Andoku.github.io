@@ -59,10 +59,10 @@
     background-position: -1px -1px;
 }
 
-.phone-button:hover ~ .delivery {
+/* .phone-button:hover ~ .delivery {
     color:#f9e387;
     border-bottom: 2px dotted #f9e387;
-}
+}*/
 
 .phone {
     position: fixed;
