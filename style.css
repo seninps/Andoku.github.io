@@ -241,6 +241,45 @@ p, #about li, #product li {
     -ms-filter: blur(5px);
 }
 
+.menu-block {
+	width: 214px;
+	height:80px;
+}
+
+.menu {
+	background-image: url(img/menu.png);
+}
+
+.menu:hover {
+	background-image: url(img/menu-dark.png);
+}
+
+.about {
+	background-image: url(img/about.png);
+}
+
+.about:hover {
+	background-image: url(img/about-dark.png);
+}
+
+.product {
+	background-image: url(img/product.png);
+}
+
+.product:hover {
+	background-image: url(img/product-dark.png);
+}
+
+.photo {
+	background-image: url(img/photo.png);
+}
+
+.photo:hover {
+	background-image: url(img/photo-dark.png);
+}
+
+
+
 #social, #delivery, #about, #product, #photo, #menu {
     position: absolute;
     display: none;
