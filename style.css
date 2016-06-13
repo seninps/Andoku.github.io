@@ -314,6 +314,7 @@ p, #about li, #product li {
 #menu #popup {
     width: 1200px;
     margin: 50px auto;
+    text-align: center;
 }
 
 
