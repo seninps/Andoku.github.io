@@ -278,7 +278,7 @@ p, #about li, #product li {
 }
 
 #about #popup, #product #popup {
-    width: 1200px;
+    width: 900px;
     margin: 20px auto;
 }
 
@@ -288,10 +288,10 @@ p, #about li, #product li {
 }
 
 .image {
-	width:200px;
-	height:150px;
-	display:inline-block;
-	text-align:center;
+	width: 200px;
+	height: 150px;
+	display: inline-block;
+	text-align: center;
 }
 	
 .image img {
