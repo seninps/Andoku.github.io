@@ -283,10 +283,11 @@ p, #about li, #product li {
 
 #delivery {
 	min-width: 860px;
+	min-height: 460px;
 }
 
 #delivery #popup {
-	margin: 30px auto;	
+	margin: auto;	
 }
 
 
