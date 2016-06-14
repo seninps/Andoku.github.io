@@ -18,7 +18,7 @@ myBlurFunction2 = function(state) {
         document.getElementById('social').style.display='block';
         document.getElementById('background').style.display='block';
     } else if (state == 2) {
-        document.getElementById('blur-div').className='alerting';
+        document.getElementById('blur-div').className='alerting-1';
         document.getElementById('delivery').style.display='block';
         document.getElementById('background').style.display='block';
     } else if (state == 3) {
