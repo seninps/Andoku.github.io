@@ -185,7 +185,7 @@ $(document).ready(function() {
 			    helpers : {
 			        overlay : {
 			            css : {
-			                'background' : 'rgba(36, 36, 36, 0.95)'
+			            	    '-webkit-filter' : 'blur(5px)'
 			            }
 			        }
 			    }
