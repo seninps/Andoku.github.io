@@ -311,40 +311,40 @@ p, #about li, #product li {
 	background-image: url(img/photo-dark.png);
 }
 
-#social-block {
+.social-block {
 	width: 304px;
 	height: 81px;
 }
 
-.vk #social-block {
+.vk .social-block {
 	background-image: url(img/vkontakte.png);
 }
 
-.vk #social-block:hover {
+.vk .social-block:hover {
 	background-image: url(img/vkontakte-dark.png);
 }
 
-.ok #social-block {
+.ok .social-block {
 	background-image: url(img/odnoklassniki.png);
 }
 
-.ok #social-block:hover {
+.ok .social-block:hover {
 	background-image: url(img/odnoklassniki-dark.png);
 }
 
-.fb #social-block {
+.fb .social-block {
 	background-image: url(img/facebook.png);
 }
 
-.fb #social-block:hover {
+.fb .social-block:hover {
 	background-image: url(img/odnokfacebooklassniki-dark.png);
 }
 
-.ig #social-block {
+.ig .social-block {
 	background-image: url(img/instagram.png);
 }
 
-.ig #social-block:hover {
+.ig .social-block:hover {
 	background-image: url(img/instagram-dark.png);
 }
 
