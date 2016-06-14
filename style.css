@@ -101,10 +101,15 @@
     background-image: url('img/close.png');
 }
 
-#about .close-icon {
+#about .close-icon, #product .close-icon {
 	position: static;
 	float: right;
 }
+
+#product .close-icon {
+	margin-left: 20px;	
+}
+
 
 .close-icon:hover {
     background-image: url('img/close2.png');
