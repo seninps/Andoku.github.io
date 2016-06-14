@@ -181,15 +181,8 @@ $(document).ready(function() {
 					}
 				});
 			});
-			$(".fancybox").fancybox({
-			    helpers : {
-			        overlay : {
-			            css : {
-			            	    '-webkit-filter' : 'blur(5px)'
-			            }
-			        }
-			    }
-			});
+			
+			$(".fancybox").click(function() {$("#popup").addClass("alerting");});
 
 
 		});
