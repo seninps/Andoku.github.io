@@ -300,8 +300,6 @@ p, #about li, #product li {
 	background-image: url(img/photo-dark.png);
 }
 
-
-
 #social, #delivery, #about, #product, #photo, #menu {
     position: absolute;
     display: none;
@@ -349,7 +347,7 @@ p, #about li, #product li {
 }
 
 #about, #product {
-	min-width: 960px;
+	min-width: 860px;
 }
 
 #product {
@@ -361,7 +359,7 @@ p, #about li, #product li {
 }
 
 #about #popup, #product #popup {
-    width: 940px;
+    width: 840px;
 }
 
 #about #popup {
