@@ -191,7 +191,7 @@ h1 {
 }
 
 #social h1 {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 h2 {
@@ -470,7 +470,7 @@ p, #about li, #product li {
 }
 
 #social a.rectangular-button {
-    margin: 20px;
+    margin: 15px;
     display: inline-block;
 }
 
