@@ -14,7 +14,7 @@ myBlurFunction = function(state) {
 
 myBlurFunction2 = function(state) {
     if (state == 1) {
-        document.getElementById('blur-div').className='alerting';
+        document.getElementById('blur-div').className='alerting-1';
         document.getElementById('social').style.display='block';
         document.getElementById('background').style.display='block';
     } else if (state == 2) {
