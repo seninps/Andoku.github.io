@@ -100,6 +100,12 @@
     height: 50px;
     background-image: url('img/close.png');
 }
+
+#about .close-icon {
+	position: static;
+	float: right;
+}
+
 .close-icon:hover {
     background-image: url('img/close2.png');
 }
