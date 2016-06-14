@@ -102,7 +102,7 @@
     background-size: cover;
 }
 
-#about .close-icon, #product .close-icon, #delivery .close-icon {
+#about .close-icon, #product .close-icon {
 	position: static;
 	float: right;
 }
