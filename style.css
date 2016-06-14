@@ -311,6 +311,43 @@ p, #about li, #product li {
 	background-image: url(img/photo-dark.png);
 }
 
+#social-block {
+	width: 304px;
+	height: 81px;
+}
+
+.vk #social-block {
+	background-image: url(img/vkontakte.png);
+}
+
+.vk #social-block:hover {
+	background-image: url(img/vkontakte-dark.png);
+}
+
+.ok #social-block {
+	background-image: url(img/odnoklassniki.png);
+}
+
+.ok #social-block:hover {
+	background-image: url(img/odnoklassniki-dark.png);
+}
+
+.fb #social-block {
+	background-image: url(img/facebook.png);
+}
+
+.fb #social-block:hover {
+	background-image: url(img/odnokfacebooklassniki-dark.png);
+}
+
+.ig #social-block {
+	background-image: url(img/instagram.png);
+}
+
+.ig #social-block:hover {
+	background-image: url(img/instagram-dark.png);
+}
+
 #social, #delivery, #about, #product, #photo, #menu {
     position: absolute;
     display: none;
