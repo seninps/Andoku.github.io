@@ -181,10 +181,6 @@ $(document).ready(function() {
 					}
 				});
 			});
-			
-			$(".fancybox").click(function() {$("#popup").addClass("alerting");});
-
-
 		});
 		
 (function (window, document, $, undefined) {
