@@ -353,7 +353,7 @@ p, #about li, #product li {
 }
 
 #about, #product {
-	min-width: 940px;
+	min-width: 1000px;
 }
 
 #product {
@@ -361,7 +361,7 @@ p, #about li, #product li {
 }
 
 #about {
-	min-height: 950px;
+	min-height: 1010px;
 }
 
 #about #popup, #product #popup {
