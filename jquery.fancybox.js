@@ -185,7 +185,7 @@ $(document).ready(function() {
 			    helpers : {
 			        overlay : {
 			            css : {
-			                'background' : 'rgba(58, 42, 45, 0.95)'
+			                'background' : 'rgba(36, 36, 36, 0.95)'
 			            }
 			        }
 			    }
