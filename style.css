@@ -96,9 +96,10 @@
     position: fixed;
     right: 40px;
     top: 40px;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background-image: url('img/close.png');
+    background-size: cover;
 }
 
 #about .close-icon, #product .close-icon, #delivery .close-icon {
