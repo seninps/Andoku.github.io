@@ -468,7 +468,7 @@ p, #about li, #product li {
 	margin: 10px;
 }
 
-.menu-image:nth-child(2) img, .menu-image:nth-child(10) img {
+.menu-image:nth-child(4) img, .menu-image:nth-child(9) img {
 	margin-top: 75px;
 }
 
