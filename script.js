@@ -62,13 +62,14 @@ myBlurFunction2 = function(state) {
     } */
 };
 
- if (document.location.href == 'http://andoku.github.io/#menu') {
-	document.getElementById('menu').style.display='block';
-        document.getElementById('background').style.display='block';	
-}
 
 document.ready = function() {
-	document.getElementById('menu').style.display='none';
+	if (document.location.href == 'http://andoku.github.io/#menu') {
+		document.getElementById('menu').style.display='block';
+        	document.getElementById('background').style.display='block';	
+	} else {
+		document.getElementById('menu').style.display='none';
+	}
 	document.getElementById('photo').style.display='none';
 };
 
