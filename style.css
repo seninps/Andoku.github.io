@@ -451,12 +451,13 @@ p, #about li, #product li {
 
 #menu {
 	min-height: 1060px;
+	min-width: 1060px;
 }
 
 #menu #popup {
-    width: 1200px;
+    width: 960px;
+    height: 960px;
     text-align: center;
-    height: 606px
 }
 
 .menu-image {
