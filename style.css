@@ -468,6 +468,10 @@ p, #about li, #product li {
 	margin: 10px;
 }
 
+.menu-image:nth-child(2) img, .menu-image:nth-child(10) img {
+	margin-top: 75px;
+}
+
 #about p, #product p, #about li, #product li {
     text-align: justify;
     font-weight: normal;
