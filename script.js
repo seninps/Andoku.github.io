@@ -34,7 +34,6 @@ myBlurFunction2 = function(state) {
         document.getElementById('photo').style.display='block';
         document.getElementById('background').style.display='block';
     } else if (state == 6) {
-        document.getElementById('blur-div').className='alerting';
         document.getElementById('menu').style.display='block';
         document.getElementById('background').style.display='block';
     } else {
