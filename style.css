@@ -480,6 +480,10 @@ p, #about li, #product li {
 	margin-top: 75px;
 }
 
+.menu-image:nth-child(10) {
+	margin-right: 482px;
+}
+
 #about p, #product p, #about li, #product li {
     text-align: justify;
     font-weight: normal;
