@@ -191,8 +191,14 @@ h1 {
     text-shadow: 2px 2px 0px black;
 }
 
+@font-face {
+	font-family: Svoboda;
+	src: url(Svoboda.ttf);
+}
+
 #social h1 {
     margin-bottom: 30px;
+    font-family: Svoboda;
 }
 
 h2 {
