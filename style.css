@@ -459,6 +459,13 @@ p, #about li, #product li {
     height: 606px
 }
 
+.menu-image {
+	vertical-align: top;
+	display: inline-block;
+	width: 211px;
+	height: 300px;
+	vertical-align: top;
+}
 
 #about p, #product p, #about li, #product li {
     text-align: justify;
