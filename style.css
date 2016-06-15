@@ -465,6 +465,7 @@ p, #about li, #product li {
 	width: 211px;
 	height: 300px;
 	vertical-align: top;
+	margin: 10px;
 }
 
 #about p, #product p, #about li, #product li {
