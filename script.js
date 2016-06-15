@@ -45,9 +45,9 @@ myBlurFunction2 = function(state) {
         document.getElementById('product').style.display='none';
         document.getElementById('photo').style.display='none';
         document.getElementById('background').style.display='none';
-        /*if (document.location.href == 'http://andoku.github.io/#menu') {
-        	document.getElementById('menu').style.display='none';
-        }*/
+        if (document.getElementById('menu').style.display == 'block') {
+        	document.location.href='/';
+        }
     }
 
     /* state can be 1 or 0 
