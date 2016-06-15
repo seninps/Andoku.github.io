@@ -35,6 +35,8 @@ myBlurFunction2 = function(state) {
         document.getElementById('background').style.display='block';
     } else if (state == 6) {
     	document.location.href='/#menu';
+    	document.getElementById('menu').style.display='block';
+        document.getElementById('background').style.display='block';
     } else {
         document.getElementById('blur-div').className='';
         document.getElementById('social').style.display='none';
