@@ -34,8 +34,7 @@ myBlurFunction2 = function(state) {
         document.getElementById('photo').style.display='block';
         document.getElementById('background').style.display='block';
     } else if (state == 6) {
-        document.getElementById('menu').style.display='block';
-        document.getElementById('background').style.display='block';
+    	document.location.href='/#menu';
     } else {
         document.getElementById('blur-div').className='';
         document.getElementById('social').style.display='none';
@@ -43,9 +42,10 @@ myBlurFunction2 = function(state) {
         document.getElementById('about').style.display='none';
         document.getElementById('product').style.display='none';
         document.getElementById('photo').style.display='none';
-        document.getElementById('menu').style.display='none';
         document.getElementById('background').style.display='none';
-        
+        if (document.location.href == 'http://andoku.github.io/#menu') {
+        	document.getElementById('menu').style.display='none';
+        }
     }
 
     /* state can be 1 or 0 
@@ -59,6 +59,12 @@ myBlurFunction2 = function(state) {
         containerElement.setAttribute('class', null);
     } */
 };
+
+if (document.location.href == 'http://andoku.github.io/#menu') {
+	document.getElementById('menu').style.display='block';
+        document.getElementById('background').style.display='block';	
+}
+
 document.ready = function() {
 	document.getElementById('menu').style.display='none';
 	document.getElementById('photo').style.display='none';
