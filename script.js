@@ -33,10 +33,6 @@ myBlurFunction2 = function(state) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('photo').style.display='block';
         document.getElementById('background').style.display='block';
-    } else if (state == 6) {
-    	document.location.href='/#menu';
-    	document.getElementById('menu').style.display='block';
-        document.getElementById('background').style.display='block';
     } else {
         document.getElementById('blur-div').className='';
         document.getElementById('social').style.display='none';
@@ -45,9 +41,6 @@ myBlurFunction2 = function(state) {
         document.getElementById('product').style.display='none';
         document.getElementById('photo').style.display='none';
         document.getElementById('background').style.display='none';
-        if (document.getElementById('menu').style.display == 'block') {
-        	document.location.href='/';
-        }
     }
 
     /* state can be 1 or 0 
@@ -62,19 +55,12 @@ myBlurFunction2 = function(state) {
     } */
 };
 
-
 document.ready = function() {
-	if (document.location.href == 'http://andoku.github.io/menu') {
-		document.getElementById('menu').style.display='block';
-        	document.getElementById('background').style.display='block';	
-	} else {
-		document.getElementById('menu').style.display='none';
-	}
 	document.getElementById('photo').style.display='none';
 };
 
 document.onclick = function() {
-    if (document.getElementById('background').style.display=='block' && document.getElementById('menu').style.display=='none' && document.getElementById('photo').style.display=='none' ) {
+    if (document.getElementById('background').style.display=='block' && document.getElementById('photo').style.display=='none' ) {
         document.getElementById('blur-div').className='';
         document.getElementById('social').style.display='none';
         document.getElementById('delivery').style.display='none';
