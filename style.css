@@ -485,6 +485,18 @@ p, #about li, #product li {
 	margin-right: 482px;
 }
 
+.menu-image a {
+	text-decoration: none;
+}
+
+.price {
+	margin: -45px 0px 0px -80px;
+	font: menu;
+	font-size: 32px;
+	color: #050505;
+	font-weight: 700;
+}
+
 #about p, #product p, #about li, #product li {
     text-align: justify;
     font-weight: normal;
