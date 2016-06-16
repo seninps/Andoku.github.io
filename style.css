@@ -417,7 +417,7 @@ p, #about li, #product li {
 }
 
 #about {
-	min-height: 1010px;
+	min-height: 866px;
 }
 
 #about #popup, #product #popup {
@@ -428,7 +428,7 @@ p, #about li, #product li {
 }
 
 #about #popup {
-	height: 850px;
+	height: 706px;
 }
 
 #product #popup {
