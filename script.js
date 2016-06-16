@@ -45,12 +45,6 @@ myBlurFunction2 = function(state) {
         document.getElementById('background').style.display='none';
     }
 	
-	hide = function(type) {
-		text=document.getElementById(type);
-		if (text.style.display == 'none') text.style.display = 'block';
-		else text.style.display = 'none';
-	}
-	
     /* state can be 1 or 0 
     var containerElement = document.getElementById('main_container');
     var overlayEle = document.getElementById('overlay');
@@ -63,6 +57,12 @@ myBlurFunction2 = function(state) {
     } */
 };
 
+hide = function(type) {
+	text=document.getElementById(type);
+	if (text.style.display == 'none') text.style.display = 'block';
+	else text.style.display = 'none';
+}
+	
 document.ready = function() {
 	document.getElementById('photo').style.display='none';
 };
