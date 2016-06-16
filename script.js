@@ -64,7 +64,7 @@ myBlurFunction2 = function(state) {
 
 
 document.ready = function() {
-	if (document.location.href == 'http://andoku.github.io/#menu') {
+	if (document.location.href == 'http://andoku.github.io/menu') {
 		document.getElementById('menu').style.display='block';
         	document.getElementById('background').style.display='block';	
 	} else {
