@@ -63,7 +63,7 @@ hide = function(type) {
 		text.style.display = 'block';
 		document.getElementById('popup').style.height = '850px';
 		/*document.getElementById('popup').className = document.getElementById('about').offsetheight;*/
-		if (document.getElementById('about').offheight < '1010') document.getElementById('about').style.height='1010px';
+		if (document.getElementById('about').offsetHeight < '1010') document.getElementById('about').style.height='1010px';
 	} else {
 		text.style.display = 'none';
 		document.getElementById('popup').style.height='706px';
