@@ -664,7 +664,7 @@ body {
     17% { opacity: 1 }
     25% { opacity: 0 }
     100% { opacity: 0 }
-}
+}*/
 
 @keyframes titleAnimation { 
     0% { opacity: 0 }
@@ -672,7 +672,7 @@ body {
     17% { opacity: 1 }
     19% { opacity: 0 }
     100% { opacity: 0 }
-}*/
+}
 
 .no-cssanimations .cb-slideshow li span{
     opacity: 1;
