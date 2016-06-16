@@ -459,6 +459,7 @@ p, #about li, #product li {
 #menu {
 	min-height: 1060px;
 	min-width: 1060px;
+	background-color: #ffecc2
 }
 
 #menu #popup {
