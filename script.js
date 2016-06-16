@@ -26,7 +26,7 @@ myBlurFunction2 = function(state) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('about').style.display='block';
         document.getElementById('background').style.display='block';
-        document.getElementById('principles').style.display="none;"
+        document.getElementById('principles').style.display='none';
     } else if (state == 4) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('product').style.display='block';
