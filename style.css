@@ -435,6 +435,11 @@ p, #about li, #product li {
 	height: 950px;
 }
 
+#about .hide {
+	font-weight:bold;
+	color: #f9e588;
+}
+
 #photo {
 	min-height: 1040px;
 }
