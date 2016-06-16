@@ -438,6 +438,7 @@ p, #about li, #product li {
 #about .hide {
 	font-weight:bold;
 	color: #f9e588;
+	text-decoration: none;
 }
 
 #photo {
