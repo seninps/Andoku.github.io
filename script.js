@@ -62,7 +62,7 @@ hide = function(type) {
 	if (text.style.display == 'none') {
 		text.style.display = 'block';
 		document.getElementById('popup').style.height = '850px';
-		document.getElementById('popup').className = document.getElementById('about').style.height;
+		document.getElementById('popup').className = document.getElementById('about').offsetheight;
 		if (document.getElementById('about').style.height < '1010px') document.getElementById('about').style.height='1010px';
 	} else {
 		text.style.display = 'none';
