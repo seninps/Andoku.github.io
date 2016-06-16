@@ -12,6 +12,7 @@ myBlurFunction = function(state) {
     }
 };
 
+
 myBlurFunction2 = function(state) {
     if (state == 1) {
         document.getElementById('blur-div').className='alerting-1';
@@ -25,6 +26,7 @@ myBlurFunction2 = function(state) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('about').style.display='block';
         document.getElementById('background').style.display='block';
+        document.getElementById('principles').style.display="none;"
     } else if (state == 4) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('product').style.display='block';
@@ -42,7 +44,13 @@ myBlurFunction2 = function(state) {
         document.getElementById('photo').style.display='none';
         document.getElementById('background').style.display='none';
     }
-
+	
+	hide = function(type) {
+		text=document.getElementById(type);
+		if (text.style.display == 'none') text.style.display = 'block';
+		else text.style.display = 'none';
+	}
+	
     /* state can be 1 or 0 
     var containerElement = document.getElementById('main_container');
     var overlayEle = document.getElementById('overlay');
