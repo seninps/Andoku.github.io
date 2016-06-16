@@ -59,8 +59,15 @@ myBlurFunction2 = function(state) {
 
 hide = function(type) {
 	text=document.getElementById(type);
-	if (text.style.display == 'none') text.style.display = 'block';
-	else text.style.display = 'none';
+	if (text.style.display == 'none') {
+		text.style.display = 'block';
+		text.style.height ='850px';
+		if (document.getElementById('about').style.height < '1010px') document.getElementById('about').style.height='1010px';
+	} else {
+		text.style.display = 'none';
+		text.style.height='706px';
+	}
+	
 }
 	
 document.ready = function() {
