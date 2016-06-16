@@ -9,7 +9,7 @@
     bottom: 5%;
     width: 74px;
     height: 74px;
-    background-image: url('img/social-new.png');
+    background-image: url('/img/social-new.png');
     /*line-height: 50px;
     border: 2px solid #f5f5f5;
     border-radius: 50%;
@@ -29,7 +29,7 @@
     background: rgba(0, 0, 0, 1);
     border: 2px solid #f9e387;
     background-position: -1px -1px;*/
-    background-image: url('img/social-dark.png');
+    background-image: url('/img/social-dark.png');
 }
 
 /* .phone-button {
@@ -48,14 +48,14 @@
     box-shadow: 0 0 3px gray;
     font-size: 20px;
     font-weight: bold;
-    background-image: url('img/phone.png');
+    background-image: url('/img/phone.png');
     background-position: -1px -1px;
 }
 
 .phone-button:hover {
     background: rgba(0, 0, 0, 1);
     border: 2px solid #f9e387;
-    background-image: url('img/phone_creme.png');
+    background-image: url('/img/phone_creme.png');
     background-position: -1px -1px;
 }
  .phone-button:hover ~ .delivery {
@@ -98,7 +98,7 @@
     top: 40px;
     width: 60px;
     height: 60px;
-    background-image: url('img/close.png');
+    background-image: url('/img/close.png');
     background-size: cover;
 }
 
@@ -113,7 +113,7 @@
 
 
 .close-icon:hover {
-    background-image: url('img/close2.png');
+    background-image: url('/img/close2.png');
 }
 
 /* .rectangular-button {
@@ -144,13 +144,13 @@
 .rectangular-button.vk {
     width: 300px;
     height: 80px;
-   /* background: url(img/vk.png) no-repeat;*/
+   /* background: url(/img/vk.png) no-repeat;*/
 }
 
 .rectangular-button.ok {
     width: 300px;
     height: 80px;
-    /* background: url(img/ok.png) no-repeat;*/
+    /* background: url(/img/ok.png) no-repeat;*/
 }
 
 /* .rectangular-button span {
@@ -160,13 +160,13 @@
 .rectangular-button.fb {
     width: 300px;
     height: 80px;
-    /* background: url(img/fb.png) no-repeat;*/
+    /* background: url(/img/fb.png) no-repeat;*/
 }
 
 .rectangular-button.ig {
     width: 300px;
     height: 80px;
-    /*background: url(img/ig.png) no-repeat;*/
+    /*background: url(/img/ig.png) no-repeat;*/
 }
 
 .divider {
@@ -193,7 +193,7 @@ h1 {
 
 @font-face {
 	font-family: Svoboda;
-	src: url(Svoboda.ttf);
+	src: url(/Svoboda.ttf);
 }
 
 #social h1 {
@@ -262,23 +262,23 @@ p, #about li, #product li {
 .phone-logo {
 	width: 370px;
 	height: 73px;
-	background-image: url(img/phone.png);
+	background-image: url(/img/phone.png);
 	margin: auto;
 }
 
 .phone-logo:hover {
-	background-image: url(img/phone-dark.png);
+	background-image: url(/img/phone-dark.png);
 }
 
 .delivery-logo {
 	width: 150px;
 	height: 42px;
-	background-image: url(img/delivery.png);
+	background-image: url(/img/delivery.png);
 	margin: 5px auto;
 }
 
 .delivery-logo:hover {
-	background-image: url(img/delivery-dark.png);
+	background-image: url(/img/delivery-dark.png);
 }
 
 .menu-block {
@@ -288,35 +288,35 @@ p, #about li, #product li {
 }
 
 .menu {
-	background-image: url(img/menu.png);
+	background-image: url(/img/menu.png);
 }
 
 .menu:hover {
-	background-image: url(img/menu-dark.png);
+	background-image: url(/img/menu-dark.png);
 }
 
 .about {
-	background-image: url(img/about.png);
+	background-image: url(/img/about.png);
 }
 
 .about:hover {
-	background-image: url(img/about-dark.png);
+	background-image: url(/img/about-dark.png);
 }
 
 .product {
-	background-image: url(img/product.png);
+	background-image: url(/img/product.png);
 }
 
 .product:hover {
-	background-image: url(img/product-dark.png);
+	background-image: url(/img/product-dark.png);
 }
 
 .photo {
-	background-image: url(img/photo.png);
+	background-image: url(/img/photo.png);
 }
 
 .photo:hover {
-	background-image: url(img/photo-dark.png);
+	background-image: url(/img/photo-dark.png);
 }
 
 .social-block {
@@ -325,35 +325,35 @@ p, #about li, #product li {
 }
 
 .vk .social-block {
-	background-image: url(img/vkontakte.png);
+	background-image: url(/img/vkontakte.png);
 }
 
 .vk .social-block:hover {
-	background-image: url(img/vkontakte-dark.png);
+	background-image: url(/img/vkontakte-dark.png);
 }
 
 .ok .social-block {
-	background-image: url(img/odnoklassniki.png);
+	background-image: url(/img/odnoklassniki.png);
 }
 
 .ok .social-block:hover {
-	background-image: url(img/odnoklassniki-dark.png);
+	background-image: url(/img/odnoklassniki-dark.png);
 }
 
 .fb .social-block {
-	background-image: url(img/facebook.png);
+	background-image: url(/img/facebook.png);
 }
 
 .fb .social-block:hover {
-	background-image: url(img/facebook-dark.png);
+	background-image: url(/img/facebook-dark.png);
 }
 
 .ig .social-block {
-	background-image: url(img/instagram.png);
+	background-image: url(/img/instagram.png);
 }
 
 .ig .social-block:hover {
-	background-image: url(img/instagram-dark.png);
+	background-image: url(/img/instagram-dark.png);
 }
 
 #social, #delivery, #about, #product, #photo, #menu {
@@ -555,7 +555,7 @@ body {
 
 .cb-slideshow:after { 
     content: '';
-    background: transparent url(images/pattern.png) repeat top left; 
+    background: transparent url(/images/pattern.png) repeat top left; 
 }
 
 .cb-slideshow li span { 
@@ -590,42 +590,42 @@ body {
     line-height: 200px; 
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(images/1.jpg) 
+    background-image: url(/images/1.jpg) 
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(images/2.jpg);
+    background-image: url(/images/2.jpg);
     animation-delay: 6s; 
 }
 .cb-slideshow li:nth-child(3) span { 
-    background-image: url(images/3.jpg);
+    background-image: url(/images/3.jpg);
     animation-delay: 12s; 
 }
 .cb-slideshow li:nth-child(4) span { 
-    background-image: url(images/4.jpg);
+    background-image: url(/images/4.jpg);
     animation-delay: 18s; 
 }
 .cb-slideshow li:nth-child(5) span { 
-    background-image: url(images/5.jpg);
+    background-image: url(/images/5.jpg);
     animation-delay: 24s; 
 }
 .cb-slideshow li:nth-child(6) span { 
-    background-image: url(images/6.jpg);
+    background-image: url(/images/6.jpg);
     animation-delay: 30s; 
 }
 .cb-slideshow li:nth-child(7) span { 
-    background-image: url(images/7.jpg);
+    background-image: url(/images/7.jpg);
     animation-delay: 36s; 
 }
 .cb-slideshow li:nth-child(8) span { 
-    background-image: url(images/8.jpg);
+    background-image: url(/images/8.jpg);
     animation-delay: 42s; 
 }
 /*.cb-slideshow li:nth-child(9) span { 
-    background-image: url(images/9.jpg);
+    background-image: url(/images/9.jpg);
     animation-delay: 48s; 
 }*/
 /*.cb-slideshow li:nth-child(10) span { 
-    background-image: url(images/10.jpg);
+    background-image: url(/images/10.jpg);
     animation-delay: 54s; 
 }*/
 
