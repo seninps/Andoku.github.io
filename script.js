@@ -66,6 +66,7 @@ hide = function(type) {
 	} else {
 		text.style.display = 'none';
 		document.getElementById('popup').style.height='706px';
+		document.getElementById('about').style.height='auto';
 	}
 	
 }
