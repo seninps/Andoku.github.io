@@ -68,11 +68,10 @@ document.ready = function() {
 };
 
 document.onclick = function() {
-    if (document.getElementById('background').style.display=='block' && document.getElementById('photo').style.display=='none' ) {
+    if (document.getElementById('background').style.display=='block' && document.getElementById('photo').style.display=='none' && document.getElementById('about').style.display='none';) {
         document.getElementById('blur-div').className='';
         document.getElementById('social').style.display='none';
         document.getElementById('delivery').style.display='none';
-        document.getElementById('about').style.display='none';
         document.getElementById('product').style.display='none';
         document.getElementById('background').style.display='none';
     }
