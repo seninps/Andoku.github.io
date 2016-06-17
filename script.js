@@ -87,5 +87,4 @@ document.onclick = function() {
 		document.getElementById('background').style.display='none';
 		document.getElementById('blur-div').className='';
 	}
-    }
 };
