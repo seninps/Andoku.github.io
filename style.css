@@ -408,15 +408,15 @@ p, #about li, #product li {
 	    border: 4px solid #fff;
 }*/
 
-#about, #product {
+#about {
 	min-width: 1000px;
 }
 
 #product {
-	min-height: 1110px;
+	min-height: 1350px;
+	min-width: 1350px;
 	background-size: cover;
 	background-position: 50% 50%;
-	background-repeat: none;
 	background-image: url(/images/8.jpg);
 }
 
