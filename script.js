@@ -22,11 +22,13 @@ myBlurFunction2 = function(state) {
         document.getElementById('blur-div').className='alerting-1';
         document.getElementById('delivery').style.display='block';
         document.getElementById('background').style.display='block';
+        if (document.getElementById('product').style.display=='block') document.getElementById('product').style.display='none';
     } else if (state == 3) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('about').style.display='block';
         document.getElementById('background').style.display='block';
         document.getElementById('principles').style.display='none';
+        if (document.getElementById('product').style.display=='block') document.getElementById('product').style.display='none';
     } else if (state == 4) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('product').style.display='block';
@@ -35,6 +37,7 @@ myBlurFunction2 = function(state) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('photo').style.display='block';
         document.getElementById('background').style.display='block';
+        if (document.getElementById('product').style.display=='block') document.getElementById('product').style.display='none';
     } else {
         document.getElementById('blur-div').className='';
         document.getElementById('social').style.display='none';
