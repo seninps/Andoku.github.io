@@ -81,7 +81,7 @@ document.onclick = function() {
 		document.getElementById('social').style.display = 'none';
 		document.getElementById('background').style.display='none';
 		document.getElementById('blur-div').className='';
-	}
+	};
 	if (document.getElementById('background').style.display=='block' && document.getElementById('delivery').style.display == 'block') {
 		document.getElementById('delivery').style.display = 'none';
 		document.getElementById('background').style.display='none';
