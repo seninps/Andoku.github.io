@@ -414,6 +414,10 @@ p, #about li, #product li {
 
 #product {
 	min-height: 1110px;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: none;
+	background-image: url(/images/8.jpg);
 }
 
 #about {
