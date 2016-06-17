@@ -413,7 +413,7 @@ p, #about li, #product li {
 }
 
 #product {
-	min-height: 1350px;
+	min-height: 1110px;
 	min-width: 1350px;
 	background-size: cover;
 	background-position: 50% 50%;
