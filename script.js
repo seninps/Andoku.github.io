@@ -76,7 +76,7 @@ hide = function(type) {
 	
 }
 
-document.onclick = function() {
+/* document.onclick = function() {
 	if (document.getElementById('background').style.display='block' && document.getElementById('social').style.display == 'block') {
 		document.getElementById('social').style.display = 'none';
 		document.getElementById('background').style.display='none';
@@ -88,4 +88,4 @@ document.onclick = function() {
 		document.getElementById('blur-div').className='';
 	}
     }
-};
+};*/
