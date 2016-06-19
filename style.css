@@ -414,12 +414,12 @@ p, #about li, #product li {
 	display: inline-block;
 }
 
-#delivery p:nth-child(9) {
+#delivery i:nth-child(8) {
 	margin-left: 24px;	
 	background: #ffa200;
 }
 
-#delivery p:nth-child(10) {
+#delivery i:nth-child(9) {
 	background: #ffa200;
 }
 /* #delivery #popup {
