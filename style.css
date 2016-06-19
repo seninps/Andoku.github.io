@@ -414,14 +414,19 @@ p, #about li, #product li {
 	display: inline-block;
 }
 
-#delivery i:nth-child(8) {
+#delivery i:nth-child(10) {
 	margin-left: 24px;	
 	background: #ffa200;
 }
 
-#delivery i:nth-child(9) {
+#delivery i:nth-child(11) {
 	background: #ffa200;
 }
+
+#delivery .time {
+	font-size: 36px;
+}
+
 /* #delivery #popup {
 	    background-color: #000;
 	    padding: 20px;
