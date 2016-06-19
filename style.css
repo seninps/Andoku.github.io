@@ -409,8 +409,8 @@ p, #about li, #product li {
 
 #delivery #popup {
 	width: 700px;
-	border: 5px solid;
-	border-image: url('/img/delivery-border.png') 1 round;
+	/*border: 5px solid;
+	border-image: url('/img/delivery-border.png') 1 round;*/
 
 }
 
