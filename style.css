@@ -426,6 +426,7 @@ p, #about li, #product li {
 #delivery .time {
 	font-size: 38px;
     	font-family: Svoboda;
+    	font-weight: 100;
 }
 
 /* #delivery #popup {
