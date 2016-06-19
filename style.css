@@ -432,6 +432,7 @@ p, #about li, #product li {
 	font-size: 48px;
     	font-family: bebasneue;
     	font-weight: normal;
+    	color: ;#f9e588;
 }
 
 /* #delivery #popup {
@@ -472,7 +473,7 @@ p, #about li, #product li {
 }
 
 #about .hide {
-	font-weight:bold;
+	font-weight: bold;
 	color: #f9e588;
 	text-decoration: none;
 }
