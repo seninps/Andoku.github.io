@@ -402,6 +402,18 @@ p, #about li, #product li {
 	min-height: 460px;
 }
 
+#delivery i {
+	background: #96ca50;
+	margin: 0 0 0 17px;
+    	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width: 23px;
+	height: 23px;
+	vertical-align: top;
+	display: inline-block;
+}
+
 /* #delivery #popup {
 	    background-color: #000;
 	    padding: 20px;
