@@ -424,6 +424,12 @@ p, #about li, #product li {
 
 }
 
+#delivery p {
+	margin: 25px;
+	font-weight: 500;
+    	font-family: serif;
+}
+
 #delivery i {
 	background: #96ca50;
 	margin: 20px 8px 0 8px;
@@ -443,12 +449,6 @@ p, #about li, #product li {
 
 #delivery i:nth-child(9) {
 	background: #ffa200;
-}
-
-#delivery p {
-	margin: 25px;
-	font-weight: 500;
-    	font-family: Svoboda;
 }
 
 #delivery .time {
