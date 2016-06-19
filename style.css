@@ -201,6 +201,16 @@ h1 {
 	src: url(/bebasneue-webfont.ttf);
 }
 
+@font-face {
+	font-family: serif;
+	src: url(/serif.ttf);
+}
+
+@font-face {
+	font-family: serif-italic;
+	src: url(/serif-italic.ttf);
+}
+
 #social h1 {
     margin-bottom: 30px;
     font-family: Svoboda;
