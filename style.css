@@ -403,8 +403,12 @@ p, #about li, #product li {
 }
 
 #delivery {
-	min-width: 960px;
+	min-width: 860px;
 	min-height: 460px;
+}
+
+#delivery #popup {
+	width: 700px;
 }
 
 #delivery i {
