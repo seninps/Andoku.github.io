@@ -404,7 +404,7 @@ p, #about li, #product li {
 
 #delivery i {
 	background: #96ca50;
-	margin: 0 17px 0 0;
+	margin: 0 8px 0 8x;
     	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
@@ -414,11 +414,14 @@ p, #about li, #product li {
 	display: inline-block;
 }
 
-#delivery i.weekend {
-	margin: 0 0 0 17px;	
+#delivery p:nth-child(9) {
+	margin-left: 24px;	
 	background: #ffa200;
 }
 
+#delivery p:nth-child(10) {
+	background: #ffa200;
+}
 /* #delivery #popup {
 	    background-color: #000;
 	    padding: 20px;
