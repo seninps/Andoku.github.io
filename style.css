@@ -431,7 +431,10 @@ p, #about li, #product li {
 #delivery .time {
 	font-size: 48px;
     	font-family: bebasneue;
-    	font-weight: normal; 
+    	font-weight: normal;
+}
+
+#delivery p {
 	color: #f9e588;
 }
 
