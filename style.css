@@ -430,6 +430,7 @@ p, #about li, #product li {
 
 #delivery p {
 	margin: 25px;
+	font-weight: 500;
 }
 
 #delivery .time {
