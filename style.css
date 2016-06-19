@@ -404,7 +404,7 @@ p, #about li, #product li {
 
 #delivery i {
 	background: #96ca50;
-	margin: 0 0 0 17px;
+	margin: 0 17px 0 0;
     	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
@@ -412,6 +412,11 @@ p, #about li, #product li {
 	height: 23px;
 	vertical-align: top;
 	display: inline-block;
+}
+
+#delivery i.weekend {
+	margin: 0 0 0 17px;	
+	background: #ffa200;
 }
 
 /* #delivery #popup {
