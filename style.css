@@ -428,6 +428,10 @@ p, #about li, #product li {
 	background: #ffa200;
 }
 
+#delivery p {
+	margin: 25px;
+}
+
 #delivery .time {
 	font-size: 48px;
     	font-family: bebasneue;
