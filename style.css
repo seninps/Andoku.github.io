@@ -196,6 +196,11 @@ h1 {
 	src: url(/Svoboda.ttf);
 }
 
+@font-face {
+	font-family: bebasneue;
+	src: url(/bebasneue-webfont.ttf);
+}
+
 #social h1 {
     margin-bottom: 30px;
     font-family: Svoboda;
@@ -424,9 +429,8 @@ p, #about li, #product li {
 }
 
 #delivery .time {
-	font-size: 38px;
-    	font-family: Svoboda;
-    	font-weight: 100;
+	font-size: 48px;
+    	font-family: bebasneue;
 }
 
 /* #delivery #popup {
