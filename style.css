@@ -462,11 +462,11 @@ p, #about li, #product li {
 	text-shadow: #000 1px 0 0px, #000 0 1px 0px, #000 -1px 0 0px, #000 0 -1px 0px;
 }
 
-#delivery .time:nth-child(5) .day {	
+#delivery .time:nth-child(4) .day {	
 	background: #ffa200;
 }
 
-#delivery .time:nth-child(6) .day {
+#delivery .time:nth-child(5) .day {
 	background: #75151e;
 	padding-top: 3px;
 	height:34px;
