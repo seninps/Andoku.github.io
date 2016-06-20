@@ -285,6 +285,10 @@ p, #about li, #product li {
 	background-image: url(/img/phone-dark.png);
 }
 
+#delivery .phone-logo:hover {
+	background-image: none;
+}
+
 .delivery-logo {
 	width: 150px;
 	height: 42px;
