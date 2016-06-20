@@ -433,6 +433,13 @@ p, #about li, #product li {
     	font-family: calibri;
 }
 
+#delivery p {
+	position: fixed;
+	bottom: 7%;
+	right: 7%;
+	font-size: 18px;
+}
+
 #delivery .day {
 	background: #96ca50;
 	margin: 20px 8px 0 8px;
