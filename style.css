@@ -286,7 +286,7 @@ p, #about li, #product li {
 }
 
 #delivery .phone-logo:hover {
-	background-image: none;
+	background-image: url(/img/phone.png);
 }
 
 .delivery-logo {
