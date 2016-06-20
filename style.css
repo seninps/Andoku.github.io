@@ -421,6 +421,10 @@ p, #about li, #product li {
 	min-height: 460px;
 }
 
+#delivery .phone p {
+	font-size: 30px;
+}
+
 #delivery #popup {
 	width: 700px;
 	/*border: 5px solid;
