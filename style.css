@@ -450,11 +450,11 @@ p, #about li, #product li {
 	font-weight: bold;
 }
 
-#delivery .time:nth-child(2) .day {	
+#delivery .time:nth-child(5) .day {	
 	background: #ffa200;
 }
 
-#delivery .time:nth-child(3) .day {
+#delivery .time:nth-child(6) .day {
 	background: #75151e;
 }
 
