@@ -433,7 +433,7 @@ p, #about li, #product li {
     	font-family: calibri;
 }
 
-#delivery i {
+#delivery .day {
 	background: #96ca50;
 	margin: 20px 8px 0 8px;
     	-webkit-border-radius: 4px;
@@ -443,14 +443,16 @@ p, #about li, #product li {
 	height: 23px;
 	vertical-align: top;
 	display: inline-block;
+	font-family: calibri;
+	font-size: 26px;
 }
 
-#delivery i:nth-child(8) {
+#delivery .day:nth-child(8) {
 	margin-left: 24px;	
 	background: #ffa200;
 }
 
-#delivery i:nth-child(9) {
+#delivery .day:nth-child(9) {
 	background: #ffa200;
 }
 
@@ -459,6 +461,7 @@ p, #about li, #product li {
     	font-family: bebasneue;
     	font-weight: normal;
     	color: #f9e588;
+    	display: inline-block;
 }
 
 /* #delivery #popup {
