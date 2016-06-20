@@ -433,7 +433,7 @@ p, #about li, #product li {
     	font-family: calibri;
 }
 
-#delivery p {
+#delivery p.small {
 	position: fixed;
 	bottom: 7%;
 	right: 7%;
