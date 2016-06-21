@@ -35,7 +35,6 @@ myBlurFunction2 = function(state) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('product').style.display='block';
         document.getElementById('background').style.display='block';
-        if (document.getElementById('product').offsetWidth < '1900') document.getElementById('product').style.height='1250px';
     } else if (state == 5) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('photo').style.display='block';
