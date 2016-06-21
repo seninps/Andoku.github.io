@@ -63,21 +63,26 @@ myBlurFunction2 = function(state) {
 
 hide = function(type) {
 	text=document.getElementById(type);
-	if (text.style.display == 'none') {
-		text.style.display = 'block';
-		document.getElementById('popup').style.height = '850px';
-		/*document.getElementById('popup').className = document.getElementById('about').offsetheight;*/
-		height = document.getElementById('about').offsetHeight + 192;
-		document.getElementById('about').style.height = height + 'px';
-		/*if (document.getElementById('about').offsetHeight < '1010') document.getElementById('about').style.height='1010px';*/
-	} else {
-		text.style.display = 'none';
-		document.getElementById('popup').style.height='658px';
-		height = document.getElementById('about').offsetHeight - 192;
-		document.getElementById('about').style.height = height + 'px';
-		
+	if (type == 'principles') {
+		if (text.style.display == 'none') {
+			text.style.display = 'block';
+			height = document.getElementById('popup').offsetHeight + 192;
+			document.getElementById('popup').style.height = height + 'px';
+			/* document.getElementById('popup').style.height = '850px';*/
+			/*document.getElementById('popup').className = document.getElementById('about').offsetheight;*/
+			height = document.getElementById('about').offsetHeight + 192;
+			document.getElementById('about').style.height = height + 'px';
+			/*if (document.getElementById('about').offsetHeight < '1010') document.getElementById('about').style.height='1010px';*/
+		} else {
+			text.style.display = 'none';
+			height = document.getElementById('popup').offsetHeight - 192;
+			document.getElementById('popup').style.height = height + 'px';
+			/* document.getElementById('popup').style.height='658px';*/
+			height = document.getElementById('about').offsetHeight - 192;
+			document.getElementById('about').style.height = height + 'px';
+			
+		}
 	}
-	
 };
 
 document.onclick = function() {
