@@ -523,6 +523,11 @@ p, #about li, #product li, #principles {
 	margin: 30px;
 }
 
+#product .image {
+	width: 360px;
+	height: 107px;
+}
+
 .components .image {
 	background-image: url(/img/product/components-gray.png);
 }
@@ -566,14 +571,14 @@ p, #about li, #product li, #principles {
     height: 940px;
 }
 
-.image {
+#photo image {
 	width: 200px;
 	height: 150px;
 	display: inline-block;
 	text-align: center;
 }
 	
-.image img {
+#photo.image img {
     vertical-align: middle;
 }
 
