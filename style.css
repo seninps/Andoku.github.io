@@ -589,7 +589,7 @@ p, #about li, #product li, #principles {
 	font-weight: 700;
 }
 
-#about p, #product p, #about li, #product li {
+#about p, #product p, #about li, #product li, #principles {
     text-align: justify;
     font-weight: normal;
     font-size: 18px;
