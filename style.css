@@ -519,17 +519,18 @@ p, #about li, #product li, #principles {
 
 .components, .why-we {
 	display: inline-block;
-	width: 360px;
+	width: 350px;
 	margin: 30px;
 }
 
 #product .image {
-	width: 360px;
-	height: 107px;
+	width: 350px;
+	height: 104px;
 }
 
 .components .image {
 	background-image: url(/img/product/components-gray.png);
+	background-repeat: no-repeat;
 }
 
 .why-we .image {
