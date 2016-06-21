@@ -477,7 +477,7 @@ p, #about li, #product li, #principles {
 #delivery .time:nth-child(5) .day {
 	background: #75151e;
 	padding-top: 3px;
-	height:34px;
+	height: 34px;
 }
 
 
@@ -487,7 +487,6 @@ p, #about li, #product li, #principles {
     	font-weight: normal;
     	color: #f9e588;
     	display: inline-block;
-	margin: 0 20px;
 }
 
 #delivery .time:nth-child(4) {
