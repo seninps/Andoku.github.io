@@ -512,8 +512,23 @@ p, #about li, #product li, #principles {
 	background-position: 50% 50%;
 	background-image: url(/images/5.jpg);
 }
+
 #product .header img {
 	height: 50%;	
+}
+
+.components, .why-we {
+	display: inline-block;
+	width: 360px;
+	margin: 30px;
+}
+
+.components .image {
+	background-image: url(.img/product/components.png);
+}
+
+.why-we .image {
+	background-image: url(.img/product/why-we.png);
 }
 
 #about {
