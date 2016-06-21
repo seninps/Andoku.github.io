@@ -29,6 +29,7 @@ myBlurFunction2 = function(state) {
         document.getElementById('background').style.display='block';
         document.getElementById('principles').style.display='none';
         document.getElementById('price').style.display='none';
+        document.getElementById('popup').style.height='586px';
         if (document.getElementById('product').style.display=='block') document.getElementById('product').style.display='none';
     } else if (state == 4) {
         document.getElementById('blur-div').className='alerting';
