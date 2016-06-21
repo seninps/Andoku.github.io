@@ -248,7 +248,7 @@ video#bgvid {
     background-size: cover; 
 }
 
-p, #about li, #product li {
+p, #about li, #product li, #principles {
     font: menu;
     color: #f5f5f5;
     text-align: center;
