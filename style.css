@@ -437,6 +437,10 @@ p, #about li, #product li, #principles {
     	font-family: calibri;
 }
 
+#delivery #popup p:nth-child(2) {
+    font-size: 38px;
+}
+
 #delivery p.small {
 	position: fixed;
 	bottom: 7%;
