@@ -524,11 +524,11 @@ p, #about li, #product li, #principles {
 }
 
 .components .image {
-	background-image: url(/img/product/components.png);
+	background-image: url(/img/product/components-gray.png);
 }
 
 .why-we .image {
-	background-image: url(/img/product/why-we.png);
+	background-image: url(/img/product/why-we-green.png);
 }
 
 #about {
