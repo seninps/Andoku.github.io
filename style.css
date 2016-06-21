@@ -512,7 +512,7 @@ p, #about li, #product li, #principles {
 	background-position: 50% 50%;
 	background-image: url(/images/5.jpg);
 }
-#product #header img {
+#product .header img {
 	height: 50%;	
 }
 
