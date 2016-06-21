@@ -444,6 +444,10 @@ p, #about li, #product li {
 	font-size: 18px;
 }
 
+#delivery img {
+	margin-top: 20px;
+}
+
 #delivery .day {
 	background: #96ca50;
 	margin: 20px 8px 0 8px;
