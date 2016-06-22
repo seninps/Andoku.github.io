@@ -85,7 +85,7 @@ ProductCategory = function(type) {
 		document.getElementById('carbohydrates').style.display='none';	
 	}
 };
-
+window.onload=function(){
 $(document).ready(function(){
 	
 	$(".information:not(:first)").hide();
@@ -108,7 +108,8 @@ $(document).ready(function(){
 	 	$(this).toggleClass("active");
 	});
 });
- 
+};
+
 /* ShowInformation = function (category) {
 	if (category == 'healthy') {
 		("p").slideToggle("fast")
