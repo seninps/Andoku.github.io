@@ -529,6 +529,7 @@ p, #about li, #product li, #principles {
 	display: inline-block;
 	width: 350px;
 	margin: 30px;
+	height: 164px;
 }
 
 #product .image {
