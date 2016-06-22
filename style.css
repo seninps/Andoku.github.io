@@ -439,7 +439,6 @@ p, #about li, #product li, #principles {
 
 #delivery #popup p:nth-child(2) {
     font-size: 38px;
-    text-shadow: #80cb24 1px 0 0px, #80cb24 0 1px 0px, #80cb24 -1px 0 0px, #80cb24 0 -1px 0px;
 }
 
 #delivery p.small {
@@ -596,7 +595,7 @@ p, #about li, #product li, #principles {
 }
 
 #product #popup {
-	height: 950px;
+	height: 650px;
 	text-align: center;
 }
 
