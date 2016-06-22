@@ -69,7 +69,7 @@ product-category = function(type) {
 		document.getElementById('why-we-images').style.display='none';
 		document.getElementById('components-images').style.display='block';	
 	} else {
-		document.getElementById('components').style.display='none';
+		document.getElementById('components-images').style.display='none';
 		document.getElementById('why-we-images').style.display='block';	
 	}
 };
