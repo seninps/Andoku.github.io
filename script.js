@@ -86,28 +86,27 @@ ProductCategory = function(type) {
 	}
 };
 window.onload=function(){
-$(document).ready(function(){
-	
-	$(".information:not(:first)").hide();
-	
-	$(".healthy").click(function(){
-		$(".text-healthy").slideToggle("fast")
-		.siblings(".information:visible").slideUp("fast");
-	 	$(this).toggleClass("active");
+	$(document).ready(function(){
+		$(".information:not(:first)").hide();
+		
+		$(".healthy").click(function(){
+			$(".text-healthy").slideToggle("normal")
+			.siblings(".information:visible").hide();
+		 	$(this).toggleClass("active");
+		});
+		 
+		$(".tasty").click(function(){
+			$(".text-tasty").slideToggle("fast")
+			.siblings(".information:visible").hide();
+		 	$(this).toggleClass("active");
+		});
+		 
+		$(".nutritionally").click(function(){
+			$(".text-nutritionally").slideToggle("fast")
+			.siblings(".information:visible").hide();
+		 	$(this).toggleClass("active");
+		});
 	});
-	 
-	$(".tasty").click(function(){
-		$(".text-tasty").slideToggle("fast")
-		.siblings(".information:visible").slideUp("fast");
-	 	$(this).toggleClass("active");
-	});
-	 
-	$(".nutritionally").click(function(){
-		$(".text-nutritionally").slideToggle("fast")
-		.siblings(".information:visible").slideUp("fast");
-	 	$(this).toggleClass("active");
-	});
-});
 };
 
 /* ShowInformation = function (category) {
