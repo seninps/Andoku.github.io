@@ -37,7 +37,6 @@ myBlurFunction2 = function(state) {
         document.getElementById('product').style.display='block';
         document.getElementById('background').style.display='block';
         document.getElementById('why-we-images').style.display='block';
-	document.getElementById('healthy').style.display='block';
     } else if (state == 5) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('photo').style.display='block';
