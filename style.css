@@ -439,6 +439,7 @@ p, #about li, #product li, #principles {
 
 #delivery #popup p:nth-child(2) {
     font-size: 38px;
+    text-shadow: #80cb24 1px 0 0px, #80cb24 0 1px 0px, #80cb24 -1px 0 0px, #80cb24 0 -1px 0px;
 }
 
 #delivery p.small {
@@ -467,7 +468,7 @@ p, #about li, #product li, #principles {
 	font-size: 13px;
 	color: #f5f5f5;
 	font-weight: bold;
-	text-shadow: #000 1px 0 0px, #000 0 1px 0px, #000 -1px 0 0px, #000 0 -1px 0px;
+	text-shadow: #80cb24 1px 0 0px, #80cb24 0 1px 0px, #80cb24 -1px 0 0px, #80cb24 0 -1px 0px;
 }
 
 #delivery .time:nth-child(4) .day {	
