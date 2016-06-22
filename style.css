@@ -573,14 +573,14 @@ p, #about li, #product li, #principles {
     height: 940px;
 }
 
-#photo image {
+#photo .image {
 	width: 200px;
 	height: 150px;
 	display: inline-block;
 	text-align: center;
 }
 	
-#photo.image img {
+#photo .image img {
     vertical-align: middle;
 }
 
