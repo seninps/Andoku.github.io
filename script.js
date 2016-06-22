@@ -65,7 +65,7 @@ myBlurFunction2 = function(state) {
 };
 
 product-category = function(type) {
-	if (type == components) { 
+	if (type == 'components') { 
 		document.getElementById('why-we-images').style.display='none';
 		document.getElementById('components-images').style.display='block';	
 	} else {
