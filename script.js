@@ -88,6 +88,9 @@ ProductCategory = function(type) {
 };
 
 $(document).ready(function(){
+	
+	$(".information:not(:first)").hide();
+	
 	$(".healthy").click(function(){
 		(".text-healthy").slideToggle("fast")
 		.siblings(".information:visible").slideUp("fast");
