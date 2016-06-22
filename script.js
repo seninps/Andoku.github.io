@@ -76,12 +76,14 @@ ProductCategory = function(type) {
 	if (type == 'components') { 
 		document.getElementById('why-we-images').style.display='none';
 		document.getElementById('components-images').style.display='block';
-		document.getElementById('carbohydrates').style.display='block';	
+		document.getElementById('carbohydrates').style.display='block';
+		document.getElementById('healthy').style.display='none';
 		
 	} else {
 		document.getElementById('components-images').style.display='none';
 		document.getElementById('why-we-images').style.display='block';
-		document.getElementById('healthy').style.display='block';	
+		document.getElementById('healthy').style.display='block';
+		document.getElementById('carbohydrates').style.display='none';	
 	}
 };
  
