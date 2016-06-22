@@ -49,7 +49,6 @@ myBlurFunction2 = function(state) {
         document.getElementById('product').style.display='none';
         document.getElementById('photo').style.display='none';
         document.getElementById('background').style.display='none';
-        document.getElementById('components-images').style.display='block';
     }
 	
     /* state can be 1 or 0 
@@ -67,7 +66,7 @@ myBlurFunction2 = function(state) {
 document.ready = function(){
 	document.getElementById('why-we-images').style.display='block';
 	document.getElementById('healthy').style.display='block';
-}
+};
 
 ProductCategory = function(type) {
 	if (type == 'components') { 
