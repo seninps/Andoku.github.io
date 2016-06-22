@@ -584,6 +584,10 @@ p, #about li, #product li, #principles {
 	background: url(/img/product/why-we-cream.png) no-repeat;
 }
 
+#healthy, #tasty, #nutritionally, #carbohydrates, #vitamins, #fiber, #proteins {
+	display: none;
+}
+
 #about {
 	min-height: 746px;
 }
