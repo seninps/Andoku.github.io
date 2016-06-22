@@ -537,14 +537,51 @@ p, #about li, #product li, #principles {
 	height: 104px;
 }
 
+#product .sub-link .image {
+	height: 70px;
+	width: 70px;
+	display: inline-block;
+	margin: 10px 5px;
+}
+
+#product .components .sub-link:nth-child(2) .image {
+	background-image: url(/img/product/1.png);
+}
+
+#product .components .sub-link:nth-child(3) .image {
+	background-image: url(/img/product/2.png);
+}
+
+#product .components .sub-link:nth-child(4) .image {
+	background-image: url(/img/product/3.png);
+}
+
+#product .components .sub-link:nth-child(5) .image {
+	background-image: url(/img/product/4.png);
+}
+
+#product .why-we .sub-link:nth-child(2) .image {
+	background-image: url(/img/product/5.png);
+}
+
+#product .why-we .sub-link:nth-child(3) .image {
+	background-image: url(/img/product/6.png);
+}
+
+#product .why-we .sub-link:nth-child(4) .image {
+	background-image: url(/img/product/7.png);
+}
+
 .components .image {
 	background-image: url(/img/product/components-gray.png);
 	background-repeat: no-repeat;
 }
 
 .why-we .image {
-	background-image: url(/img/product/why-we-green.png);
+	background-image: url(/img/product/why-we-cream.png);
 }
+
+
 
 #about {
 	min-height: 746px;
