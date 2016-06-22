@@ -498,6 +498,14 @@ p, #about li, #product li, #principles {
 	margin-right:45px;
 }
 
+#delivery .number {
+	margin:0 2px;
+}
+
+#delivery .dash {
+	margin:0 20px;
+}
+
 #delivery #popup {
     	text-align: center;
 }
