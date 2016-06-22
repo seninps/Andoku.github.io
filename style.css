@@ -547,31 +547,31 @@ p, #about li, #product li, #principles {
 	margin: 10px 5px;
 }
 
-#product .components .sub-link:nth-child(2) .image {
+#product .components .sub-link:nth-child(1) .image {
 	background-image: url(/img/product/1.png);
 }
 
-#product .components .sub-link:nth-child(3) .image {
+#product .components .sub-link:nth-child(2) .image {
 	background-image: url(/img/product/2.png);
 }
 
-#product .components .sub-link:nth-child(4) .image {
+#product .components .sub-link:nth-child(3) .image {
 	background-image: url(/img/product/3.png);
 }
 
-#product .components .sub-link:nth-child(5) .image {
+#product .components .sub-link:nth-child(4) .image {
 	background-image: url(/img/product/4.png);
 }
 
-#product .why-we .sub-link:nth-child(2) .image {
+#product .why-we .sub-link:nth-child(1) .image {
 	background-image: url(/img/product/5.png);
 }
 
-#product .why-we .sub-link:nth-child(3) .image {
+#product .why-we .sub-link:nth-child(2) .image {
 	background-image: url(/img/product/6.png);
 }
 
-#product .why-we .sub-link:nth-child(4) .image {
+#product .why-we .sub-link:nth-child(3) .image {
 	background-image: url(/img/product/7.png);
 }
 
