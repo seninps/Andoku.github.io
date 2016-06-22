@@ -63,7 +63,7 @@ myBlurFunction2 = function(state) {
         containerElement.setAttribute('class', null);
     } */
 };
-
+/*
 ProductCategory = function(type) {
 	if (type == 'components') { 
 		document.getElementById('why-we-images').style.display='none';
@@ -72,7 +72,7 @@ ProductCategory = function(type) {
 		document.getElementById('components-images').style.display='none';
 		document.getElementById('why-we-images').style.display='block';	
 	}
-};
+};*/
  
 hide = function(type) {
 	text=document.getElementById(type);
