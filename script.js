@@ -36,6 +36,7 @@ myBlurFunction2 = function(state) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('product').style.display='block';
         document.getElementById('background').style.display='block';
+        document.getElementById('why-we-images').style.display='block';
     } else if (state == 5) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('photo').style.display='block';
@@ -63,6 +64,16 @@ myBlurFunction2 = function(state) {
     } */
 };
 
+product-category = function(type) {
+	if (type == components) { 
+		document.getElementById('why-we-images').style.display='none';
+		document.getElementById('components-images').style.display='block';	
+	} else {
+		document.getElementById('components').style.display='none';
+		document.getElementById('why-we-images').style.display='block';	
+	}
+};
+ 
 hide = function(type) {
 	text=document.getElementById(type);
 	if (type == 'principles') {
