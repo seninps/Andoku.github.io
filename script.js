@@ -90,21 +90,21 @@ window.onload=function(){
 		$(".information:not(:first)").hide();
 		
 		$(".healthy").click(function(){
-			$(".text-healthy").slideToggle("normal")
+			$(".text-healthy").slideDown("normal")
 			.siblings(".information:visible").hide();
-		 	$(this).toggleClass("active");
+		 	$(this).toggleClass("active-image");
 		});
 		 
 		$(".tasty").click(function(){
-			$(".text-tasty").slideToggle("fast")
+			$(".text-tasty").slideDown("fast")
 			.siblings(".information:visible").hide();
-		 	$(this).toggleClass("active");
+		 	$(this).toggleClass("active-image");
 		});
 		 
 		$(".nutritionally").click(function(){
-			$(".text-nutritionally").slideToggle("fast")
+			$(".text-nutritionally").slideDown("fast")
 			.siblings(".information:visible").hide();
-		 	$(this).toggleClass("active");
+		 	$(this).toggleClass("active-image");
 		});
 	});
 };
