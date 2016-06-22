@@ -95,7 +95,7 @@ hide = function(type) {
 			/*if (document.getElementById('about').offsetHeight < '1010') document.getElementById('about').style.height='1010px';*/
 		} else {
 			text.style.display = 'none';
-			if (document.getElementById('principles').style.display == 'block') document.getElementById('popup').style.height='778';
+			if (document.getElementById('principles').style.display == 'block') document.getElementById('popup').style.height='778px';
 			else document.getElementById('popup').style.height='586px';
 			height = document.getElementById('about').offsetHeight - 72;
 			document.getElementById('about').style.height = height + 'px';
