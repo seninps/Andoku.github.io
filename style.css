@@ -573,15 +573,12 @@ p, #about li, #product li, #principles {
 }
 
 .components .image {
-	background-image: url(/img/product/components-gray.png);
-	background-repeat: no-repeat;
+	background: url(/img/product/components-gray.png) no-repeat;
 }
 
 .why-we .image {
-	background-image: url(/img/product/why-we-cream.png);
+	background: url(/img/product/why-we-cream.png) no-repeat;
 }
-
-
 
 #about {
 	min-height: 746px;
