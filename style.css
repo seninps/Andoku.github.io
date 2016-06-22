@@ -597,6 +597,7 @@ p, #about li, #product li, #principles {
 
 #product #popup {
 	height: 950px;
+	text-align: center;
 }
 
 #about .hide {
