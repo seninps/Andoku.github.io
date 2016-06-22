@@ -608,6 +608,10 @@ p, #about li, #product li, #principles {
 	text-align: center;
 }
 
+#product h2 {
+	text-align: left;
+}
+
 #about .hide {
 	font-weight: bold;
 	color: #f9e588;
