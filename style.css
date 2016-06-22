@@ -541,7 +541,7 @@ p, #about li, #product li, #principles {
 	display: none;
 }
 
-#product .sub-link .image {
+#product .sub-link {
 	height: 70px;
 	width: 70px;
 	display: inline-block;
