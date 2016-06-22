@@ -113,7 +113,7 @@ hide = function(type) {
 			
 		}
 	}
-}
+};
 
 document.onclick = function() {
 	if (document.getElementById('background').style.display=='block' && document.getElementById('social').style.display == 'block') {
