@@ -89,19 +89,19 @@ ProductCategory = function(type) {
 
 $(document).ready(function(){
 	$(".healthy").click(function(){
-		("#healthy").slideToggle("fast")
+		(".text-healthy").slideToggle("fast")
 		.siblings(".information:visible").slideUp("fast");
 	 	$(this).toggleClass("active");
 	});
 	 
 	$(".tasty").click(function(){
-		("#tasty").slideToggle("fast")
+		(".text-tasty").slideToggle("fast")
 		.siblings(".information:visible").slideUp("fast");
 	 	$(this).toggleClass("active");
 	});
 	 
 	$(".nutritionally").click(function(){
-		("#nutritionally").slideToggle("fast")
+		(".text-nutritionally").slideToggle("fast")
 		.siblings(".information:visible").slideUp("fast");
 	 	$(this).toggleClass("active");
 	});
