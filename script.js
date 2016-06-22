@@ -86,6 +86,37 @@ ProductCategory = function(type) {
 		document.getElementById('carbohydrates').style.display='none';	
 	}
 };
+
+ $(".healthy").click(function(){
+	("#healthy").slideToggle("fast")
+	.siblings(".information:visible").slideUp("fast");
+ 	$(this).toggleClass("active");
+ });
+
+$(".healthy").click(function(){
+	("#healthy").slideToggle("fast")
+	.siblings(".information:visible").slideUp("fast");
+ 	$(this).toggleClass("active");
+ });
+ 
+ $(".tasty").click(function(){
+	("#tasty").slideToggle("fast")
+	.siblings(".information:visible").slideUp("fast");
+ 	$(this).toggleClass("active");
+ });
+ 
+ $(".tasty").click(function(){
+	("#tasty").slideToggle("fast")
+	.siblings(".information:visible").slideUp("fast");
+ 	$(this).toggleClass("active");
+ });
+ 
+/* ShowInformation = function (category) {
+	if (category == 'healthy') {
+		("p").slideToggle("fast")
+		.siblings(".lalala:visible").slideUp("fast");
+	}
+};*/
  
 hide = function(type) {
 	text=document.getElementById(type);
