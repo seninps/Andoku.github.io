@@ -544,39 +544,39 @@ p, #about li, #product li, #principles {
 	margin: 10px 5px;
 }
 
-#product .components .sub-link:nth-child(1) {
+#product .components-images .sub-link:nth-child(1) {
 	background-image: url(/img/product/1.png);
 }
 
-#product .components .sub-link:nth-child(2) {
+#product .components-images .sub-link:nth-child(2) {
 	background-image: url(/img/product/2.png);
 }
 
-#product .components .sub-link:nth-child(3) {
+#product .components-images .sub-link:nth-child(3) {
 	background-image: url(/img/product/3.png);
 }
 
-#product .components .sub-link:nth-child(4) {
+#product .components-images .sub-link:nth-child(4) {
 	background-image: url(/img/product/4.png);
 }
 
-#product .why-we .sub-link:nth-child(1) {
+#product .why-we-images .sub-link:nth-child(1) {
 	background-image: url(/img/product/5.png);
 }
 
-#product .why-we .sub-link:nth-child(2) {
+#product .why-we-images .sub-link:nth-child(2) {
 	background-image: url(/img/product/6.png);
 }
 
-#product .why-we .sub-link:nth-child(3) {
+#product .why-we-images .sub-link:nth-child(3) {
 	background-image: url(/img/product/7.png);
 }
 
-.components .image {
+.component-image {
 	background: url(/img/product/components-gray.png) no-repeat;
 }
 
-.why-we .image {
+.why-we-image {
 	background: url(/img/product/why-we-cream.png) no-repeat;
 }
 
