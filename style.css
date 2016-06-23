@@ -832,11 +832,11 @@ body {
 .cb-slideshow li:nth-child(1) span { 
     background-image: url(/images/1.jpg);
 }
-.cb-slideshow li:nth-child(2) span { 
+/*.cb-slideshow li:nth-child(2) span { 
     background-image: url(/images/2.jpg);
     animation-delay: 6s;
 }
-/*.cb-slideshow li:nth-child(3) span { 
+.cb-slideshow li:nth-child(3) span { 
     background-image: url(/images/3.jpg);
     animation-delay: 12s;
 }
