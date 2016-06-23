@@ -537,10 +537,6 @@ p, #about li, #product li, #principles {
 	height: 104px;
 }
 
-.why-we-images, .components-images {
-	display: none;
-}
-
 #product .sub-link {
 	height: 70px;
 	width: 70px;
