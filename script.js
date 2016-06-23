@@ -90,18 +90,14 @@ window.onload=function(){
     		
     		$(".components").click(function(){
     			$(this).addClass("active");
-    			$(".components-images").slideDown("normal");
-    			$(".why-we-images").hide();
     			$(".carbohydrates").addClass("active");
     			$(".text-carbohydrates").slideDown("normal")
-    			.siblings.(".information:visible").hide();
+    			.siblings(".information:visible").hide();
     			$(".why-we").removeClass("active");
     		});
     		
     		$(".why-we").click(function(){
     			$(this).addClass("active");
-    			$(".why-we-images").slideDown("normal");
-    			$(".components-images").hide();
     			$(".healthy").addClass("active");
     			$(".text-healthy").slideDown("normal")
     			.siblings(".information:visible").hide();
