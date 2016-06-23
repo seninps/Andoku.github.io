@@ -9,7 +9,7 @@
     bottom: 5%;
     width: 74px;
     height: 74px;
-    background: url('/img/social.png') 0 0 no-repeat;
+    background-image: url('/img/social-new.png');
     /*line-height: 50px;
     border: 2px solid #f5f5f5;
     border-radius: 50%;
@@ -29,7 +29,7 @@
     background: rgba(0, 0, 0, 1);
     border: 2px solid #f9e387;
     background-position: -1px -1px;*/
-    background: url('/img/social.png') 0 -74px no-repeat;
+    background-image: url('/img/social-dark.png');
 }
 
 /* .phone-button {
@@ -51,7 +51,6 @@
     background-image: url('/img/phone.png');
     background-position: -1px -1px;
 }
-
 .phone-button:hover {
     background: rgba(0, 0, 0, 1);
     border: 2px solid #f9e387;
@@ -920,15 +919,12 @@ body {
     19% { opacity: 0 }
     100% { opacity: 0 }
 }
-
 .no-cssanimations .cb-slideshow li span{
     opacity: 1;
 }
-
 @media screen and (max-width: 1140px) { 
     .cb-slideshow li div h3 { font-size: 140px }
 }
-
 @media screen and (max-width: 600px) { 
     .cb-slideshow li div h3 { font-size: 80px }
 }*/
