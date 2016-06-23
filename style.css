@@ -604,11 +604,11 @@ p, #about li, #product li, #principles {
 	background: url(/img/product/components-cream.png) no-repeat;
 }
 
-.component-image {
+.component-image:hover {
 	background: url(/img/product/components-cream-dark.png) no-repeat;
 }
 
-.component-image {
+.component-image.active {
 	background: url(/img/product/components-green-1.png) no-repeat;
 }
 
@@ -621,7 +621,7 @@ p, #about li, #product li, #principles {
 }
 
 .why-we-image.active {
-	background: url(/img/product/why-we-green.png) no-repeat;
+	background: url(/img/product/why-we-green-1.png) no-repeat;
 }
 
 .why-we-image {
