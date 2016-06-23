@@ -607,31 +607,29 @@ p, #about li, #product li, #principles {
 }
 
 .component-image {
-	background: url(/img/product/components-cream.png) no-repeat;
+	background: url(/img/product/components.png);
+	background-position: 0 0;
 }
 
 .component-image:hover {
-	background: url(/img/product/components-cream-dark.png) no-repeat;
+	background-position: 0 -89px;
 }
 
 .component-image.active {
-	background: url(/img/product/components-green-1.png) no-repeat;
+	background-position: 0 -178px;
 }
 
 .why-we-image {
-	background: url(/img/product/why-we-cream.png) no-repeat;
+	background: url(/img/product/why-we.png);
+	background-position: 0 0;
 }
 
 .why-we-image:hover {
-	background: url(/img/product/why-we-cream-dark.png) no-repeat;
+	background-position: 0 -89px;
 }
 
 .why-we-image.active {
-	background: url(/img/product/why-we-green-1.png) no-repeat;
-}
-
-.why-we-image {
-	background: url(/img/product/why-we-cream.png) no-repeat;
+	background-position: 0 -178px;
 }
 
 #healthy, #tasty, #nutritionally, #carbohydrates, #vitamins, #fiber, #proteins {
