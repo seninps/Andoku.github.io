@@ -106,8 +106,8 @@ window.onload=function(){
     		
     		$(".why-we").click(function(){
     			$(this).addClass("active");
-    			$(".carbohydrates").addClass("active");
-    			$(".text-carbohydrates").slideDown("normal")
+    			$(".healthy").addClass("active");
+    			$(".text-healthy").slideDown("normal")
     			.siblings.siblings(".information:visible").hide();
     			$(".components").removeClass("active");
     		});
