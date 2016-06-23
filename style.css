@@ -548,32 +548,68 @@ p, #about li, #product li, #principles {
 	background-image: url(/img/product/1.png);
 }
 
+#product .components-images .sub-link:nth-child(1).active {
+	background-image: url(/img/product/1-dark.png);
+}
+
 #product .components-images .sub-link:nth-child(2) {
 	background-image: url(/img/product/2.png);
+}
+
+#product .components-images .sub-link:nth-child(2).active {
+	background-image: url(/img/product/2-dark.png);
 }
 
 #product .components-images .sub-link:nth-child(3) {
 	background-image: url(/img/product/3.png);
 }
 
+#product .components-images .sub-link:nth-child(3).active {
+	background-image: url(/img/product/3-dark.png);
+}
+
 #product .components-images .sub-link:nth-child(4) {
 	background-image: url(/img/product/4.png);
+}
+
+#product .components-images .sub-link:nth-child(4).active {
+	background-image: url(/img/product/4-dark.png);
 }
 
 #product .why-we-images .sub-link:nth-child(1) {
 	background-image: url(/img/product/5.png);
 }
 
+#product .why-we-images .sub-link:nth-child(1).active {
+	background-image: url(/img/product/5-dark.png);
+}
+
 #product .why-we-images .sub-link:nth-child(2) {
 	background-image: url(/img/product/6.png);
 }
 
+#product .why-we-images .sub-link:nth-child(2).active {
+	background-image: url(/img/product/6-dark.png);
+}
+
 #product .why-we-images .sub-link:nth-child(3) {
-	background-image: url(/img/product/7.png);
+	background-image: url(/img/product/7-dark.png);
+}
+
+#product .why-we-images .sub-link:nth-child(3).active {
+	background-image: url(/img/product/7-dark.png);
 }
 
 .component-image {
-	background: url(/img/product/components-gray.png) no-repeat;
+	background: url(/img/product/components-cream.png) no-repeat;
+}
+
+.component-image {
+	background: url(/img/product/components-cream-dark.png) no-repeat;
+}
+
+.component-image {
+	background: url(/img/product/components-green-1.png) no-repeat;
 }
 
 .why-we-image {
