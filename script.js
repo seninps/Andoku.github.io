@@ -88,7 +88,7 @@ window.onload=function(){
     
     		$(".information:not(:first)").hide();
     		
-    		$(".components").click(function(){
+    		/*$(".components").click(function(){
     			$(this).addClass("active");
     			$(".carbohydrates").addClass("active");
     			$(".text-carbohydrates").slideDown("normal")
@@ -102,7 +102,7 @@ window.onload=function(){
     			$(".text-healthy").slideDown("normal")
     			.siblings(".information:visible").hide();
     			$(".components").removeClass("active");
-    		});
+    		});*/
     		
 		$(".healthy").click(function(){
 			$(".text-healthy").slideDown("normal")
@@ -125,7 +125,7 @@ window.onload=function(){
 		 	$(this).siblings(".image").removeClass("active");
 		});
 		 
-		$(".carbohydrates").click(function(){
+		/*$(".carbohydrates").click(function(){
 			$(".text-carbohydrates").slideDown("fast")
 			.siblings(".information:visible").hide();
 		 	$(this).toggleClass("active");
@@ -151,7 +151,7 @@ window.onload=function(){
 			.siblings(".information:visible").hide();
 		 	$(this).toggleClass("active");
 		 	$(this).siblings(".image").removeClass("active");
-		});
+		});*/
 	});
 };
 
