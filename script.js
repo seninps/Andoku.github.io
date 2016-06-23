@@ -78,7 +78,7 @@ myBlurFunction2 = function(state) {
 	}
 };*/
 
-window.onload=function(){
+document.ready = function() {
 	$(document).ready(function(){
 		$(".why-we").addClass("active");
 		
