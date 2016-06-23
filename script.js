@@ -88,21 +88,21 @@ window.onload=function(){
     
     		$(".information:not(:first)").hide();
     		
-    		/*$(".components").click(function(){
+    		$(".component-image").click(function(){
     			$(this).addClass("active");
     			$(".carbohydrates").addClass("active");
     			$(".text-carbohydrates").slideDown("normal")
     			.siblings(".information:visible").hide();
-    			$(".why-we").removeClass("active");
+    			$(".why-we-image").removeClass("active");
     		});
     		
-    		$(".why-we").click(function(){
+    		$(".why-we-image").click(function(){
     			$(this).addClass("active");
     			$(".healthy").addClass("active");
     			$(".text-healthy").slideDown("normal")
     			.siblings(".information:visible").hide();
-    			$(".components").removeClass("active");
-    		});*/
+    			$(".component-image").removeClass("active");
+    		});
     		
 		$(".healthy").click(function(){
 			$(".text-healthy").slideDown("normal")
