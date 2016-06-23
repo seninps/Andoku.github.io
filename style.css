@@ -9,7 +9,8 @@
     bottom: 5%;
     width: 74px;
     height: 74px;
-    background: url('/img/social.png') 0 0 no-repeat;
+    background-image: url('/img/social.png');
+    background-position:0 0;
     /*line-height: 50px;
     border: 2px solid #f5f5f5;
     border-radius: 50%;
@@ -29,7 +30,7 @@
     background: rgba(0, 0, 0, 1);
     border: 2px solid #f9e387;
     background-position: -1px -1px;*/
-    background: url('/img/social.png') 74px 0 no-repeat;
+    background-position: 0 -74pxt;
 }
 
 /* .phone-button {
@@ -98,7 +99,12 @@
     width: 60px;
     height: 60px;
     background-image: url('/img/close.png');
+    background-position: 0 0;
     background-size: cover;
+}
+
+.close-icon:hover {
+    background-position: 0 -47px;
 }
 
 #about .close-icon, #product .close-icon {
@@ -108,11 +114,6 @@
 
 #product .close-icon {
 	margin-left: 20px;	
-}
-
-
-.close-icon:hover {
-    background-image: url('/img/close2.png');
 }
 
 /* .rectangular-button {
@@ -277,26 +278,24 @@ p, #about li, #product li, #principles {
 	width: 370px;
 	height: 73px;
 	background-image: url(/img/phone.png);
+	background-position: 0 0;
 	margin: auto;
 }
 
 .phone-logo:hover {
-	background-image: url(/img/phone-dark.png);
-}
-
-#delivery .phone-logo:hover {
-	background-image: url(/img/phone.png);
+	background-position: 0 -73px;
 }
 
 .delivery-logo {
 	width: 150px;
 	height: 42px;
 	background-image: url(/img/delivery.png);
+	background-position: 0 0;
 	margin: 5px auto;
 }
 
 .delivery-logo:hover {
-	background-image: url(/img/delivery-dark.png);
+	background-position: 0 -42px;
 }
 
 .menu-block {
@@ -307,34 +306,38 @@ p, #about li, #product li, #principles {
 
 .menu {
 	background-image: url(/img/menu.png);
+	background-position: 0 0;
 }
 
 .menu:hover {
-	background-image: url(/img/menu-dark.png);
+	background-position: 0 -80px;
 }
 
 .about {
 	background-image: url(/img/about.png);
+	background-position: 0 0;
 }
 
 .about:hover {
-	background-image: url(/img/about-dark.png);
+	background-position: 0 -80px;
 }
 
 .product {
 	background-image: url(/img/product.png);
+	background-position: 0 0;
 }
 
 .product:hover {
-	background-image: url(/img/product-dark.png);
+	background-position: 0 -80px;
 }
 
 .photo {
 	background-image: url(/img/photo.png);
+	background-position: 0 0;
 }
 
 .photo:hover {
-	background-image: url(/img/photo-dark.png);
+	background-position: 0 -80px;
 }
 
 .social-block {
@@ -344,34 +347,38 @@ p, #about li, #product li, #principles {
 
 .vk .social-block {
 	background-image: url(/img/vkontakte.png);
+	background-position: 0 0;
 }
 
 .vk .social-block:hover {
-	background-image: url(/img/vkontakte-dark.png);
+	background-position: 0 -81px;
 }
 
 .ok .social-block {
 	background-image: url(/img/odnoklassniki.png);
+	background-position: 0 0;
 }
 
 .ok .social-block:hover {
-	background-image: url(/img/odnoklassniki-dark.png);
+	background-position: 0 -82px;
 }
 
 .fb .social-block {
 	background-image: url(/img/facebook.png);
+	background-position: 0 0;
 }
 
 .fb .social-block:hover {
-	background-image: url(/img/facebook-dark.png);
+	background-position: 0 -82px;
 }
 
 .ig .social-block {
 	background-image: url(/img/instagram.png);
+	background-position: 0 0;
 }
 
 .ig .social-block:hover {
-	background-image: url(/img/instagram-dark.png);
+	background-position: 0 -82px;
 }
 
 #social, #delivery, #about, #product, #photo, #menu {
