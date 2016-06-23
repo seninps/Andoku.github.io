@@ -580,6 +580,18 @@ p, #about li, #product li, #principles {
 	background: url(/img/product/why-we-cream.png) no-repeat;
 }
 
+.why-we-image:hover {
+	background: url(/img/product/why-we-cream-dark.png) no-repeat;
+}
+
+.why-we-image.active {
+	background: url(/img/product/why-we-green.png) no-repeat;
+}
+
+.why-we-image {
+	background: url(/img/product/why-we-cream.png) no-repeat;
+}
+
 #healthy, #tasty, #nutritionally, #carbohydrates, #vitamins, #fiber, #proteins {
 	display: none;
 }
