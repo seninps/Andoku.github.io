@@ -537,7 +537,7 @@ p, #about li, #product li, #principles {
 	height: 104px;
 }
 
-#why-we-images, #components-images {
+.why-we-images, .components-images {
 	display: none;
 }
 
