@@ -90,6 +90,7 @@ document.ready = function() {
     		
     		$(".component-image").click(function(){
     			$(this).addClass("active");
+    			$(".image").removeClass("active");
     			$(".carbohydrates").addClass("active");
     			$(".text-carbohydrates").slideDown("normal")
     			.siblings(".information:visible").hide();
@@ -100,6 +101,7 @@ document.ready = function() {
     		
     		$(".why-we-image").click(function(){
     			$(this).addClass("active");
+    			$(".image").removeClass("active");
     			$(".healthy").addClass("active");
     			$(".text-healthy").slideDown("normal")
     			.siblings(".information:visible").hide();
