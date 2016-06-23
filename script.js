@@ -36,7 +36,6 @@ myBlurFunction2 = function(state) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('product').style.display='block';
         document.getElementById('background').style.display='block';
-        document.getElementById('why-we-images').style.display='block';
     } else if (state == 5) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('photo').style.display='block';
@@ -50,13 +49,6 @@ myBlurFunction2 = function(state) {
         document.getElementById('product').style.display='none';
         document.getElementById('photo').style.display='none';
         document.getElementById('background').style.display='none';
-        document.getElementById('healthy').style.display='none';
-        document.getElementById('tasty').style.display='none';
-        document.getElementById('nutritionally').style.display='none';
-        document.getElementById('carbohydrates').style.display='none';
-        document.getElementById('vitamins').style.display='none';
-        document.getElementById('fiber').style.display='none';
-        document.getElementById('proteins').style.display='none';
     }
 	
     /* state can be 1 or 0 
