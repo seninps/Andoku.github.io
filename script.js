@@ -80,7 +80,7 @@ myBlurFunction2 = function(state) {
 
 window.onload=function(){
 	$(document).ready(function(){
-		$(".block-why-we").addClass("active");
+		$(".why-we").addClass("active");
 		
 		$(".healthy").addClass("active");
 		
