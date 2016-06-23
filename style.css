@@ -282,7 +282,7 @@ p, #about li, #product li, #principles {
 	margin: auto;
 }
 
-.phone-logo:hover {
+#blur-div .phone-logo:hover {
 	background-position: 0 -73px;
 }
 
