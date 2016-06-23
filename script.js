@@ -84,7 +84,9 @@ window.onload=function(){
 		
 		$(".healthy").addClass("active");
 		
-		$("information").hide();
+		$(".information").hide();
+		
+		$(".components-images").hide();
     
     		$(".information:not(:first)").hide();
     		
