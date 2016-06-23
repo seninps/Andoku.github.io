@@ -94,6 +94,8 @@ window.onload=function(){
     			$(".text-carbohydrates").slideDown("normal")
     			.siblings(".information:visible").hide();
     			$(".why-we-image").removeClass("active");
+    			$(".components-images").slideDown("normal");
+    			$(".why-we-images").hide();
     		});
     		
     		$(".why-we-image").click(function(){
@@ -102,6 +104,8 @@ window.onload=function(){
     			$(".text-healthy").slideDown("normal")
     			.siblings(".information:visible").hide();
     			$(".component-image").removeClass("active");
+    			$(".why-we-images").slideDown("normal");
+    			$(".components-images").hide();
     		});
     		
 		$(".healthy").click(function(){
