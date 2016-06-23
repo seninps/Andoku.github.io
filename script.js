@@ -71,32 +71,52 @@ myBlurFunction2 = function(state) {
     } */
 };
 
-ProductCategory = function(type) {
+/*ProductCategory = function(type) {
 	if (type == 'components') { 
 		document.getElementById('why-we-images').style.display='none';
 		document.getElementById('components-images').style.display='block';
-		document.getElementById('carbohydrates').style.display='block';
-		document.getElementById('healthy').style.display='none';
+		document.getElementsByClassName('text-carbohydrates').style.display='block';
+		document.getElementsByClassName('text-healthy').style.display='none';
 		
 	} else {
 		document.getElementById('components-images').style.display='none';
 		document.getElementById('why-we-images').style.display='block';
-		document.getElementById('healthy').style.display='block';
-		document.getElementById('carbohydrates').style.display='none';	
+		document.getElementsByClassName('text-healthy').style.display='block';
+		document.getElementsByClassName('text-carbohydrates').style.display='none';	
 	}
-};
+};*/
+
 window.onload=function(){
 	$(document).ready(function(){
+		$(".why-we").addClass("active");
 		
-		$("#why-we-images .image:first").addClass("active-image");
+		$(".healthy").addClass("active");
 		
-		$(".information:not(:first)").hide();
-		
+		$("information").hide();
+    
+    		$(".information:not(:first)").hide();
+    		
+    		$(".components").click(function(){
+    			$(this).addClass("active");
+    			$(".carbohydrates").addClass("active");
+    			$(".text-carbohydrates").slideDown("normal")
+    			.siblings.siblings(".information:visible").hide();
+    			$(".why-we").removeClass("active");
+    		});
+    		
+    		$(".why-we").click(function(){
+    			$(this).addClass("active");
+    			$(".carbohydrates").addClass("active");
+    			$(".text-carbohydrates").slideDown("normal")
+    			.siblings.siblings(".information:visible").hide();
+    			$(".components").removeClass("active");
+    		});
+    		
 		$(".healthy").click(function(){
 			$(".text-healthy").slideDown("normal")
 			.siblings(".information:visible").hide();
-		 	$(this).toggleClass("active-image");
-		 	$(this).siblings(".image").removeClass("active-image");
+		 	$(this).addClass("active");
+		 	$(this).siblings(".image").removeClass("active");
 		});
 		 
 		$(".tasty").click(function(){
@@ -108,6 +128,34 @@ window.onload=function(){
 		 
 		$(".nutritionally").click(function(){
 			$(".text-nutritionally").slideDown("fast")
+			.siblings(".information:visible").hide();
+		 	$(this).toggleClass("active-image");
+		 	$(this).siblings(".image").removeClass("active-image");
+		});
+		 
+		$(".carbohydrates").click(function(){
+			$(".text-carbohydrates").slideDown("fast")
+			.siblings(".information:visible").hide();
+		 	$(this).toggleClass("active-image");
+		 	$(this).siblings(".image").removeClass("active-image");
+		});
+		 
+		$(".vitamins").click(function(){
+			$(".text-vitamins").slideDown("fast")
+			.siblings(".information:visible").hide();
+		 	$(this).toggleClass("active-image");
+		 	$(this).siblings(".image").removeClass("active-image");
+		});
+		 
+		$(".fiber").click(function(){
+			$(".text-fiber").slideDown("fast")
+			.siblings(".information:visible").hide();
+		 	$(this).toggleClass("active-image");
+		 	$(this).siblings(".image").removeClass("active-image");
+		});
+		 
+		$(".proteins").click(function(){
+			$(".text-proteins").slideDown("fast")
 			.siblings(".information:visible").hide();
 		 	$(this).toggleClass("active-image");
 		 	$(this).siblings(".image").removeClass("active-image");
