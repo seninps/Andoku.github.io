@@ -65,7 +65,7 @@
 
 .phone {
     position: fixed;
-    left: 5%;
+    left: 10px;
     top: 5%;
     display: block;    
     width: 450px;
