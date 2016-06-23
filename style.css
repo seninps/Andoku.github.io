@@ -840,7 +840,7 @@ body {
     background-image: url(/images/3.jpg);
     animation-delay: 12s;
 }
-.cb-slideshow li:nth-child(4) span { 
+/*.cb-slideshow li:nth-child(4) span { 
     background-image: url(/images/4.jpg);
     animation-delay: 18s;
 }
@@ -859,7 +859,7 @@ body {
 .cb-slideshow li:nth-child(8) span { 
     background-image: url(/images/8.jpg);
     animation-delay: 42s;
-}
+}*/
 /*.cb-slideshow li:nth-child(9) span { 
     background-image: url(/images/9.jpg);
     animation-delay: 48s; 
