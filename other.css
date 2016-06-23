@@ -1,0 +1,20 @@
+.cb-slideshow li:nth-child(4) span { 
+    background-image: url(/images/4.jpg);
+    animation-delay: 18s;
+}
+.cb-slideshow li:nth-child(5) span { 
+    background-image: url(/images/5.jpg);
+    animation-delay: 24s;
+}
+.cb-slideshow li:nth-child(6) span { 
+    background-image: url(/images/6.jpg);
+    animation-delay: 30s;
+}
+.cb-slideshow li:nth-child(7) span { 
+    background-image: url(/images/7.jpg);
+    animation-delay: 36s;
+}
+.cb-slideshow li:nth-child(8) span { 
+    background-image: url(/images/8.jpg);
+    animation-delay: 42s;
+}
