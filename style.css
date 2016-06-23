@@ -593,7 +593,7 @@ p, #about li, #product li, #principles {
 }
 
 #product .why-we-images .sub-link:nth-child(3) {
-	background-image: url(/img/product/7-dark.png);
+	background-image: url(/img/product/7.png);
 }
 
 #product .why-we-images .sub-link:nth-child(3).active {
