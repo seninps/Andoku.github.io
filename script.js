@@ -131,7 +131,7 @@ document.ready = function() {
 		 	$(this).siblings(".image").removeClass("active");
 		});
 		 
-		/*$(".carbohydrates").click(function(){
+		$(".carbohydrates").click(function(){
 			$(".text-carbohydrates").slideDown("fast")
 			.siblings(".information:visible").hide();
 		 	$(this).addClass("active");
@@ -148,7 +148,7 @@ document.ready = function() {
 		$(".fiber").click(function(){
 			$(".text-fiber").slideDown("fast")
 			.siblings(".information:visible").hide();
-		 	$(this).addClass("active-image");
+		 	$(this).addClass("active");
 		 	$(this).siblings(".image").removeClass("active");
 		});
 		 
@@ -157,7 +157,7 @@ document.ready = function() {
 			.siblings(".information:visible").hide();
 		 	$(this).addClass("active");
 		 	$(this).siblings(".image").removeClass("active");
-		});*/
+		});
 	});
 };
 
