@@ -114,43 +114,43 @@ window.onload=function(){
 		$(".tasty").click(function(){
 			$(".text-tasty").slideDown("fast")
 			.siblings(".information:visible").hide();
-		 	$(this).toggleClass("active-image");
-		 	$(this).siblings(".image").removeClass("active-image");
+		 	$(this).toggleClass("active");
+		 	$(this).siblings(".image").removeClass("active");
 		});
 		 
 		$(".nutritionally").click(function(){
 			$(".text-nutritionally").slideDown("fast")
 			.siblings(".information:visible").hide();
-		 	$(this).toggleClass("active-image");
-		 	$(this).siblings(".image").removeClass("active-image");
+		 	$(this).toggleClass("active");
+		 	$(this).siblings(".image").removeClass("active");
 		});
 		 
 		$(".carbohydrates").click(function(){
 			$(".text-carbohydrates").slideDown("fast")
 			.siblings(".information:visible").hide();
-		 	$(this).toggleClass("active-image");
-		 	$(this).siblings(".image").removeClass("active-image");
+		 	$(this).toggleClass("active");
+		 	$(this).siblings(".image").removeClass("active");
 		});
 		 
 		$(".vitamins").click(function(){
 			$(".text-vitamins").slideDown("fast")
 			.siblings(".information:visible").hide();
-		 	$(this).toggleClass("active-image");
-		 	$(this).siblings(".image").removeClass("active-image");
+		 	$(this).toggleClass("active");
+		 	$(this).siblings(".image").removeClass("active");
 		});
 		 
 		$(".fiber").click(function(){
 			$(".text-fiber").slideDown("fast")
 			.siblings(".information:visible").hide();
 		 	$(this).toggleClass("active-image");
-		 	$(this).siblings(".image").removeClass("active-image");
+		 	$(this).siblings(".image").removeClass("active");
 		});
 		 
 		$(".proteins").click(function(){
 			$(".text-proteins").slideDown("fast")
 			.siblings(".information:visible").hide();
-		 	$(this).toggleClass("active-image");
-		 	$(this).siblings(".image").removeClass("active-image");
+		 	$(this).toggleClass("active");
+		 	$(this).siblings(".image").removeClass("active");
 		});
 	});
 };
