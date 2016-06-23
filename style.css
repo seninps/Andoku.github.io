@@ -490,19 +490,19 @@ p, #about li, #product li, #principles {
 }
 
 #delivery .time:nth-child(4) {
-	margin-right:110px;
+	margin-right: 110px;
 }
 
 #delivery .time:nth-child(5) {
-	margin-right:45px;
+	margin-right: 45px;
 }
 
 #delivery .number {
-	margin:0 2px;
+	margin: 0 2px;
 }
 
 #delivery .dash {
-	margin:0 20px;
+	margin: 0 20px;
 }
 
 #delivery #popup {
@@ -527,21 +527,21 @@ p, #about li, #product li, #principles {
 
 .block-components, .block-why-we {
 	display: inline-block;
-	width: 350px;
-	margin: 30px;
+	width: 320px;
 	vertical-align: top;
 }
 
 .why-we-image, .component-image {
 	width: 300px;
 	height: 89px;
+	margin: 10px;
 }
 
 #product .sub-link {
-	height: 70px;
-	width: 70px;
+	height: 55px;
+	width: 55px;
 	display: inline-block;
-	margin: 10px 5px;
+	margin: 5px;
 }
 
 #product .components-images .sub-link:nth-child(1) {
@@ -637,7 +637,7 @@ p, #about li, #product li, #principles {
 }
 
 #about #popup, #product #popup {
-	width: 840px;
+	width: 740px;
     	padding: 20px;
 }
 
@@ -686,7 +686,7 @@ p, #about li, #product li, #principles {
 #menu {
 	min-height: 970px;
 	min-width: 970px;
-	background-color: #ffecc2
+	background-color: #ffecc2;
 }
 
 #menu #popup {
