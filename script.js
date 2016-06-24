@@ -131,6 +131,13 @@ document.ready = function() {
 		 	$(this).siblings(".image").removeClass("active");
 		});
 		 
+		$(".available").click(function(){
+			$(".text-available").slideDown("fast")
+			.siblings(".information:visible").hide();
+		 	$(this).addClass("active");
+		 	$(this).siblings(".image").removeClass("active");
+		});
+		 
 		$(".carbohydrates").click(function(){
 			$(".text-carbohydrates").slideDown("fast")
 			.siblings(".information:visible").hide();
