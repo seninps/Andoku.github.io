@@ -280,6 +280,11 @@ p, #about li, #product li, #principles {
 	margin: 5px 0px;
 }
 
+.link-button a {
+	display: inline-block;
+	margin: 0 16.5px;
+}
+
 .menu {
 	background-image: url(/img/menu.png);
 	background-position: 0 0;
