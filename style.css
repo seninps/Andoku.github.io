@@ -423,9 +423,7 @@ p, #about li, #product li, #principles {
 
 #delivery #popup {
 	width: 700px;
-	/*border: 5px solid;
-	border-image: url('/img/delivery-border.png') 1 round;*/
-
+	height: 350px;
 }
 
 #delivery p {
