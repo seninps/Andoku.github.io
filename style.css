@@ -525,7 +525,7 @@ p, #about li, #product li, #principles {
 	background-size: cover;
 }
 
-#product, #menu {
+#product, #menu, #about {
 	background-size: cover;
 	background-position: 50% 50%;
 	background-image: url(/img/product/product-background.jpg);
@@ -651,8 +651,8 @@ p, #about li, #product li, #principles {
 
 #about #popup {
 	height: 586px;
-	background-color: #000;
-	border: 4px solid #fff;
+	/*background-color: #000;
+	border: 4px solid #fff;*/
 }
 
 #product #popup {
