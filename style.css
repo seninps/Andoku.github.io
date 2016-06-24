@@ -487,11 +487,11 @@ p, #about li, #product li, #principles {
     	display: inline-block;
 }
 
-#delivery .time:nth-child(4) {
+#delivery .time:nth-child(2) {
 	margin-right: 95px;
 }
 
-#delivery .time:nth-child(5) {
+#delivery .time:nth-child(3) {
 	margin-right: 57px;
 }
 
