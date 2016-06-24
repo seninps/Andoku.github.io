@@ -602,6 +602,15 @@ p, #about li, #product li, #principles {
 	background-image: url(/img/product/7-dark.png);
 }
 
+#product .why-we-images .sub-link:nth-child(4) {
+	background-image: url(/img/product/8.png);
+	background-position: 0 0;
+}
+
+#product .why-we-images .sub-link:nth-child(4).active {
+	background-position: 0 -55px;
+}
+
 .component-image {
 	background: url(/img/product/components.png);
 	background-position: 0 0;
