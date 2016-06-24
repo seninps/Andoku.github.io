@@ -359,10 +359,17 @@ p, #about li, #product li, #principles {
 }
 
 #menu #background {
+	display: block;
+}
+
+#menu #background-image {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 	background-size: cover;
     	background-position: 50% 50%;
     	background-image: url(/img/product/product-background.jpg);
-    	display: block;
 }
 
 #popup {
