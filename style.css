@@ -392,6 +392,7 @@ p, #about li, #product li, #principles {
 	background-size: cover;
     	background-position: 50% 50%;
     	background-image: url(/img/product/product-background.jpg);
+    	display: block;
 }
 
 #popup {
