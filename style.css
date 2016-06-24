@@ -414,7 +414,7 @@ p, #about li, #product li, #principles {
 
 #delivery {
 	min-width: 860px;
-	min-height: 650px;
+	min-height: 600px;
 }
 
 #delivery .phone p {
@@ -423,7 +423,7 @@ p, #about li, #product li, #principles {
 
 #delivery #popup {
 	width: 700px;
-	height: 350px;
+	height: 400px;
 }
 
 #delivery p {
@@ -432,11 +432,8 @@ p, #about li, #product li, #principles {
 }
 
 #delivery p:nth-child(1) {
-    font-size: 40px;
-}
-
-#delivery p:nth-child(2) {
-    font-size: 38px;
+    font-size: 36px;
+    margin-bottom: 7px;
 }
 
 #delivery .action {
