@@ -178,13 +178,8 @@ h1 {
 }
 
 @font-face {
-	font-family: serif;
-	src: url(/serif.ttf);
-}
-
-@font-face {
-	font-family: serif-italic;
-	src: url(/serif-italic.ttf);
+	font-family: DomCasual;
+	src: url(/DomCasual.ttf);
 }
 
 #social h1 {
@@ -435,7 +430,8 @@ p, #about li, #product li, #principles {
 
 #delivery p {
 	margin: 25px;
-    	font-family: calibri;
+    	font-family: DomCasual;
+    	font-size: 30px;
 }
 
 #delivery #popup p:nth-child(2) {
