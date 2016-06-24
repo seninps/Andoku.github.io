@@ -498,10 +498,6 @@ p, #about li, #product li, #principles {
     	text-align: center;
 }
 
-#about {
-	min-width: 1000px;
-}
-
 #product {
 	min-height: 800px;
 	min-width: 1220px;
@@ -633,7 +629,8 @@ p, #about li, #product li, #principles {
 }
 
 #about {
-	min-height: 746px;
+	min-height: 870px;
+	min-width: 1220px;
 }
 
 #about #popup, #product #popup {
