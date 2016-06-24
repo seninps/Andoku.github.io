@@ -414,7 +414,7 @@ p, #about li, #product li, #principles {
 
 #delivery {
 	min-width: 860px;
-	min-height: 460px;
+	min-height: 650px;
 }
 
 #delivery .phone p {
@@ -433,7 +433,11 @@ p, #about li, #product li, #principles {
     	font-family: DomCasual;
 }
 
-#delivery #popup p:nth-child(2) {
+#delivery p:nth-child(1) {
+    font-size: 40px;
+}
+
+#delivery p:nth-child(2) {
     font-size: 38px;
 }
 
