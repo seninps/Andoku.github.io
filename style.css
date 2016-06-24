@@ -528,7 +528,7 @@ p, #about li, #product li, #principles {
 	background-image: url(/img/product/product-background.jpg);
 }
 
-#product .header img {
+#product .header img, #about .header img {
 	height: 117px;	
 }
 
