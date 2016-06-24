@@ -447,11 +447,13 @@ p, #about li, #product li, #principles {
     font-size: 38px;
 }
 
-#delivery p.small {
+#delivery .action {
 	position: fixed;
-	bottom: 7%;
-	right: 7%;
-	font-size: 18px;
+	bottom: 10px;
+	right: 10px;
+	background-image: url(/img/action.png);
+	width: 403px;
+	height: 300px;
 }
 
 #delivery img {
