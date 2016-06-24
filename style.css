@@ -496,11 +496,11 @@ p, #about li, #product li, #principles {
 }
 
 #delivery .time:nth-child(4) {
-	margin-right: 110px;
+	margin-right: 95px;
 }
 
 #delivery .time:nth-child(5) {
-	margin-right: 45px;
+	margin-right: 65px;
 }
 
 #delivery .number {
