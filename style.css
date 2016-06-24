@@ -431,7 +431,6 @@ p, #about li, #product li, #principles {
 #delivery p {
 	margin: 25px;
     	font-family: DomCasual;
-    	font-size: 30px;
 }
 
 #delivery #popup p:nth-child(2) {
