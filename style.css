@@ -521,7 +521,7 @@ p, #about li, #product li, #principles {
 
 #product {
 	min-height: 800px;
-	min-width: 1150px;
+	min-width: 1220px;
 	background-size: cover;
 	background-position: 50% 50%;
 	background-image: url(/img/product/product-background.jpg);
