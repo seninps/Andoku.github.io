@@ -523,6 +523,10 @@ p, #about li, #product li, #principles {
 	min-height: 800px;
 	min-width: 1220px;
 	background-size: cover;
+}
+
+#product, #menu {
+	background-size: cover;
 	background-position: 50% 50%;
 	background-image: url(/img/product/product-background.jpg);
 }
@@ -690,7 +694,6 @@ p, #about li, #product li, #principles {
 #menu {
 	min-height: 970px;
 	min-width: 970px;
-	background-color: #ffecc2;
 }
 
 #menu #popup {
