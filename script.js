@@ -15,23 +15,55 @@ myBlurFunction = function(state) {
 
 myBlurFunction2 = function(state) {
     if (state == 1) {
+    	if (document.getElementById('product').style.display='block') {
+    		document.getElementById('product').style.display='none';
+    		document.getElementById('product-background').style.display='none';
+    	};
+    	if (document.getElementById('about').style.display='block') {
+    		document.getElementById('about').style.display='none';
+    		document.getElementById('product-background').style.display='none';
+    	};
         document.getElementById('blur-div').className='alerting-1';
         document.getElementById('social').style.display='block';
         document.getElementById('background').style.display='block';
     } else if (state == 2) {
+    	if (document.getElementById('product').style.display='block') {
+    		document.getElementById('product').style.display='none';
+    		document.getElementById('product-background').style.display='none';
+    	};
+    	if (document.getElementById('about').style.display='block') {
+    		document.getElementById('about').style.display='none';
+    		document.getElementById('product-background').style.display='none';
+    	};
         document.getElementById('blur-div').className='alerting-1';
         document.getElementById('delivery').style.display='block';
         document.getElementById('background').style.display='block';
     } else if (state == 3) {
+    	if (document.getElementById('product').style.display='block') {
+    		document.getElementById('product').style.display='none';
+    		document.getElementById('product-background').style.display='none';
+    	};
         document.getElementById('about').style.display='block';
         document.getElementById('principles').style.display='none';
         document.getElementById('price').style.display='none';
         document.getElementById('popup').style.height='586px';
         document.getElementById('product-background').style.display='block';
     } else if (state == 4) {
+    	if (document.getElementById('about').style.display='block') {
+    		document.getElementById('about').style.display='none';
+    		document.getElementById('product-background').style.display='none';
+    	};
         document.getElementById('product').style.display='block';
         document.getElementById('product-background').style.display='block';
     } else if (state == 5) {
+    	if (document.getElementById('product').style.display='block') {
+    		document.getElementById('product').style.display='none';
+    		document.getElementById('product-background').style.display='none';
+    	};
+    	if (document.getElementById('about').style.display='block') {
+    		document.getElementById('about').style.display='none';
+    		document.getElementById('product-background').style.display='none';
+    	};
         document.getElementById('blur-div').className='alerting';
         document.getElementById('photo').style.display='block';
         document.getElementById('background').style.display='block';
