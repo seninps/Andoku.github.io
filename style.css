@@ -586,7 +586,7 @@ p, #about li, #product li, #principles {
 	background-position: 0 0;
 }
 
-#product .components-images .sub-link:nth-child(1):hover {
+#product .why-we-images .sub-link:nth-child(1):hover {
 	background-position: 0 -55px;
 }
 
@@ -599,7 +599,7 @@ p, #about li, #product li, #principles {
 	background-position: 0 0;
 }
 
-#product .components-images .sub-link:nth-child(2):hover {
+#product .why-we-images .sub-link:nth-child(2):hover {
 	background-position: 0 -55px;
 }
 
@@ -612,7 +612,7 @@ p, #about li, #product li, #principles {
 	background-position: 0 0;
 }
 
-#product .components-images .sub-link:nth-child(3):hover {
+#product .why-we-images .sub-link:nth-child(3):hover {
 	background-position: 0 -55px;
 }
 
@@ -625,7 +625,7 @@ p, #about li, #product li, #principles {
 	background-position: 0 0;
 }
 
-#product .components-images .sub-link:nth-child(4):hover {
+#product .why-we-images .sub-link:nth-child(4):hover {
 	background-position: 0 -55px;
 }
 
