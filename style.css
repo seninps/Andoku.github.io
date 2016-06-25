@@ -220,7 +220,8 @@ p, #about li, #product li, #principles, .label, .send {
 
 .contact-form {
 	width: 650px;
-	margin: 75px;
+	padding: 75px;
+	background: #ffffff;
 }
 
 .contacts-form-row {
@@ -575,7 +576,7 @@ input[type="text"], input[type="email"] {
 	vertical-align: top;
 }
 
-.why-we-image, .component-image, .image {
+.why-we-image, .component-image, .image, .send {
 	cursor: pointer;
 }
 
@@ -790,8 +791,7 @@ input[type="text"], input[type="email"] {
 }
 
 #question #popup {
-	height: 477px;
-	background: #ffffff;
+	height: 523px;
 }
 
 .menu-image {
