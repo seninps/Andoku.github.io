@@ -517,6 +517,10 @@ p, #about li, #product li, #principles {
 	vertical-align: top;
 }
 
+.why-we-image, .component-image, .image {
+	cursor: pointer;
+}
+
 .why-we-image, .component-image {
 	width: 300px;
 	height: 89px;
