@@ -209,7 +209,7 @@ video#bgvid {
     background-size: cover; 
 }
 
-p, #about li, #product li, #principles {
+p, #about li, #product li, #principles, .label {
     font: menu;
     color: #f5f5f5;
     text-align: center;
@@ -347,7 +347,7 @@ p, #about li, #product li, #principles {
 	background-position: 0 -82px;
 }
 
-#social, #delivery, #about, #product, #photo, #menu {
+#social, #delivery, #about, #product, #photo, #menu, #question {
     position: absolute;
     display: none;
     left: 0px;
