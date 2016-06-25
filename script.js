@@ -18,29 +18,23 @@ myBlurFunction2 = function(state) {
         document.getElementById('blur-div').className='alerting-1';
         document.getElementById('social').style.display='block';
         document.getElementById('background').style.display='block';
-        if (document.getElementById('product').style.display=='block') document.getElementById('product').style.display='none';
-        if (document.getElementById('about').style.display=='block') document.getElementById('about').style.display='none';
     } else if (state == 2) {
         document.getElementById('blur-div').className='alerting-1';
         document.getElementById('delivery').style.display='block';
         document.getElementById('background').style.display='block';
-        if (document.getElementById('product').style.display=='block') document.getElementById('product').style.display='none';
-        if (document.getElementById('about').style.display=='block') document.getElementById('about').style.display='none';
     } else if (state == 3) {
         document.getElementById('about').style.display='block';
         document.getElementById('principles').style.display='none';
         document.getElementById('price').style.display='none';
         document.getElementById('popup').style.height='586px';
-        if (document.getElementById('product').style.display=='block') document.getElementById('product').style.display='none';
+        document.getElementById('product-background').style.display='block';
     } else if (state == 4) {
         document.getElementById('product').style.display='block';
-        if (document.getElementById('about').style.display=='block') document.getElementById('about').style.display='none';
+        document.getElementById('product-background').style.display='block';
     } else if (state == 5) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('photo').style.display='block';
         document.getElementById('background').style.display='block';
-        if (document.getElementById('product').style.display=='block') document.getElementById('product').style.display='none';
-        if (document.getElementById('about').style.display=='block') document.getElementById('about').style.display='none';
     } else {
         document.getElementById('blur-div').className='';
         document.getElementById('social').style.display='none';
@@ -49,6 +43,7 @@ myBlurFunction2 = function(state) {
         document.getElementById('product').style.display='none';
         document.getElementById('photo').style.display='none';
         document.getElementById('background').style.display='none';
+        document.getElementById('product-background').style.display='none';
     }
 	
     /* state can be 1 or 0 
