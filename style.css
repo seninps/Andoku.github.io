@@ -531,58 +531,93 @@ p, #about li, #product li, #principles {
 
 #product .components-images .sub-link:nth-child(1) {
 	background-image: url(/img/product/1.png);
+	background-position: 0 0;
+}
+
+#product .components-images .sub-link:nth-child(1):hover {
+	background-position: 0 -55px;
 }
 
 #product .components-images .sub-link:nth-child(1).active {
-	background-image: url(/img/product/1-dark.png);
+	background-position: 0 -110px;
 }
 
 #product .components-images .sub-link:nth-child(2) {
 	background-image: url(/img/product/2.png);
+	background-position: 0 0;
+}
+
+#product .components-images .sub-link:nth-child(2):hover {
+	background-position: 0 -55px;
 }
 
 #product .components-images .sub-link:nth-child(2).active {
-	background-image: url(/img/product/2-dark.png);
+	background-position: 0 -110px;
 }
 
 #product .components-images .sub-link:nth-child(3) {
 	background-image: url(/img/product/3.png);
+	background-position: 0 0;
+}
+
+#product .components-images .sub-link:nth-child(3):hover {
+	background-position: 0 -55px;
 }
 
 #product .components-images .sub-link:nth-child(3).active {
-	background-image: url(/img/product/3-dark.png);
+	background-position: 0 -110px;
 }
 
 #product .components-images .sub-link:nth-child(4) {
 	background-image: url(/img/product/4.png);
+	background-position: 0 0;
+}
+
+#product .components-images .sub-link:nth-child(4):hover {
+	background-position: 0 -55px;
 }
 
 #product .components-images .sub-link:nth-child(4).active {
-	background-image: url(/img/product/4-dark.png);
+	background-position: 0 -110px;
 }
 
 #product .why-we-images .sub-link:nth-child(1) {
 	background-image: url(/img/product/5.png);
+	background-position: 0 0;
+}
+
+#product .components-images .sub-link:nth-child(1):hover {
+	background-position: 0 -55px;
 }
 
 #product .why-we-images .sub-link:nth-child(1).active {
-	background-image: url(/img/product/5-dark.png);
+	background-position: 0 -110px;
 }
 
 #product .why-we-images .sub-link:nth-child(2) {
 	background-image: url(/img/product/6.png);
+	background-position: 0 0;
+}
+
+#product .components-images .sub-link:nth-child(2):hover {
+	background-position: 0 -55px;
 }
 
 #product .why-we-images .sub-link:nth-child(2).active {
-	background-image: url(/img/product/6-dark.png);
+	background-position: 0 -110px;
 }
 
 #product .why-we-images .sub-link:nth-child(3) {
 	background-image: url(/img/product/7.png);
+	background-position: 0 0;
+}
+
+#product .components-images .sub-link:nth-child(3):hover {
+	background-position: 0 -55px;
 }
 
 #product .why-we-images .sub-link:nth-child(3).active {
-	background-image: url(/img/product/7-dark.png);
+	background-position: 0 -110px;
 }
 
 #product .why-we-images .sub-link:nth-child(4) {
@@ -590,8 +625,12 @@ p, #about li, #product li, #principles {
 	background-position: 0 0;
 }
 
-#product .why-we-images .sub-link:nth-child(4).active {
+#product .components-images .sub-link:nth-child(4):hover {
 	background-position: 0 -55px;
+}
+
+#product .why-we-images .sub-link:nth-child(4).active {
+	background-position: 0 -110px;
 }
 
 .component-image {
