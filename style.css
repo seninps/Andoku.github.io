@@ -218,6 +218,11 @@ p, #about li, #product li, #principles, .label, .send {
     font-weight: bold;
 }
 
+.contact-form {
+	width: 650px;
+	margin: 75px;
+}
+
 .contacts-form-row {
 	font-size: 0;
     white-space: nowrap;
@@ -779,8 +784,7 @@ input[type="text"], input[type="email"] {
 }
 
 #question #popup {
-	padding: 35px 0 0 40px;
-	height: 365px;
+	height: 477;
 }
 
 .menu-image {
