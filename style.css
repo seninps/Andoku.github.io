@@ -220,7 +220,7 @@ p, #about li, #product li, #principles, .label, .send {
 
 .contact-form {
 	width: 650px;
-	padding: 75px;
+	padding: 50px;
 	background: #ffffff;
 }
 
@@ -267,6 +267,12 @@ input[type="text"], input[type="email"] {
 	vertical-align: top;
 	display: inline-block;*display: inline;*zoom: 1;
 	border: 1px solid #5b5b5b;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+	width: 420px;
+	height: 34px;
+	border: 3px solid #fffdd0;
 }
 
 .send {
@@ -791,7 +797,8 @@ input[type="text"], input[type="email"] {
 }
 
 #question #popup {
-	height: 523px;
+	height: 473px;
+	width: 750px;
 }
 
 .menu-image {
