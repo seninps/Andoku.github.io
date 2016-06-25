@@ -67,6 +67,18 @@ myBlurFunction2 = function(state) {
         document.getElementById('blur-div').className='alerting';
         document.getElementById('photo').style.display='block';
         document.getElementById('background').style.display='block';
+    } else if (state == 6) {
+    	if (document.getElementById('product').style.display='block') {
+    		document.getElementById('product').style.display='none';
+    		document.getElementById('product-background').style.display='none';
+    	};
+    	if (document.getElementById('about').style.display='block') {
+    		document.getElementById('about').style.display='none';
+    		document.getElementById('product-background').style.display='none';
+    	};
+        document.getElementById('blur-div').className='alerting';
+        document.getElementById('question').style.display='block';
+        document.getElementById('background').style.display='block';
     } else {
         document.getElementById('blur-div').className='';
         document.getElementById('social').style.display='none';
@@ -74,6 +86,7 @@ myBlurFunction2 = function(state) {
         document.getElementById('about').style.display='none';
         document.getElementById('product').style.display='none';
         document.getElementById('photo').style.display='none';
+        document.getElementById('question').style.display='none';
         document.getElementById('background').style.display='none';
         document.getElementById('product-background').style.display='none';
     }
