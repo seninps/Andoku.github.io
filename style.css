@@ -276,9 +276,14 @@ input[type="text"], input[type="email"] {
 	-moz-border-radius: 2px;
 	border-radius: 2px;
 	padding: 0 5px 5px 5px;
-	font-family: bebasneue;
-	font-weight: 400;
-    
+	background-image: url('/img/send.png');
+	background-position: 0 0;
+	width: 147px;
+	height: 38px;
+}
+
+.send:hover {
+	background-position: 0 -38px;
 }
 
 .phone a {
