@@ -225,53 +225,59 @@ p, #about li, #product li, #principles, .label, .send {
 
 .contacts-form-row {
 	font-size: 0;
-    white-space: nowrap;
-    margin: 0 0 18px;
-    display: block;
+	white-space: nowrap;
+	margin: 0 0 18px;
+	display: block;
 }
 
 .contacts-form-row .label {
-    width: 200px;
-    text-transform: uppercase;
-    vertical-align: top;
-    display: inline-block;*
-    display: inline;*
-    zoom: 1;
-    text-align: left;
+	width: 200px;
+	text-transform: uppercase;
+	vertical-align: top;
+	display: inline-block;*
+	display: inline;*
+	zoom: 1;
+	text-align: left;
+	color: 050505;
+	font-family: bebasneue;
+	font-weight: 400;
 }
 
 textarea {
-    width: 448px;
-    height: 89px;
-    padding: 12px;
-    font-size: 14px;
-    line-height: 16px;
-    vertical-align: top;
-    display: inline-block;*
-    display: inline;*
-    zoom: 1;
-    resize: none;
-    border: 1px solid #5b5b5b;
+	width: 448px;
+	height: 89px;
+	padding: 12px;
+	font-size: 14px;
+	line-height: 16px;
+	vertical-align: top;
+	display: inline-block;*
+	display: inline;*
+	zoom: 1;
+	resize: none;
+	border: 1px solid #5b5b5b;
 }
 
 input[type="text"], input[type="email"] {
-    width: 424px;
-    height: 38px;
-    padding: 0 12px;
-    font-size: 14px;
-    line-height: 38px;
-    vertical-align: top;
-    display: inline-block;*display: inline;*zoom: 1;
-    border: 1px solid #5b5b5b;
+	width: 424px;
+	height: 38px;
+	padding: 0 12px;
+	font-size: 14px;
+	line-height: 38px;
+	vertical-align: top;
+	display: inline-block;*display: inline;*zoom: 1;
+	border: 1px solid #5b5b5b;
 }
 
 .send {
-    margin: 0 0 0 200px;
-    color: #050505;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
-    padding: 0 5px 5px 5px;
+	margin: 0 0 0 200px;
+	color: #050505;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	padding: 0 5px 5px 5px;
+	font-family: bebasneue;
+	font-weight: 400;
+    
 }
 
 .phone a {
@@ -785,6 +791,7 @@ input[type="text"], input[type="email"] {
 
 #question #popup {
 	height: 477px;
+	background: #ffffff;
 }
 
 .menu-image {
