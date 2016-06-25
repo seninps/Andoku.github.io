@@ -778,6 +778,11 @@ input[type="text"], input[type="email"] {
     text-align: center;
 }
 
+#question #popup {
+	padding: 35px 0 0 40px;
+	height: 365px;
+}
+
 .menu-image {
 	vertical-align: top;
 	display: inline-block;
