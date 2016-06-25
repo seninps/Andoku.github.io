@@ -172,6 +172,13 @@ h1 {
 	src: url(/bebasneue-webfont.ttf);
 }
 
+#question h1 {
+	font-family: bebasneue;
+	font-weight: 400;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
 #social h1 {
     margin-bottom: 30px;
     font-family: Svoboda;
@@ -797,7 +804,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 #question #popup {
-	height: 433px;
+	height: 453px;
 	width: 750px;
 }
 
