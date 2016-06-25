@@ -367,6 +367,18 @@ p, #about li, #product li, #principles {
 	display: none;
 }
 
+#product-background {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-image: url(/img/product/product-background.jpg);
+	position: fixed;
+	display: none;
+}
+
 #menu #background {
 	display: block;
 }
@@ -489,12 +501,6 @@ p, #about li, #product li, #principles {
 	min-height: 800px;
 	min-width: 1220px;
 	background-size: cover;
-}
-
-#product, #menu, #about {
-	background-size: cover;
-	background-position: 50% 50%;
-	background-image: url(/img/product/product-background.jpg);
 }
 
 #product .header img, #about .header img {
