@@ -920,17 +920,17 @@ input[type="text"]:focus, input[type="email"]:focus {
 	background-position: 0 -300px;
 }
 
-.menu-image p {
-	padding: 260px 100px 0 0;
-	font-size: 30px;
-	color: #050505;
-}
-
 #menu p {
 	color: #050505;	
 	font-size: 18px;
 	font-weight: 400;
 	text-align: justify;
+}
+
+.menu-image p {
+	padding: 260px 100px 0 0;
+	font-size: 30px;
+	color: #050505;
 }
 
 #about p, #product p, #about li, #product li, #principles {
