@@ -795,13 +795,12 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 #menu {
 	min-height: 1010px;
-	min-width: 970px;
+	min-width: 1060px;
 }
 
 #menu #popup {
 	height: 1000px;
-	width: 960px;
-	text-align: center;
+	width: 1050px;
 }
 
 #question #popup {
