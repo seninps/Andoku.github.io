@@ -794,14 +794,14 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 #menu {
-	min-height: 970px;
+	min-height: 1010px;
 	min-width: 970px;
 }
 
 #menu #popup {
-    width: 960px;
-    height: 960px;
-    text-align: center;
+	height: 1000px;
+	width: 960px;
+	text-align: center;
 }
 
 #question #popup {
@@ -810,7 +810,6 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 .menu-image {
-	vertical-align: top;
 	display: inline-block;
 	width: 211px;
 	height: 300px;
@@ -921,12 +920,10 @@ input[type="text"]:focus, input[type="email"]:focus {
 	background-position: 0 -300px;
 }
 
-.price {
-	margin: -45px 0px 0px -80px;
-	font: menu;
-	font-size: 32px;
+.menu-image p {
+	padding: 260px 100px 0 0;
+	font-size: 30px;
 	color: #050505;
-	font-weight: 700;
 }
 
 #about p, #product p, #about li, #product li, #principles {
