@@ -7,10 +7,4 @@ document.ready = function() {
 		});
   });
   
-  $(document).ready(function(){
-    $(".fancybox-close").click(function(){
-			$(".close-icon").slideDown("fast");
-		});
-  });
-  
 };
