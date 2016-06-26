@@ -132,10 +132,10 @@ document.ready = function() {
     			$(this).addClass("active");
     			$(".image").removeClass("active");
     			$(".carbohydrates").addClass("active");
-    			$(".text-carbohydrates").slideDown("normal")
+    			$(".text-carbohydrates").slideDown("fast")
     			.siblings(".information:visible").hide();
     			$(".why-we-image").removeClass("active");
-    			$(".components-images").slideDown("normal");
+    			$(".components-images").slideDown("fast");
     			$(".why-we-images").hide();
     		});
     		
@@ -143,15 +143,15 @@ document.ready = function() {
     			$(this).addClass("active");
     			$(".image").removeClass("active");
     			$(".healthy").addClass("active");
-    			$(".text-healthy").slideDown("normal")
+    			$(".text-healthy").slideDown("fast")
     			.siblings(".information:visible").hide();
     			$(".component-image").removeClass("active");
-    			$(".why-we-images").slideDown("normal");
+    			$(".why-we-images").slideDown("fast");
     			$(".components-images").hide();
     		});
     		
 		$(".healthy").click(function(){
-			$(".text-healthy").slideDown("normal")
+			$(".text-healthy").slideDown("fast")
 			.siblings(".information:visible").hide();
 		 	$(this).addClass("active");
 		 	$(this).siblings(".image").removeClass("active");
