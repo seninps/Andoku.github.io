@@ -818,16 +818,107 @@ input[type="text"]:focus, input[type="email"]:focus {
 	margin: 10px;
 }
 
-.menu-image:nth-child(4) img, .menu-image:nth-child(8) img {
-	margin-top: 75px;
-}
-
 .menu-image:nth-child(10) {
 	margin-right: 482px;
 }
 
 .menu-image a {
 	text-decoration: none;
+}
+
+.menu-image .image {
+	width: 205px;
+	height: 300px;
+}
+
+.menu-image:nth-child(1) .image {
+	background-image: url(/menu/small-1.jpg);
+	background-position: 0 0;
+}
+
+.menu-image:nth-child(1) .image:hover {
+	background-position: 0 -300px;
+}
+
+.menu-image:nth-child(2) .image {
+	background-image: url(/menu/small-4.jpg);
+	background-position: 0 0;
+}
+
+.menu-image:nth-child(2) .image:hover {
+	background-position: 0 -300px;
+}
+
+.menu-image:nth-child(3) .image {
+	background-image: url(/menu/small-3.jpg);
+	background-position: 0 0;
+}
+
+.menu-image:nth-child(3) .image:hover {
+	background-position: 0 -300px;
+}
+
+.menu-image:nth-child(4) .image {
+	background-image: url(/menu/small-2.jpg);
+	background-position: 0 0;
+}
+
+.menu-image:nth-child(4) .image:hover {
+	background-position: 0 -300px;
+}
+
+.menu-image:nth-child(5) .image {
+	background-image: url(/menu/small-6.jpg);
+	background-position: 0 0;
+}
+
+.menu-image:nth-child(5) .image:hover {
+	background-position: 0 -300px;
+}
+
+.menu-image:nth-child(6) .image {
+	background-image: url(/menu/small-7.jpg);
+	background-position: 0 0;
+}
+
+.menu-image:nth-child(6) .image:hover {
+	background-position: 0 -300px;
+}
+
+.menu-image:nth-child(7) .image {
+	background-image: url(/menu/small-8.jpg);
+	background-position: 0 0;
+}
+
+.menu-image:nth-child(7) .image:hover {
+	background-position: 0 -300px;
+}
+
+.menu-image:nth-child(8) .image {
+	background-image: url(/menu/small-10.jpg);
+	background-position: 0 0;
+}
+
+.menu-image:nth-child(8) .image:hover {
+	background-position: 0 -300px;
+}
+
+.menu-image:nth-child(9) .image {
+	background-image: url(/menu/small-9.jpg);
+	background-position: 0 0;
+}
+
+.menu-image:nth-child(9) .image:hover {
+	background-position: 0 -300px;
+}
+
+.menu-image:nth-child(10) .image {
+	background-image: url(/menu/small-5.jpg);
+	background-position: 0 0;
+}
+
+.menu-image:nth-child(10) .image:hover {
+	background-position: 0 -300px;
 }
 
 .price {
