@@ -945,6 +945,10 @@ input[type="text"]:focus, input[type="email"]:focus {
 	text-align: justify;
 }
 
+.fancybox-inner h2 {
+	font-size: 23px;
+}
+
 p.price {
 	position:absolute;
 	font-size: 70px;
