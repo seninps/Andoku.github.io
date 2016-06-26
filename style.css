@@ -926,6 +926,13 @@ input[type="text"]:focus, input[type="email"]:focus {
 	color: #050505;
 }
 
+#menu p {
+	color: #050505;	
+	font-size: 18px;
+	font-weight: 400;
+	text-align: justify;
+}
+
 #about p, #product p, #about li, #product li, #principles {
     text-align: justify;
     font-weight: normal;
