@@ -1931,7 +1931,9 @@ $(document).ready(function() {
 			var scrollV, scrollH;
 
 			W.unbind('resize.overlay');
-
+			
+			$(".menu-close").slideDown("fast");
+			
 			if (this.el.hasClass('fancybox-lock')) {
 				$('.fancybox-margin').removeClass('fancybox-margin');
 
