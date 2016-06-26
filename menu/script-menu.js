@@ -1,5 +1,6 @@
 document.ready = function() {
   document.getElementById('menu').style.display='block';
+  document.getElementsByClassName('close-icon').style.display='none';
 };
 
 document.onclick = function() {  
