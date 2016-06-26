@@ -6,4 +6,11 @@ document.ready = function() {
 			$(".close-icon").hide();
 		});
   });
+  
+  $(document).ready(function(){
+    $(".fancybox-close").click(function(){
+			$(".close-icon").slideDown("fast");
+		});
+  });
+  
 };
