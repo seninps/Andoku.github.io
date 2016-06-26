@@ -926,6 +926,18 @@ input[type="text"]:focus, input[type="email"]:focus {
 	color: #050505;
 }
 
+.fancybox-inner img {
+	float: left;
+	margin-right: 200px;
+}
+
+#product-1 {
+	height: 700px;
+	display: none;
+	width: 950px;
+	padding-right: 20px;
+}
+
 .fancybox-inner p {
 	color: #050505;	
 	font-size: 18px;
