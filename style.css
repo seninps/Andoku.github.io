@@ -252,10 +252,11 @@ p, #about li, #product li, #principles, .label, .send {
 }
 
 textarea {
-	width: 448px;
-	height: 89px;
+	width: 424px;
+	height: 65px;
 	padding: 12px;
-	font-size: 14px;
+	font-size: 18px;
+	font-family: times new roman;
 	line-height: 16px;
 	vertical-align: top;
 	display: inline-block;*
@@ -269,7 +270,8 @@ input[type="text"], input[type="email"] {
 	width: 424px;
 	height: 38px;
 	padding: 0 12px;
-	font-size: 14px;
+	font-size: 18px;
+	font-family: times new roman;
 	line-height: 38px;
 	vertical-align: top;
 	display: inline-block;*display: inline;*zoom: 1;
@@ -773,6 +775,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 #photo {
 	min-height: 1040px;
+	min-width: 1450px;
 }
 
 #photo #popup {
@@ -852,7 +855,7 @@ input[type="text"]:focus, input[type="email"]:focus {
     display: inline-block;
 }
 
-body,div,dl,dt,dd,ul, li,ol,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,th,td { 
+body,div,dl,dt,dd,ul, li,ol,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,blockquote,th,td { 
     margin: 0;
     padding: 0;
 }
