@@ -955,6 +955,10 @@ p.price {
 	font-weight: bold;
 }
 
+p.weight {
+	font-weight: 600;
+}
+
 #about p, #product p, #about li, #product li, #principles {
     text-align: justify;
     font-weight: normal;
