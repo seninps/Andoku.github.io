@@ -743,6 +743,12 @@ input[type="text"]:focus, input[type="email"]:focus {
 	display: none;
 }
 
+
+.information {
+	width: 580px;
+	margin: 0 auto;
+}
+
 #about {
 	min-height: 870px;
 	min-width: 1220px;
