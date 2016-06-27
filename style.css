@@ -839,7 +839,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 .menu-image:nth-child(2) .image {
-	background-image: url(/menu/small-4.png);
+	background-image: url(/menu/small-2.png);
 	background-position: 0 0;
 }
 
@@ -857,7 +857,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 .menu-image:nth-child(4) .image {
-	background-image: url(/menu/small-2.png);
+	background-image: url(/menu/small-4.png);
 	background-position: 0 0;
 }
 
@@ -866,7 +866,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 .menu-image:nth-child(5) .image {
-	background-image: url(/menu/small-6.png);
+	background-image: url(/menu/small-5.png);
 	background-position: 0 0;
 }
 
@@ -875,7 +875,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 .menu-image:nth-child(6) .image {
-	background-image: url(/menu/small-7.png);
+	background-image: url(/menu/small-6.png);
 	background-position: 0 0;
 }
 
@@ -884,7 +884,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 .menu-image:nth-child(7) .image {
-	background-image: url(/menu/small-8.png);
+	background-image: url(/menu/small-7.png);
 	background-position: 0 0;
 }
 
@@ -893,7 +893,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 .menu-image:nth-child(8) .image {
-	background-image: url(/menu/small-10.png);
+	background-image: url(/menu/small-8.png);
 	background-position: 0 0;
 }
 
@@ -911,7 +911,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 .menu-image:nth-child(10) .image {
-	background-image: url(/menu/small-5.png);
+	background-image: url(/menu/small-10.png);
 	background-position: 0 0;
 }
 
@@ -946,13 +946,6 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 .fancybox-inner h2 {
 	font-size: 23px;
-}
-
-p.price {
-	position:absolute;
-	font-size: 70px;
-	margin: 600px 0 0 35px;
-	font-weight: bold;
 }
 
 p.weight {
