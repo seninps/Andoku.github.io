@@ -935,6 +935,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 #product-1 .product-image {
 	background-image: url(/menu/1/main.png);
+	background-position: center center;
 }
 
 .fancybox-inner .small {
