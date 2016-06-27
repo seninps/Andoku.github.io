@@ -229,19 +229,19 @@ $(document).ready(function() {
 			padding : 4,
 			margin  : 20,
 
-			width     : 800,
-			height    : 600,
+			width     : 1020,
+			height    : 650,
 			minWidth  : 100,
 			minHeight : 100,
 			maxWidth  : 9999,
 			maxHeight : 9999,
 			pixelRatio: 1, // Set to 2 for retina display support
 
-			autoSize   : true,
+			autoSize   : false,
 			autoHeight : false,
 			autoWidth  : false,
 
-			autoResize  : true,
+			autoResize  : false,
 			autoCenter  : !isTouch,
 			fitToView   : true,
 			aspectRatio : false,
