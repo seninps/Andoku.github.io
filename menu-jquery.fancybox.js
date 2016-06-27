@@ -232,7 +232,7 @@ $(document).ready(function() {
 			width     : 1020,
 			height    : 600,
 			minWidth  : 1020,
-			minHeight : 650,
+			minHeight : 600,
 			maxWidth  : 9999,
 			maxHeight : 9999,
 			pixelRatio: 1, // Set to 2 for retina display support
