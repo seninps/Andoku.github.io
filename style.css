@@ -934,7 +934,8 @@ input[type="text"]:focus, input[type="email"]:focus {
 	background-repeat: no-repeat;
 }
 
-#product-1 .small {
+
+#menu .small {
 	width: 140px;
 	height: 140px;
 	padding: 0 5px;
@@ -942,8 +943,20 @@ input[type="text"]:focus, input[type="email"]:focus {
 	border: 2px solid #ffffff;
 }
 
-#product-1 .small:hover {
+#menu .small:hover {
 	border: 2px solid #6383A8;
+}
+
+#product-1 .small.main {
+	background-image: url(/menu/1/small-main.jpg);
+}
+
+#product-1 .small.content {
+	background-image: url(/menu/1/small-content.jpg);
+}
+
+#product-1 .small.vitamins {
+	background-image: url(/menu/1/small-vitamins.jpg);
 }
 
 #product-1, #product-2, #product-3, #product-4, #product-5, #product-6, #product-7, #product-8, #product-9, #product-10 {
