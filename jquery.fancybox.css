@@ -148,7 +148,7 @@
 .fancybox-next span {
 	right: 10px;
 	background-position: 0 -72px;
-	margin: -115px -15px 0 0;
+	margin-top: -115px;
 }
 
 .fancybox-nav:hover span {
