@@ -3,8 +3,8 @@
 }
 
 .left-button {
-	display:block;
-    	position: absolute;
+	display: block;
+    	position: fixed;
     	right: 5%;
     	bottom: 5%;
 }
@@ -195,7 +195,7 @@ h2 {
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 10px;
     left: 10px;
 }
