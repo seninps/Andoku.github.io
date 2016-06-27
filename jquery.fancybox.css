@@ -125,8 +125,12 @@
 
 .fancybox-next {
 	right: 0;
+}
+
+body.menu {
 	top: 30%;
 	height: 70%;
+	
 }
 
 .fancybox-nav span {
@@ -148,6 +152,10 @@
 .fancybox-next span {
 	right: 10px;
 	background-position: 0 -72px;
+	margin-top: -115px;
+}
+
+body.menu {
 	margin-top: -115px;
 }
 
