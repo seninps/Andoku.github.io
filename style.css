@@ -937,16 +937,15 @@ input[type="text"]:focus, input[type="email"]:focus {
 	background-image: url(/menu/1/main.png);
 }
 
-
-#menu .small {
+.fancybox-inner .small {
 	width: 140px;
 	height: 140px;
-	padding: 0 5px;
+	margin: 50px 0 20px 0;
 	display: inline-block;
 	border: 2px solid #ffffff;
 }
 
-#menu .small:hover {
+.fancybox-inner .small:hover {
 	border: 2px solid #6383A8;
 }
 
