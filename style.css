@@ -928,13 +928,13 @@ input[type="text"]:focus, input[type="email"]:focus {
 .product-image {
 	float: left;
 	margin-right: 20px;
-	width: 479px;
-	height: 700px;
+	width: 528px;
+	height: 773px;
 	background-repeat: no-repeat;
 }
 
 #product-1 .product-image {
-	background-image: url(/menu/1/main.png);
+	background-image: url(/menu/1/main-new.png);
 	background-position: center center;
 }
 
@@ -963,9 +963,9 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 #product-1, #product-2, #product-3, #product-4, #product-5, #product-6, #product-7, #product-8, #product-9, #product-10 {
-	height: 700px;
+	height: 773px;
 	display: none;
-	width: 950px;
+	width: 1000px;
 	padding-right: 20px;
 }
 
