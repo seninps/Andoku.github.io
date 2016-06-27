@@ -230,7 +230,7 @@ $(document).ready(function() {
 			margin  : 20,
 
 			width     : 1020,
-			height    : 650,
+			height    : 600,
 			minWidth  : 1020,
 			minHeight : 650,
 			maxWidth  : 9999,
