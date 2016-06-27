@@ -15,7 +15,7 @@ document.ready = function() {
 	});
 	
 	$("#product-1 .main").hover(function(){
-		$("#product-1 .product-image").css("background-image", "url(/menu/1/main.jpg)");
+		$("#product-1 .product-image").css("background-image", "url(/menu/1/main.png)");
 	});
   	
   });
