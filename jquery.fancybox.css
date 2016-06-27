@@ -127,7 +127,7 @@
 	right: 0;
 }
 
-body.page-menu {
+body.page-menu .fancybox-next {
 	top: 30%;
 	height: 70%;
 	
@@ -155,7 +155,7 @@ body.page-menu {
 	margin-top: -115px;
 }
 
-body.menu {
+body.menu .fancybox-next span {
 	margin-top: -115px;
 }
 
