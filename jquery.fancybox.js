@@ -28,7 +28,7 @@ $(document).ready(function() {
 						type : 'outside'
 					},
 					overlay : {
-						speedOut : 0
+						locked: false
 					}
 				}
 			});
