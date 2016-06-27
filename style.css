@@ -938,6 +938,51 @@ input[type="text"]:focus, input[type="email"]:focus {
 	background-position: center center;
 }
 
+#product-2 .product-image {
+	background-image: url(/menu/2/main.png);
+	background-position: center center;
+}
+
+#product-3 .product-image {
+	background-image: url(/menu/3/main.png);
+	background-position: center center;
+}
+
+#product-4 .product-image {
+	background-image: url(/menu/4/main.png);
+	background-position: center center;
+}
+
+#product-5 .product-image {
+	background-image: url(/menu/5/main.png);
+	background-position: center center;
+}
+
+#product-6 .product-image {
+	background-image: url(/menu/6/main.png);
+	background-position: center center;
+}
+
+#product-7 .product-image {
+	background-image: url(/menu/7/main.png);
+	background-position: center center;
+}
+
+#product-8 .product-image {
+	background-image: url(/menu/8/main.png);
+	background-position: center center;
+}
+
+#product-9 .product-image {
+	background-image: url(/menu/9/main.png);
+	background-position: center center;
+}
+
+#product-10 .product-image {
+	background-image: url(/menu/10/main.png);
+	background-position: center center;
+}
+
 .fancybox-inner .small {
 	width: 140px;
 	height: 140px;
@@ -960,6 +1005,78 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 #product-1 .small.vitamins {
 	background-image: url(/menu/1/small-vitamins.jpg);
+}
+
+#product-3 .small.main {
+	background-image: url(/menu/3/small-main.jpg);
+}
+
+#product-3 .small.content {
+	background-image: url(/menu/3/small-content.jpg);
+}
+
+#product-3 .small.vitamins {
+	background-image: url(/menu/3/small-vitamins.jpg);
+}
+
+#product-4 .small.main {
+	background-image: url(/menu/4/small-main.jpg);
+}
+
+#product-4 .small.content {
+	background-image: url(/menu/4/small-content.jpg);
+}
+
+#product-4 .small.vitamins {
+	background-image: url(/menu/4/small-vitamins.jpg);
+}
+
+#product-5 .small.main {
+	background-image: url(/menu/5/small-main.jpg);
+}
+
+#product-5 .small.content {
+	background-image: url(/menu/5/small-content.jpg);
+}
+
+#product-5 .small.vitamins {
+	background-image: url(/menu/5/small-vitamins.jpg);
+}
+
+#product-6 .small.main {
+	background-image: url(/menu/6/small-main.jpg);
+}
+
+#product-6 .small.content {
+	background-image: url(/menu/6/small-content.jpg);
+}
+
+#product-6 .small.vitamins {
+	background-image: url(/menu/6/small-vitamins.jpg);
+}
+
+#product-8 .small.main {
+	background-image: url(/menu/9/small-main.jpg);
+}
+
+#product-8 .small.content {
+	background-image: url(/menu/9/small-content.jpg);
+}
+
+#product-8 .small.vitamins {
+	background-image: url(/menu/9/small-vitamins.jpg);
+}
+
+#product-10 .small.main {
+	background-image: url(/menu/10/small-main.jpg);
+}
+
+#product-10 .small.content {
+	background-image: url(/menu/10/small-content.jpg);
+}
+
+#product-10 .small.vitamins {
+	background-image: url(/menu/10/small-vitamins.jpg);
 }
 
 #product-1, #product-2, #product-3, #product-4, #product-5, #product-6, #product-7, #product-8, #product-9, #product-10 {
