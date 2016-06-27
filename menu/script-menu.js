@@ -6,7 +6,7 @@ document.ready = function() {
 			$(".close-icon").hide();
 	});
 	
-	$("#product-1 .content").hover(function(){
+	/*$("#product-1 .content").hover(function(){
 		$("product-image").css(("background-color", "url(/menu/1/content.jpg)");
 	});
 	
@@ -16,7 +16,7 @@ document.ready = function() {
 	
 	$("#product-1 .main").hover(function(){
 		$("product-image").css("background-color", "url(/menu/1/main.jpg)");
-	});
+	});*/
   	
   });
   
