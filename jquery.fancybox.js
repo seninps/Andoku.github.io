@@ -237,11 +237,11 @@ $(document).ready(function() {
 			maxHeight : 9999,
 			pixelRatio: 1, // Set to 2 for retina display support
 
-			autoSize   : false,
+			autoSize   : true,
 			autoHeight : false,
 			autoWidth  : false,
 
-			autoResize  : false,
+			autoResize  : true,
 			autoCenter  : !isTouch,
 			fitToView   : true,
 			aspectRatio : false,
