@@ -231,17 +231,17 @@ $(document).ready(function() {
 
 			width     : 1020,
 			height    : 650,
-			minWidth  : 100,
-			minHeight : 100,
+			minWidth  : 1020,
+			minHeight : 650,
 			maxWidth  : 9999,
 			maxHeight : 9999,
 			pixelRatio: 1, // Set to 2 for retina display support
 
-			autoSize   : false,
+			autoSize   : true,
 			autoHeight : false,
 			autoWidth  : false,
 
-			autoResize  : false,
+			autoResize  : true,
 			autoCenter  : !isTouch,
 			fitToView   : true,
 			aspectRatio : false,
