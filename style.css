@@ -485,7 +485,8 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 #social {
-	min-height: 360px;	
+	min-height: 400px;	
+	min-width: 900px;
 }
 
 #social #popup {
@@ -775,10 +776,11 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 #photo {
 	min-height: 1040px;
+	min-width: 1250px;
 }
 
 #photo #popup {
-    width: 1350px;
+    width: 1250px;
     height: 940px;
 }
 
@@ -801,6 +803,11 @@ input[type="text"]:focus, input[type="email"]:focus {
 #menu #popup {
 	height: 1000px;
 	width: 1050px;
+}
+
+#question {
+	min-height: 553px;
+	min-width: 850px;
 }
 
 #question #popup {
