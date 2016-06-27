@@ -939,7 +939,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 #product-2 .product-image {
-	background-image: url(/menu/2/main.png);
+	background-image: url(/menu/2.png);
 	background-position: center center;
 }
 
@@ -964,7 +964,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 #product-7 .product-image {
-	background-image: url(/menu/7/main.png);
+	background-image: url(/menu/7.png);
 	background-position: center center;
 }
 
@@ -974,7 +974,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 #product-9 .product-image {
-	background-image: url(/menu/9/main.png);
+	background-image: url(/menu/9.png);
 	background-position: center center;
 }
 
