@@ -110,7 +110,7 @@
 .fancybox-nav {
 	position: absolute;
 	top: 0;
-	width: 3%;
+	width: 40%;
 	height: 100%;
 	cursor: pointer;
 	text-decoration: none;
@@ -125,6 +125,8 @@
 
 .fancybox-next {
 	right: 0;
+	top: 30%;
+	height: 70%;
 }
 
 .fancybox-nav span {
@@ -146,6 +148,7 @@
 .fancybox-next span {
 	right: 10px;
 	background-position: 0 -72px;
+	margin: -115px -15px 0 0;
 }
 
 .fancybox-nav:hover span {
