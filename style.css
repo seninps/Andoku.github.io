@@ -930,7 +930,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 	margin-right: 20px;
 }
 
-#product-1 {
+#product-1, #product-2, #product-3, #product-4, #product-5, #product-6, #product-7, #product-8, #product-9, #product-10 {
 	height: 700px;
 	display: none;
 	width: 950px;
