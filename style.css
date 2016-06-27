@@ -775,7 +775,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 #photo {
-	min-height: 1040px;
+	min-height: 1150px;
 	min-width: 1250px;
 }
 
