@@ -582,7 +582,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 #product {
 	min-height: 800px;
-	min-width: 1220px;
+	min-width: 1080px;
 	background-size: cover;
 }
 
@@ -758,8 +758,13 @@ input[type="text"]:focus, input[type="email"]:focus {
 	min-width: 1220px;
 }
 
-#about #popup, #product #popup {
+#about #popup {
 	width: 740px;
+    	padding: 20px;
+}
+
+#product #popup {
+	width: 650px;
     	padding: 20px;
 }
 
