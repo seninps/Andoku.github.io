@@ -89,6 +89,7 @@ myBlurFunction2 = function(state) {
         document.getElementById('question').style.display='none';
         document.getElementById('background').style.display='none';
         document.getElementById('product-background').style.display='none';
+        ytplayer.playVideo();
     }
 	
     /* state can be 1 or 0 
