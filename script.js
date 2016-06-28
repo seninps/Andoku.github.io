@@ -82,15 +82,20 @@ myBlurFunction2 = function(state) {
         document.getElementById('question').style.display='block';
         document.getElementById('background').style.display='block';
     } else {
-        document.getElementById('blur-div').className='';
-        document.getElementById('social').style.display='none';
-        document.getElementById('delivery').style.display='none';
-        document.getElementById('about').style.display='none';
-        document.getElementById('product').style.display='none';
-        document.getElementById('photo').style.display='none';
-        document.getElementById('question').style.display='none';
-        document.getElementById('background').style.display='none';
-        document.getElementById('product-background').style.display='none';
+    	if (document.getElementById('product-background').className=='') {
+	        document.getElementById('blur-div').className='';
+	        document.getElementById('social').style.display='none';
+	        document.getElementById('delivery').style.display='none';
+	        document.getElementById('photo').style.display='none';
+	        document.getElementById('question').style.display='none';
+	        document.getElementById('background').style.display='none';
+    	} else {
+    		if (document.getElementById(document.getElementById('product-background').className).style.display=='none') document.getElementById(document.getElementById('product-background').className).style.display=='block';
+    		else {
+    			document.getElementById(document.getElementById('product-background').className).style.display=='none';
+    			document.getElementById('product-background').className='';
+    		}
+    	}
     }
 	
     /* state can be 1 or 0 
