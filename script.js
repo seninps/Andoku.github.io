@@ -90,10 +90,10 @@ myBlurFunction2 = function(state) {
 	        document.getElementById('question').style.display='none';
 	        document.getElementById('background').style.display='none';
     	} else {
-    		if (document.getElementById('about').style.display=='none' && document.getElementById('about').style.display=='none') document.getElementById('product-background').className=='';
+    		if (document.getElementById('about').style.display=='none' && document.getElementById('product').style.display=='none') document.getElementById('product-background').className=='';
     		else {
     			if (document.getElementById('product-background').className=='about') document.getElementById('about').style.display=='block';
-    			if (document.getElementById('product-background').className=='product') document.getElementById('about').style.display=='block';
+    			if (document.getElementById('product-background').className=='product') document.getElementById('product').style.display=='block';
     		}
     	}
     }
