@@ -91,12 +91,19 @@ myBlurFunction2 = function(state) {
 	        document.getElementById('background').style.display='none';
     	} else {
     		if (document.getElementById('about').style.display=='none' && document.getElementById('product').style.display=='none') {
-    			if (document.getElementById('product-background').className=='about') document.getElementById('about').style.display='block';
-    			if (document.getElementById('product-background').className=='product') document.getElementById('product').style.display='block';
+    			if (document.getElementById('product-background').className=='about') {
+    				document.getElementById('about').style.display='block';
+    				document.getElementById('product-background').style.display='block';
+    			};
+    			if (document.getElementById('product-background').className=='product') { 
+    				document.getElementById('product').style.display='block';
+    				document.getElementById('product-background').style.display='block';
+    			}
     		} else {
     			if (document.getElementById('about').style.display=='block') {
     				document.getElementById('about').style.display='none';
     				document.getElementById('product-background').className='';
+    				
     			}
     			if (document.getElementById('product').style.display=='block') {
     				document.getElementById('product').style.display='none';
