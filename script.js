@@ -220,16 +220,16 @@ hide = function(type) {
 	if (type == 'principles') {
 		if (text.style.display == 'none') {
 			text.style.display = 'block';
-			if (document.getElementById('price').style.display == 'block') document.getElementById('popup').style.height='922px';
-			else document.getElementById('popup').style.height='850px';
+			if (document.getElementById('price').style.display == 'block') document.getElementById('popup').style.height='850px';
+			else document.getElementById('popup').style.height='778px';
 			/*document.getElementById('popup').className = document.getElementById('about').offsetheight;*/
 			height = document.getElementById('about').offsetHeight + 192;
 			document.getElementById('about').style.height = height + 'px';
 			/*if (document.getElementById('about').offsetHeight < '1010') document.getElementById('about').style.height='1010px';*/
 		} else {
 			text.style.display = 'none';
-			if (document.getElementById('price').style.display == 'block') document.getElementById('popup').style.height='730px';
-			else document.getElementById('popup').style.height='658px';
+			if (document.getElementById('price').style.display == 'block') document.getElementById('popup').style.height='658px';
+			else document.getElementById('popup').style.height='586px';
 			height = document.getElementById('about').offsetHeight - 192;
 			document.getElementById('about').style.height = height + 'px';
 			
@@ -239,16 +239,16 @@ hide = function(type) {
 	if (type == 'price') {
 		if (text.style.display == 'none') {
 			text.style.display = 'block';
-			if (document.getElementById('principles').style.display == 'block') document.getElementById('popup').style.height='922px';
-			else document.getElementById('popup').style.height='730px';
+			if (document.getElementById('principles').style.display == 'block') document.getElementById('popup').style.height='850px';
+			else document.getElementById('popup').style.height='658px';
 			/*document.getElementById('popup').className = document.getElementById('about').offsetheight;*/
 			height = document.getElementById('about').offsetHeight + 72;
 			document.getElementById('about').style.height = height + 'px';
 			/*if (document.getElementById('about').offsetHeight < '1010') document.getElementById('about').style.height='1010px';*/
 		} else {
 			text.style.display = 'none';
-			if (document.getElementById('principles').style.display == 'block') document.getElementById('popup').style.height='850px';
-			else document.getElementById('popup').style.height='658px';
+			if (document.getElementById('principles').style.display == 'block') document.getElementById('popup').style.height='778px';
+			else document.getElementById('popup').style.height='586px';
 			height = document.getElementById('about').offsetHeight - 72;
 			document.getElementById('about').style.height = height + 'px';
 			
