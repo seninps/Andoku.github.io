@@ -126,6 +126,10 @@ myBlurFunction2 = function(state) {
 };*/
 
 document.ready = function() {
+	
+	document.getElementById('about').style.display='none';
+	document.getElementById('product').style.display='none';
+	
 	$(document).ready(function(){
 		$(".why-we-image").addClass("active");
 		
