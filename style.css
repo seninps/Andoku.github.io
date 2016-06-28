@@ -765,6 +765,8 @@ input[type="text"]:focus, input[type="email"]:focus {
 #about #popup {
 	width: 740px;
     	padding: 20px;
+    	margin: auto 0;
+    	left: 20%;
 }
 
 #product #popup {
