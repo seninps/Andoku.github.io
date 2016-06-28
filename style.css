@@ -157,6 +157,10 @@
     top: 40px;
 }
 
+#product .header, #about .header {
+	right: 10%;
+}
+
 h1 {
     font-family: "TexGyreHeros", "Helvetica Neue", Verdana, Arial, sans-serif;
     font-size: 38px;
