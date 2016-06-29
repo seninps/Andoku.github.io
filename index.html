@@ -93,7 +93,10 @@
     var atts = { id: "myytplayer" };
     swfobject.embedSWF("http://www.youtube.com/v/zqW380RZsnE?enablejsapi=1&playerapiid=ytplayer&version=3",
                        "ytapiplayer", "560", "315", "8", null, null, params, atts);
-                       ytapiplayer.setPlaybackQuality("hd720");
+                       
+          document.ready = function() { 
+          	player.setPlaybackQuality("hd720");
+          }
 
   </script>
 			</div>
