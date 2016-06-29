@@ -24,6 +24,7 @@ myBlurFunction2 = function(state) {
     		document.getElementById('about').style.display='none';
     		document.getElementById('product-background').style.display='none';
         	document.getElementById('product-background').className='about';
+        	player.pauseVideo();
     	};
         document.getElementById('blur-div').className='alerting-1';
         document.getElementById('social').style.display='block';
@@ -38,6 +39,7 @@ myBlurFunction2 = function(state) {
     		document.getElementById('about').style.display='none';
     		document.getElementById('product-background').style.display='none';
         	document.getElementById('product-background').className='about';
+        	player.pauseVideo();
     	};
         document.getElementById('blur-div').className='alerting-1';
         document.getElementById('delivery').style.display='block';
@@ -59,6 +61,7 @@ myBlurFunction2 = function(state) {
     		document.getElementById('about').style.display='none';
     		document.getElementById('product-background').style.display='none';
         	document.getElementById('product-background').className='';
+        	player.pauseVideo();
     	};
         document.getElementById('product').style.display='block';
         document.getElementById('product-background').style.display='block';
@@ -73,6 +76,7 @@ myBlurFunction2 = function(state) {
     		document.getElementById('about').style.display='none';
     		document.getElementById('product-background').style.display='none';
         	document.getElementById('product-background').className='about';
+        	player.pauseVideo();
     	};
         document.getElementById('blur-div').className='alerting';
         document.getElementById('photo').style.display='block';
@@ -87,6 +91,7 @@ myBlurFunction2 = function(state) {
     		document.getElementById('about').style.display='none';
         	document.getElementById('product-background').className='about';
     		document.getElementById('product-background').style.display='none';
+    		player.pauseVideo();
     	};
         document.getElementById('blur-div').className='alerting';
         document.getElementById('question').style.display='block';
@@ -115,6 +120,7 @@ myBlurFunction2 = function(state) {
 	    			document.getElementById('about').style.display='none';
 	    			document.getElementById('product-background').className='';
 	    			document.getElementById('product-background').style.display='none';
+	    			player.pauseVideo();
 	    		};
 	    		if (document.getElementById('product').style.display=='block') {
 	    			document.getElementById('product').style.display='none';
@@ -132,6 +138,7 @@ myBlurFunction2 = function(state) {
 	    		document.getElementById('about').style.display='none';
 	    		document.getElementById('product-background').style.display='none';
 	        	document.getElementById('product-background').className='about';
+	        	player.pauseVideo();
 	    	};
 	}
     }
@@ -163,14 +170,16 @@ myBlurFunction2 = function(state) {
 	}
 };*/
 
+
+
 document.ready = function() {
 	
 	document.getElementById('about').style.display='none';
 	document.getElementById('product').style.display='none';
 	
-	$(".close-icon").click(function() {
+	/*$(".close-icon").click(function() {
 		player.pauseVideo();
-	});
+	});*/
 
 	
 	$(document).ready(function(){
@@ -360,6 +369,7 @@ document.onclick = function() {
 	    			document.getElementById('about').style.display='none';
 	    			document.getElementById('product-background').className='';
 	    			document.getElementById('product-background').style.display='none';
+	    			player.pauseVideo();
 	    		}
 	    		if (document.getElementById('product').style.display=='block') {
 	    			document.getElementById('product').style.display='none';
