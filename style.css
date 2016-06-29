@@ -798,8 +798,12 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 #about .hide {
 	font-weight: bold;
-	color: #f9e588;
+	color: #f5f5f5;
 	text-decoration: none;
+}
+
+#about .hide:hover {
+	color: #f9e588;
 }
 
 #photo {
