@@ -83,11 +83,17 @@
 				</div>
 				
 				<script type="text/javascript" src="swfobject.js"></script>
-  <iframe id="player" type="text/html" width="560" height="315"
-  src="http://www.youtube.com/embed/zqW380RZsnE?enablejsapi=1&origin=http://andoku.github.io"
-  frameborder="0"></iframe>
+  <!-- <iframe id="player" type="text/html" width="560" height="315"
+ src="http://www.youtube.com/embed/zqW380RZsnE?enablejsapi=1&origin=http://andoku.github.io"
+ frameborder="0"></iframe>-->
+ <div id="player"></div>
 
   <script type="text/javascript">
+  var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
     var player;
 function onYouTubeIframeAPIReady() {
