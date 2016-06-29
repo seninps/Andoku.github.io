@@ -91,6 +91,10 @@
 	margin-left: 20px;	
 }
 
+#delivery .close-icon, #social .close-icon {
+	cursor: pointer;
+}
+
 /* .rectangular-button {
     display: inline-block;
     font: menu;
