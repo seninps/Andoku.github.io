@@ -508,11 +508,11 @@ input[type="text"]:focus, input[type="email"]:focus {
 #delivery {
 	min-width: 860px;
 	min-height: 600px;
-    	font-family: calibri;
 }
 
 #delivery .phone p {
 	margin: 0;
+    	font-family: calibri;
 }
 
 #delivery #popup {
@@ -522,6 +522,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 #delivery #popup p {
 	margin: 25px;
+    	font-family: calibri;
 }
 
 #delivery #popup p:nth-child(1) {
