@@ -83,20 +83,20 @@
 				</div>
 				
 				<script type="text/javascript" src="swfobject.js"></script>
-  <div id="ytapiplayer">
-    You need Flash player 8+ and JavaScript enabled to view this video.
-  </div>
+  <iframe id="player" type="text/html" width="640" height="390"
+  src="http://www.youtube.com/embed/zqW380RZsnEE?enablejsapi=1&origin=http://andoku.github.io"
+  frameborder="0"></iframe>
 
   <script type="text/javascript">
 
-    var params = { allowScriptAccess: "always" };
-    var atts = { id: "myytplayer" };
-    swfobject.embedSWF("http://www.youtube.com/v/zqW380RZsnE?enablejsapi=1&playerapiid=ytplayer&version=3",
-                       "ytapiplayer", "560", "315", "8", null, null, params, atts);
-                       
-          document.ready = function() { 
-          	player.setPlaybackQuality("hd720");
-          }
+    var player;
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player('player', {
+    height: '560',
+    width: '315',
+    videoId: 'zqW380RZsnEE'
+  });
+}
 
   </script>
 			</div>
