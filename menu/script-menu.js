@@ -18,6 +18,18 @@ document.ready = function() {
 		$("#product-1 .product-image").css("background-image", "url(/menu/1/main.png)");
 	});
 	
+	$("#product-2 .content").hover(function(){
+		$("#product-2 .product-image").css("background-image", "url(/menu/2/content.jpg)");
+	});
+	
+	$("#product-2 .vitamins").hover(function(){
+		$("#product-2 .product-image").css("background-image", "url(/menu/2/vitamins.jpg)");
+	});
+	
+	$("#product-2 .main").hover(function(){
+		$("#product-2 .product-image").css("background-image", "url(/menu/2/main.png)");
+	});
+	
 	$("#product-3 .content").hover(function(){
 		$("#product-3 .product-image").css("background-image", "url(/menu/3/content.jpg)");
 	});
