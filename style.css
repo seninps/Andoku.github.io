@@ -799,12 +799,12 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 #about .hide {
 	font-weight: bold;
-	color: #f5f5f5;
+	color: #f9e588;
 	text-decoration: none;
 }
 
 #about .hide:hover {
-	color: #f9e588;
+	color: #ffa54f;
 	text-decoration: underline;
 }
 
