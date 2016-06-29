@@ -980,7 +980,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 #product-2 .product-image {
-	background-image: url(/menu/2.png);
+	background-image: url(/menu/2/main.png);
 	background-position: center center;
 }
 
@@ -1046,6 +1046,18 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 #product-1 .small.vitamins {
 	background-image: url(/menu/1/small-vitamins.jpg);
+}
+
+#product-2 .small.main {
+	background-image: url(/menu/2/small-main.jpg);
+}
+
+#product-2 .small.content {
+	background-image: url(/menu/2/small-content.jpg);
+}
+
+#product-2 .small.vitamins {
+	background-image: url(/menu/2/small-vitamins.jpg);
 }
 
 #product-3 .small.main {
@@ -1138,7 +1150,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 	margin-top: 0px;
 }
 
-#product-2 p, #product-7 p, #product-9 p {
+#product-7 p, #product-9 p {
 	padding-top: 180px;
 	font-size: 24px;
 }
