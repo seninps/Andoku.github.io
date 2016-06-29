@@ -804,6 +804,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 #about .hide:hover {
 	color: #f9e588;
+	text-decoration: underline;
 }
 
 #photo {
