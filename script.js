@@ -53,7 +53,7 @@ myBlurFunction2 = function(state) {
         document.getElementById('price').style.display='none';
         document.getElementById('popup').style.height='586px';
         document.getElementById('product-background').style.display='block';
-        document.getElementById('product-background').className='about';
+        document.getElementById('product-background').className='';
     } else if (state == 4) {
     	if (document.getElementById('about').style.display='block') {
     		document.getElementById('about').style.display='none';
@@ -62,7 +62,7 @@ myBlurFunction2 = function(state) {
     	};
         document.getElementById('product').style.display='block';
         document.getElementById('product-background').style.display='block';
-        document.getElementById('product-background').className='product';
+        document.getElementById('product-background').className='';
     } else if (state == 5) {
     	if (document.getElementById('product').style.display='block') {
     		document.getElementById('product').style.display='none';
