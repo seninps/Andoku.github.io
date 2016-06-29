@@ -168,6 +168,11 @@ document.ready = function() {
 	document.getElementById('about').style.display='none';
 	document.getElementById('product').style.display='none';
 	
+	$(".close-icon").click(function() {
+		player.pauseVideo();
+	});
+
+	
 	$(document).ready(function(){
 		$(".why-we-image").addClass("active");
 		
