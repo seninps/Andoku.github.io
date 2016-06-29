@@ -808,6 +808,10 @@ input[type="text"]:focus, input[type="email"]:focus {
 	text-decoration: underline;
 }
 
+#about .price {
+	margin-top: -1em;
+}
+
 #photo {
 	min-height: 1150px;
 	min-width: 1250px;
