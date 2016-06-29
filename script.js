@@ -103,22 +103,22 @@ myBlurFunction2 = function(state) {
 	    		if (document.getElementById('product-background').className=='about') {
 	    			document.getElementById('about').style.display='block';
 	    			document.getElementById('product-background').style.display='block';
-	    			document.getElementById('product-background').className='111';
+	    			document.getElementById('product-background').className='';
 	    		};
 	    		if (document.getElementById('product-background').className=='product') { 
 	    			document.getElementById('product').style.display='block';
 	    			document.getElementById('product-background').style.display='block';
-	    			document.getElementById('product-background').className='2222';
+	    			document.getElementById('product-background').className='';
 	    		};
 	    	} else {
 	    		if (document.getElementById('about').style.display=='block') {
 	    			document.getElementById('about').style.display='none';
-	    			document.getElementById('product-background').className='3333';
+	    			document.getElementById('product-background').className='';
 	    			document.getElementById('product-background').style.display='none';
 	    		};
 	    		if (document.getElementById('product').style.display=='block') {
 	    			document.getElementById('product').style.display='none';
-	    			document.getElementById('product-background').className='44444';
+	    			document.getElementById('product-background').className='';
 	    			document.getElementById('product-background').style.display='none';
 	    		};
 	    	}
@@ -315,13 +315,11 @@ document.onclick = function() {
 	    			document.getElementById('about').style.display='none';
 	    			document.getElementById('product-background').className='';
 	    			document.getElementById('product-background').style.display='none';
-	    			document.getElementById('background').className='sssss';
 	    		}
 	    		if (document.getElementById('product').style.display=='block') {
 	    			document.getElementById('product').style.display='none';
 	    			document.getElementById('product-background').className='';
 	    			document.getElementById('product-background').style.display='none';
-	    			document.getElementById('background').className='ddddddd';
 	    		}
 	    	};
 		
