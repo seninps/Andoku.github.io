@@ -287,7 +287,7 @@ document.onclick = function() {
 		document.getElementById('social').style.display = 'none';
 		document.getElementById('background').style.display='none';
 		document.getElementById('blur-div').className='';
-	/*	if (document.getElementById('about').style.display=='none' && document.getElementById('product').style.display=='none') {
+		if (document.getElementById('about').style.display=='none' && document.getElementById('product').style.display=='none') {
 	    		if (document.getElementById('product-background').className=='about') {
 	    			document.getElementById('about').style.display='block';
 	    			document.getElementById('product-background').style.display='block';
@@ -307,14 +307,14 @@ document.onclick = function() {
 	    			document.getElementById('product-background').className='';
 	    			document.getElementById('product-background').style.display='none';
 	    		}
-	    	};*/
+	    	};
 		
 	};
 	if (document.getElementById('background').style.display=='block' && document.getElementById('delivery').style.display == 'block') {
 		document.getElementById('delivery').style.display = 'none';
 		document.getElementById('background').style.display='none';
 		document.getElementById('blur-div').className='';
-	/*	if (document.getElementById('about').style.display=='none' && document.getElementById('product').style.display=='none') {
+		if (document.getElementById('about').style.display=='none' && document.getElementById('product').style.display=='none') {
 	    		if (document.getElementById('product-background').className=='about') {
 	    			document.getElementById('about').style.display='block';
 	    			document.getElementById('product-background').style.display='block';
@@ -334,7 +334,7 @@ document.onclick = function() {
 	    			document.getElementById('product-background').className='';
 	    			document.getElementById('product-background').style.display='none';
 	    		}
-	    	};*/
+	    	};
 	}
 };
 
