@@ -18,10 +18,12 @@ myBlurFunction2 = function(state) {
     	if (document.getElementById('product').style.display='block') {
     		document.getElementById('product').style.display='none';
     		document.getElementById('product-background').style.display='none';
+    		document.getElementById('product-background').className='product';
     	};
     	if (document.getElementById('about').style.display='block') {
     		document.getElementById('about').style.display='none';
     		document.getElementById('product-background').style.display='none';
+    		document.getElementById('product-background').className='about';
     	};
         document.getElementById('blur-div').className='alerting-1';
         document.getElementById('social').style.display='block';
@@ -30,10 +32,12 @@ myBlurFunction2 = function(state) {
     	if (document.getElementById('product').style.display='block') {
     		document.getElementById('product').style.display='none';
     		document.getElementById('product-background').style.display='none';
+    		document.getElementById('product-background').className='product';
     	};
     	if (document.getElementById('about').style.display='block') {
     		document.getElementById('about').style.display='none';
     		document.getElementById('product-background').style.display='none';
+    		document.getElementById('product-background').className='about';
     	};
         document.getElementById('blur-div').className='alerting-1';
         document.getElementById('delivery').style.display='block';
@@ -42,6 +46,7 @@ myBlurFunction2 = function(state) {
     	if (document.getElementById('product').style.display='block') {
     		document.getElementById('product').style.display='none';
     		document.getElementById('product-background').style.display='none';
+    		document.getElementById('product-background').className='product';
     	};
         document.getElementById('about').style.display='block';
         document.getElementById('principles').style.display='none';
@@ -53,6 +58,7 @@ myBlurFunction2 = function(state) {
     	if (document.getElementById('about').style.display='block') {
     		document.getElementById('about').style.display='none';
     		document.getElementById('product-background').style.display='none';
+    		document.getElementById('product-background').className='about';
     	};
         document.getElementById('product').style.display='block';
         document.getElementById('product-background').style.display='block';
@@ -61,10 +67,12 @@ myBlurFunction2 = function(state) {
     	if (document.getElementById('product').style.display='block') {
     		document.getElementById('product').style.display='none';
     		document.getElementById('product-background').style.display='none';
+    		document.getElementById('product-background').className='product';
     	};
     	if (document.getElementById('about').style.display='block') {
     		document.getElementById('about').style.display='none';
     		document.getElementById('product-background').style.display='none';
+    		document.getElementById('product-background').className='about';
     	};
         document.getElementById('blur-div').className='alerting';
         document.getElementById('photo').style.display='block';
@@ -73,10 +81,12 @@ myBlurFunction2 = function(state) {
     	if (document.getElementById('product').style.display='block') {
     		document.getElementById('product').style.display='none';
     		document.getElementById('product-background').style.display='none';
+    		document.getElementById('product-background').className='product';
     	};
     	if (document.getElementById('about').style.display='block') {
     		document.getElementById('about').style.display='none';
     		document.getElementById('product-background').style.display='none';
+    		document.getElementById('product-background').className='about';
     	};
         document.getElementById('blur-div').className='alerting';
         document.getElementById('question').style.display='block';
@@ -92,20 +102,22 @@ myBlurFunction2 = function(state) {
     		if (document.getElementById('product-background').className=='about') {
     			document.getElementById('about').style.display='block';
     			document.getElementById('product-background').style.display='block';
+    			document.getElementById('product-background').className='';
     		};
     		if (document.getElementById('product-background').className=='product') { 
     			document.getElementById('product').style.display='block';
     			document.getElementById('product-background').style.display='block';
+    			document.getElementById('product-background').className='';
     		};
     	} else {
     		if (document.getElementById('about').style.display=='block') {
     			document.getElementById('about').style.display='none';
-    			document.getElementById('product-background').className='12';
+    			document.getElementById('product-background').className='';
     			document.getElementById('product-background').style.display='none';
     		};
     		if (document.getElementById('product').style.display=='block') {
     			document.getElementById('product').style.display='none';
-    			document.getElementById('product-background').className='34';
+    			document.getElementById('product-background').className='';
     			document.getElementById('product-background').style.display='none';
     		};
     	}
@@ -285,14 +297,16 @@ document.onclick = function() {
 		document.getElementById('social').style.display = 'none';
 		document.getElementById('background').style.display='none';
 		document.getElementById('blur-div').className='';
-	/*	if (document.getElementById('about').style.display=='none' && document.getElementById('product').style.display=='none') {
+		if (document.getElementById('about').style.display=='none' && document.getElementById('product').style.display=='none') {
 	    		if (document.getElementById('product-background').className=='about') {
 	    			document.getElementById('about').style.display='block';
 	    			document.getElementById('product-background').style.display='block';
+	    			document.getElementById('product-background').className='';
 	    		};
 	    		if (document.getElementById('product-background').className=='product') { 
 	    			document.getElementById('product').style.display='block';
 	    			document.getElementById('product-background').style.display='block';
+	    			document.getElementById('product-background').className='';
 	    		}
 	    	} else {
 	    		if (document.getElementById('about').style.display=='block') {
@@ -305,21 +319,23 @@ document.onclick = function() {
 	    			document.getElementById('product-background').className='';
 	    			document.getElementById('product-background').style.display='none';
 	    		}
-	    	};*/
+	    	};
 		
 	};
 	if (document.getElementById('background').style.display=='block' && document.getElementById('delivery').style.display == 'block') {
 		document.getElementById('delivery').style.display = 'none';
 		document.getElementById('background').style.display='none';
 		document.getElementById('blur-div').className='';
-	/*	if (document.getElementById('about').style.display=='none' && document.getElementById('product').style.display=='none') {
+		if (document.getElementById('about').style.display=='none' && document.getElementById('product').style.display=='none') {
 	    		if (document.getElementById('product-background').className=='about') {
 	    			document.getElementById('about').style.display='block';
 	    			document.getElementById('product-background').style.display='block';
+	    			document.getElementById('product-background').className='';
 	    		};
 	    		if (document.getElementById('product-background').className=='product') { 
 	    			document.getElementById('product').style.display='block';
 	    			document.getElementById('product-background').style.display='block';
+	    			document.getElementById('product-background').className='';
 	    		}
 	    	} else {
 	    		if (document.getElementById('about').style.display=='block') {
@@ -332,7 +348,7 @@ document.onclick = function() {
 	    			document.getElementById('product-background').className='';
 	    			document.getElementById('product-background').style.display='none';
 	    		}
-	    	};*/
+	    	};
 	}
 };
 
