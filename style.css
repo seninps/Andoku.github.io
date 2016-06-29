@@ -1142,11 +1142,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 #about p, #product p, #about li, #product li, #principles {
     text-align: justify;
     font-weight: normal;
-    font-size: 18px;
-}
-
-#about p, #about li, #principles {
-	font-size: 20px;
+    font-size: 20px;
 }
 
 #about p:nth-child(5) {
