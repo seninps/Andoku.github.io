@@ -122,6 +122,9 @@ myBlurFunction2 = function(state) {
 	    			document.getElementById('product-background').style.display='none';
 	    		};
 	    	}
+	} else {
+		document.getElementById('product').style.display='none';
+		document.getElementById('about').style.display='none';
 	}
     }
 	
