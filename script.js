@@ -123,8 +123,16 @@ myBlurFunction2 = function(state) {
 	    		};
 	    	}
 	} else {
-		document.getElementById('product').style.display='none';
-		document.getElementById('about').style.display='none';
+		if (document.getElementById('product').style.display=='block') {
+	    		document.getElementById('product').style.display='none';
+	    		document.getElementById('product-background').style.display='none';
+	        	document.getElementById('product-background').className='product';
+	    	};
+	    	if (document.getElementById('about').style.display=='block') {
+	    		document.getElementById('about').style.display='none';
+	    		document.getElementById('product-background').style.display='none';
+	        	document.getElementById('product-background').className='about';
+	    	};
 	}
     }
 	
