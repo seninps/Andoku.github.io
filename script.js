@@ -332,10 +332,12 @@ document.onclick = function() {
 	    		if (document.getElementById('product-background').className=='about') {
 	    			document.getElementById('about').style.display='block';
 	    			document.getElementById('product-background').style.display='block';
+	    			document.getElementById('product-background').className='';
 	    		};
 	    		if (document.getElementById('product-background').className=='product') { 
 	    			document.getElementById('product').style.display='block';
 	    			document.getElementById('product-background').style.display='block';
+	    			document.getElementById('product-background').className='';
 	    		}
 	    	} else {
 	    		if (document.getElementById('about').style.display=='block') {
