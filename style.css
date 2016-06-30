@@ -808,7 +808,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 	text-decoration: underline;
 }
 
-#about .price {
+#about #price {
 	margin-top: -1em;
 }
 
