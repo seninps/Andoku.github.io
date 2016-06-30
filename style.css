@@ -762,6 +762,10 @@ input[type="text"]:focus, input[type="email"]:focus {
 	margin: 0 auto;
 }
 
+.text-healthy p:nth-child(4) {
+	margin-top: 0;
+}
+
 #about {
 	min-height: 870px;
 	min-width: 1220px;
