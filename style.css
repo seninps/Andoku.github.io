@@ -1188,6 +1188,10 @@ input[type="text"]:focus, input[type="email"]:focus {
 	font-family: calibri;
 }
 
+.product-phone a {
+	color: #050505;
+}
+
 .product-information {
 	padding: 6px;
 	width: 418px;
