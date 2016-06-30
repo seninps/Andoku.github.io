@@ -1158,6 +1158,16 @@ input[type="text"]:focus, input[type="email"]:focus {
 	padding-top: 50px;
 }
 
+.product-phone {
+	position: absolute;
+	top:0;
+	right: 50px;
+	color: #050505;
+	font-size: 22px;
+	font-weight: 600;
+	font-family: calibri;
+}
+
 #about p, #product p, #about li, #product li, #principles {
     text-align: justify;
     font-weight: normal;
