@@ -1180,8 +1180,8 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 .product-phone {
 	position: absolute;
-	top:0;
-	right: 50px;
+	bottom: 10px;
+	right: 80px;
 	color: #050505;
 	font-size: 22px;
 	font-weight: 600;
@@ -1203,10 +1203,6 @@ input[type="text"]:focus, input[type="email"]:focus {
 	font-size: 20px;
 	font-family: calibri;
 	color: #666666;
-}
-
-.product-information p::first-line {
-	font-weight: bold;
 }
 
 #about p, #product p, #about li, #product li, #principles {
