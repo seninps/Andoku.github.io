@@ -78,6 +78,14 @@ document.ready = function() {
 		$("#product-6 .product-image").css("background-image", "url(/menu/6/main.png)");
 	});
 	
+	$("#product-7 .vitamins").hover(function(){
+		$("#product-7 .product-image").css("background-image", "url(/menu/7/vitamins.jpg)");
+	});
+	
+	$("#product-7 .main").hover(function(){
+		$("#product-7 .product-image").css("background-image", "url(/menu/7/main.png)");
+	});
+	
 	$("#product-8 .content").hover(function(){
 		$("#product-8 .product-image").css("background-image", "url(/menu/8/content.jpg)");
 	});
@@ -88,6 +96,18 @@ document.ready = function() {
 	
 	$("#product-8 .main").hover(function(){
 		$("#product-8 .product-image").css("background-image", "url(/menu/8/main.png)");
+	});
+	
+	$("#product-9 .content").hover(function(){
+		$("#product-9 .product-image").css("background-image", "url(/menu/9/content.jpg)");
+	});
+	
+	$("#product-9 .vitamins").hover(function(){
+		$("#product-9 .product-image").css("background-image", "url(/menu/9/vitamins.jpg)");
+	});
+	
+	$("#product-9 .main").hover(function(){
+		$("#product-9 .product-image").css("background-image", "url(/menu/9/main.png)");
 	});
 	
 	$("#product-10 .content").hover(function(){
