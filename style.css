@@ -1165,9 +1165,9 @@ input[type="text"]:focus, input[type="email"]:focus {
 	display: none;
 	width: 1000px;
 	padding-right: 20px;
-	background-image: url(/menu/menu-background.jpg);
+	/*background-image: url(/menu/menu-background.jpg);
 	background-repeat: no-repeat;
-	background-position: center right;
+	background-position: center right;*/
 }
 
 .fancybox-inner p {
