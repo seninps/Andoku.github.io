@@ -1155,7 +1155,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 #product-7 p, #product-9 p {
-	padding-top: 1em;
+	padding-top: 50px;
 }
 
 #about p, #product p, #about li, #product li, #principles {
