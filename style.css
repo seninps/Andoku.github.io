@@ -1190,6 +1190,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 .product-phone a {
 	color: #050505;
+	text-decoration: none;
 }
 
 .product-information {
