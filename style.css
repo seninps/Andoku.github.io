@@ -507,7 +507,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 #delivery {
 	min-width: 860px;
-	min-height: 600px;
+	min-height: 700px;
 }
 
 #delivery .phone p {
