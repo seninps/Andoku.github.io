@@ -20,7 +20,7 @@
 .social .button {
     width: 74px;
     height: 74px;
-    background-image: url('/img/social.png');
+    background-image: url('/img/social-1.png');
     background-position: 0 0;
 }
 
@@ -405,7 +405,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 .vk .social-block {
-	background-image: url(/img/vkontakte.png);
+	background-image: url(/img/vkontakte-1.png);
 	background-position: 0 0;
 }
 
@@ -423,7 +423,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 .fb .social-block {
-	background-image: url(/img/facebook.png);
+	background-image: url(/img/facebook-1.png);
 	background-position: 0 0;
 }
 
@@ -432,7 +432,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 .ig .social-block {
-	background-image: url(/img/instagram.png);
+	background-image: url(/img/instagram-1.png);
 	background-position: 0 0;
 }
 
