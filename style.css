@@ -180,7 +180,7 @@ h1 {
 	src: url(/fonts/bebasneue/bebasneue-webfont.eot) format('embedded-opentype');
 	src: url(/fonts/bebasneue/bebasneue-webfont.woff) format('woff');
 	src: url(/fonts/bebasneue/bebasneue-webfont.ttf) format('truetype');*/
-	src: url(/fonts/bebasneue/bebasneue-webfont.ttf);
+	src: url(/Svoboda.ttf);
 }
 
 @font-face {
