@@ -175,17 +175,17 @@ h1 {
 }
 
 @font-face {
-	font-family: Svoboda;
-	src: url(/Svoboda.ttf);
-}
-
-@font-face {
 	font-family: bebasneue;
 	/*src: url(/fonts/bebasneue/bebasneue-webfont.otf);
 	src: url(/fonts/bebasneue/bebasneue-webfont.eot) format('embedded-opentype');
 	src: url(/fonts/bebasneue/bebasneue-webfont.woff) format('woff');
 	src: url(/fonts/bebasneue/bebasneue-webfont.ttf) format('truetype');*/
 	src: url(/fonts/bebasneue/bebasneue-webfont.ttf);
+}
+
+@font-face {
+	font-family: Svoboda;
+	src: url(/Svoboda.ttf);
 }
 
 #question h1 {
