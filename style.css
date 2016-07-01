@@ -176,11 +176,10 @@ h1 {
 
 @font-face {
 	font-family: Bebas;
-	/*src: url(/fonts/bebasneue/bebasneue-webfont.otf);
-	src: url(/fonts/bebasneue/bebasneue-webfont.eot) format('embedded-opentype');
-	src: url(/fonts/bebasneue/bebasneue-webfont.woff) format('woff');
-	src: url(/fonts/bebasneue/bebasneue-webfont.ttf) format('truetype');*/
 	src: url(/Bebas.otf);
+	src: url(/Bebas.eot) format('embedded-opentype');
+	src: url(/Bebas.woff) format('woff');
+	src: url(/Bebas.ttf) format('truetype');
 }
 
 @font-face {
