@@ -181,10 +181,10 @@ h1 {
 
 @font-face {
 	font-family: bebasneue;
-	src: url('/fonts/bebasneue/bebasneue-webfont.otf');
-	src: url('/fonts/bebasneue/bebasneue-webfont.eot') format('embedded-opentype');
-        src: url('/fonts/bebasneue/bebasneue-webfont.woff') format('woff');
-        src: url('/fonts/bebasneue/bebasneue-webfont.ttf') format('truetype');
+	src: url(/fonts/bebasneue/bebasneue-webfont.otf);
+	src: url(/fonts/bebasneue/bebasneue-webfont.eot) format('embedded-opentype');
+        src: url(/fonts/bebasneue/bebasneue-webfont.woff) format('woff');
+        src: url(/fonts/bebasneue/bebasneue-webfont.ttf) format('truetype');
 }
 
 #question h1 {
