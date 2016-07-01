@@ -1246,7 +1246,9 @@ html,body {
 body {
     margin: 0;
     padding: 0;
-    background: #000;
+    background-image: url('/images/1.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 #blur-div {
