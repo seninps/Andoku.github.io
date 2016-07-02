@@ -305,6 +305,9 @@ input[type="text"]:focus, input[type="email"]:focus {
 	background-position: 0 0;
 	width: 147px;
 	height: 38px;
+	border: 0;
+	padding: 0;
+	background-color: inherit;
 }
 
 .send:hover {
