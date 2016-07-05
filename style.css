@@ -1244,7 +1244,8 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 #product-2 .product-information {
-	display: inline-block;	
+	display: inline-block;
+	margin-top: 20px;
 }
 
 .product-information :last-child {
