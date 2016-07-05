@@ -114,7 +114,7 @@ body.page-menu .fancybox-skin {
 .fancybox-nav {
 	position: absolute;
 	top: 0;
-	width: 20%;
+	/*width: 20%;*/
 	height: 100%;
 	cursor: pointer;
 	text-decoration: none;
