@@ -871,10 +871,6 @@ input[type="text"]:focus, input[type="email"]:focus {
 	margin: 10px;
 }
 
-.menu-image:nth-child(10) {
-	margin-right: 482px;
-}
-
 .menu-image a {
 	text-decoration: none;
 }
