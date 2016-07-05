@@ -132,8 +132,8 @@ document.ready = function() {
 	$(".small.desc").click(function(){
 		$(this).addClass("active");
 		$(this).siblings(".small.cont").removeClass("active");
-		$(this).siblings(".product-information").slideDown("fast");
 		$(this).siblings("img.cont").hide();
+		$(this).siblings(".product-information").slideDown("fast");
 	});
   	
   });
