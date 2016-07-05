@@ -133,7 +133,7 @@ document.ready = function() {
 		$(this).addClass("active");
 		$(this).siblings(".small.cont").removeClass("active");
 		$(this).siblings(".product-information").slideDown("fast");
-		$(this).siblings(".cont").hide();
+		$(this).siblings("img.cont").hide();
 	});
   	
   });
