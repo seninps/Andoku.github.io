@@ -6,7 +6,7 @@ document.ready = function() {
 			$(".close-icon").hide();
 	});
 	
-	$("#product-1 .content").hover(function(){
+	/*$("#product-1 .content").hover(function(){
 		$("#product-1 .product-image").css("background-image", "url(/menu/1/content-new.jpg)");
 	});
 	
@@ -120,6 +120,21 @@ document.ready = function() {
 	
 	$("#product-10 .main").hover(function(){
 		$("#product-10 .product-image").css("background-image", "url(/menu/10/main.png)");
+	});*/
+	
+	$(".small.cont").click(funtction(){
+		$(this).addClass("active");
+		$(this).siblings(".small.desc").removeClass("active");
+		$(this).siblings(".product-information").hide();
+		$(this).siblings(".cont").slideDown("fast");
+	});
+	
+	$(".small.desc").click(funtction(){
+		$(this).addClass("active");
+		$(this).siblings(".small.cont").removeClass("active");
+		$(this).siblings(".product-information").slideDown("fast");
+		$(this).siblings(".cont").hide();
+		$(this).siblings(".cont").slideDown("fast");
 	});
   	
   });
