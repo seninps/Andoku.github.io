@@ -122,7 +122,7 @@ document.ready = function() {
 		$("#product-10 .product-image").css("background-image", "url(/menu/10/main.png)");
 	});*/
 	
-	$(".small.cont").click(funtction(){
+	$(".small.cont").click(function(){
 		$(this).addClass("active");
 		$(this).siblings(".small.desc").removeClass("active");
 		$(this).siblings(".product-information").hide();
