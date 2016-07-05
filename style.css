@@ -1039,14 +1039,13 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 .fancybox-inner .small {
-	width: 140px;
-	height: 140px;
-	margin: 50px 0 20px 0;
-	display: inline-block;
-	border: 2px solid #ffffff;
+	width: 201px;
+	height: 61px;
+	margin: 20px auto;
+	/*border: 2px solid #ffffff;*/
 }
 
-.fancybox-inner .small:hover {
+/*.fancybox-inner .small:hover {
 	border: 2px solid #6383A8;
 }
 
@@ -1164,7 +1163,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 #product-10 .small.vitamins {
 	background-image: url(/menu/10/small-vitamins.jpg);
-}
+}*/
 
 #product-1, #product-2, #product-3, #product-4, #product-5, #product-6, #product-7, #product-8, #product-9, #product-10 {
 	height: 600px;
