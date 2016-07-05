@@ -134,7 +134,6 @@ document.ready = function() {
 		$(this).siblings(".small.cont").removeClass("active");
 		$(this).siblings(".product-information").slideDown("fast");
 		$(this).siblings(".cont").hide();
-		$(this).siblings(".cont").slideDown("fast");
 	});
   	
   });
