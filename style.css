@@ -1038,6 +1038,11 @@ input[type="text"]:focus, input[type="email"]:focus {
 	background-position: center center;
 }
 
+#product-11 .product-image {
+	background-image: url(/menu/11/main.png);
+	background-position: center center;
+}
+
 .fancybox-inner .small {
 	width: 201px;
 	height: 61px;
@@ -1165,7 +1170,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 	background-image: url(/menu/10/small-vitamins.jpg);
 }*/
 
-#product-1, #product-2, #product-3, #product-4, #product-5, #product-6, #product-7, #product-8, #product-9, #product-10 {
+#product-1, #product-2, #product-3, #product-4, #product-5, #product-6, #product-7, #product-8, #product-9, #product-10, #product-11 {
 	height: 600px;
 	display: none;
 	width: 1000px;
