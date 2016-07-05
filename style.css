@@ -1056,10 +1056,6 @@ input[type="text"]:focus, input[type="email"]:focus {
 	/*border: 2px solid #ffffff;*/
 }
 
-.small.desc.active {
-	background-position: 0 -122px;
-}
-
 .small.desc {
 	background-image: url('/menu/desc.png');
 	background-position: 0 0;
@@ -1069,10 +1065,9 @@ input[type="text"]:focus, input[type="email"]:focus {
 	background-position: 0 -61px;
 }
 
-.small.cont.active {
+.small.desc.active {
 	background-position: 0 -122px;
 }
-
 .small.cont {
 	background-image: url('/menu/cont.png');
 	background-position: 0 0;
@@ -1081,6 +1076,11 @@ input[type="text"]:focus, input[type="email"]:focus {
 .small.cont:hover {
 	background-position: 0 -61px;
 }
+
+.small.cont.active {
+	background-position: 0 -122px;
+}
+
 
 /*.fancybox-inner .small:hover {
 	border: 2px solid #6383A8;
