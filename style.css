@@ -1173,6 +1173,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 	background-image: url(/menu/background-new.jpg);
 	background-repeat: no-repeat;
 	background-position: center right;
+	margin-top: -20px;
 }
 
 .fancybox-inner p {
