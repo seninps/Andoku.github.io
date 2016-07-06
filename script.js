@@ -180,7 +180,9 @@ document.ready = function() {
 	/*$(".close-icon").click(function() {
 		player.pauseVideo();
 	});*/
-
+	$(".send").click(function(){
+		$(this).load("question.php","&name="+$(".name").val()+"&email="+$(".email").val()+"&message="+$(".message").val());
+	});
 	
 	$(document).ready(function(){
 		$(".why-we-image").addClass("active");
