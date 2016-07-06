@@ -317,18 +317,18 @@
 			<a href="javascript:myBlurFunction2(0);" class="close-icon"></a>
 			<div id="popup">
 				<h1>Спросите у нас</h1>
-				<form class="contact-form" action="question.php">
+				<form class="contact-form" method="post">
 					<label class="contacts-form-row">
 	                			<div class="label">Имя</div>
-	                			<input type="text" name="user_name" value="" required="">
+	                			<input type="text" name="name" required="">
 	            			</label>
 	            			<label class="contacts-form-row">
 				                <div class="label">E-mail</div>
-				                <input type="email" name="user_email" value="" required="">
+				                <input type="email" name="email" required="">
 	            			</label>
 	            			<label class="contacts-form-row">
 				                <div class="label">Сообщение</div>
-				                <textarea name="MESSAGE" rows="5" cols="40" required=""></textarea>
+				                <textarea name="message" rows="5" cols="40" required=""></textarea>
 				        </label>
 					<button class="send" type="submit"></button>
 				</form>
