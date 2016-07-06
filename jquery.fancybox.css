@@ -280,13 +280,13 @@ body.page-menu .fancybox-nav span {
 	   only screen and (min--moz-device-pixel-ratio: 1.5),
 	   only screen and (min-device-pixel-ratio: 1.5){
 
-	.fancybox-close, .fancybox-prev span, .fancybox-next span {
+	/*.fancybox-close, .fancybox-prev span, .fancybox-next span {
 		background-image: url('/img/fancybox_sprite0.png');
-		background-size: 44px 152px; /*The size of the normal image, half the size of the hi-res image*/
+		background-size: 44px 152px; /*The size of the normal image, half the size of the hi-res image
 	}
 
 	#fancybox-loading div {
 		background-image: url('fancybox_loading@2x.gif');
-		background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image*/
-	}
+		background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image
+	}*/
 }
