@@ -80,7 +80,7 @@ body.page-menu .fancybox-skin {
 }
 
 .fancybox-close, .fancybox-prev span, .fancybox-next span {
-	background-image: url('img/fancybox_sprite0.png');
+	background-image: url('/img/fancybox_sprite0.png');
 }
 
 #fancybox-loading {
@@ -281,7 +281,7 @@ body.page-menu .fancybox-nav span {
 	   only screen and (min-device-pixel-ratio: 1.5){
 
 	.fancybox-close, .fancybox-prev span, .fancybox-next span {
-		background-image: url('fancybox_sprite@2x.png');
+		background-image: url('/img/fancybox_sprite0.png');
 		background-size: 44px 152px; /*The size of the normal image, half the size of the hi-res image*/
 	}
 
