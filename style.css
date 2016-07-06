@@ -1057,7 +1057,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 .fancybox-inner .small {
 	width: 201px;
 	height: 61px;
-	margin: 20px 33px;
+	margin: 20px 33px 0px 33px;
 	display: inline-block;
 	/*border: 2px solid #ffffff;*/
 }
@@ -1222,7 +1222,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 	color: #050505;	
 	font-size: 21px;
 	font-weight: 400;
-	text-align: justify;
+	text-align: left;
 	margin-top: 0px;
 }
 
