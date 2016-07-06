@@ -161,8 +161,14 @@
     top: 40px;
 }
 
-#product .header, #about .header {
+#product .header {
 	right: 10%;
+}
+
+#about .header {
+	width: 45%;
+	min-width: 560px;
+	left: 20%;
 }
 
 h1 {
