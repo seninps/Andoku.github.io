@@ -513,7 +513,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 #delivery {
 	min-width: 860px;
-	min-height: 700px;
+	min-height: 600px;
 }
 
 #delivery .phone p {
@@ -523,7 +523,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 #delivery #popup {
 	width: 700px;
-	height: 400px;
+	height: 350px;
 }
 
 #delivery #popup p {
