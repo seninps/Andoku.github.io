@@ -53,7 +53,7 @@ myBlurFunction2 = function(state) {
         document.getElementById('about').style.display='block';
         document.getElementById('principles').style.display='none';
         document.getElementById('price').style.display='none';
-        document.getElementById('popup').style.height='586px';
+        document.getElementById('popup').style.height='686px';
         document.getElementById('product-background').style.display='block';
         document.getElementById('product-background').className='';
     } else if (state == 4) {
