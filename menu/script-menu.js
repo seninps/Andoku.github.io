@@ -135,13 +135,6 @@ document.ready = function() {
 		$(this).siblings("img.cont").hide();
 		$(this).siblings(".product-information").slideDown("fast");
 	});
-	
-	$(".fancybox-nav span").click(function(){
-		$(".small.p1.desc").addClass("active");
-		$(".small.p1.cont").removeClass("active");
-		$("img.p1.cont").hide();
-		$("p1.product-information").slideDown("fast");		
-	});
   	
   });
   
