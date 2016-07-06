@@ -137,10 +137,10 @@ document.ready = function() {
 	});
 	
 	$(".fancybox-nav span").click(function(){
-		$("#product-1 .small.desc").addClass("active");
-		$("#product-1 .small.cont").removeClass("active");
-		$("#product-1 img.cont").hide();
-		$("#product-1 .product-information").slideDown("fast");		
+		$(".small.p1.desc").addClass("active");
+		$(".small.p1.cont").removeClass("active");
+		$("img.p1.cont").hide();
+		$("p1.product-information").slideDown("fast");		
 	});
   	
   });
