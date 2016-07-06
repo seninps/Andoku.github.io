@@ -136,7 +136,7 @@ document.ready = function() {
 		$(this).siblings(".product-information").slideDown("fast");
 	});
 	
-	$(".fancybox-nav").click(function(){
+	$(".fancybox-nav span").click(function(){
 		$(".small.desc").addClass("active");
 		$(".small.cont").removeClass("active");
 		$("img.cont").hide();
