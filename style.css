@@ -833,7 +833,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 	text-decoration: underline;
 }
 
-p#price, p#principles {
+#name-price, #name-principles {
 	background-image: url('/img/arrow-1.png');
 	background-repeat: no-repeat;
 }
