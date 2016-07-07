@@ -284,10 +284,14 @@ hide = function(type) {
 	if (type == 'price') {
 		if (text.style.display == 'none') {
 			text.style.display = 'block';
+			height = document.getElementById('popup').offsetHeight + 72;
+			document.getElementById('popup').style.height = height + 'px';
 			height = document.getElementById('about').offsetHeight + 72;
 			document.getElementById('about').style.height = height + 'px';
 		} else {
 			text.style.display = 'none';
+			height = document.getElementById('popup').offsetHeight - 72;
+			document.getElementById('popup').style.height = height + 'px';
 			height = document.getElementById('about').offsetHeight - 72;
 			document.getElementById('about').style.height = height + 'px';
 			
