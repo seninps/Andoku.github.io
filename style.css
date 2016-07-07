@@ -846,6 +846,10 @@ input[type="text"]:focus, input[type="email"]:focus {
 	margin-top: -1em;
 }
 
+#about #popup :last-child {
+	text-align: left;
+}
+
 #photo {
 	min-height: 1150px;
 	min-width: 1250px;
