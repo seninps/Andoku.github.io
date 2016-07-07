@@ -285,14 +285,14 @@ hide = function(type) {
 	if (type == 'price') {
 		if (text.style.display == 'none') {
 			text.style.display = 'block';
-			document.getElementByClassName('name-price').className='revealed';
+			document.getElementById('name-price').className='revealed';
 			/*height = document.getElementById('popup').offsetHeight + 72;
 			document.getElementById('popup').style.height = height + 'px';
 			height = document.getElementById('about').offsetHeight + 72;
 			document.getElementById('about').style.height = height + 'px';*/
 		} else {
 			text.style.display = 'none';
-			document.getElementByClassName('name-price').className='';
+			document.getElementById('name-price').className='';
 			/*height = document.getElementById('popup').offsetHeight - 72;
 			document.getElementById('popup').style.height = height + 'px';
 			height = document.getElementById('about').offsetHeight - 72;
