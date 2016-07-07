@@ -436,7 +436,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 .fb .social-block {
-	background-image: url(/img/facebook-1.png);
+	background-image: url(/img/f-i.png);
 	background-position: 0 0;
 }
 
@@ -445,12 +445,12 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 .ig .social-block {
-	background-image: url(/img/instagram-1.png);
-	background-position: 0 0;
+	background-image: url(/img/f-i.png);
+	background-position: -304px 0;
 }
 
 .ig .social-block:hover {
-	background-position: 0 -82px;
+	background-position: -304px -82px;
 }
 
 #social, #delivery, #about, #product, #photo, #menu, #question {
