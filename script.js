@@ -281,38 +281,15 @@ document.ready = function() {
  
 hide = function(type) {
 	text=document.getElementById(type);
-	if (type == 'principles') {
-		if (text.style.display == 'none') {
-			text.style.display = 'block';
-			if (document.getElementById('price').style.display == 'block') document.getElementById('popup').style.height='950px';
-			else document.getElementById('popup').style.height='878px';
-			/*document.getElementById('popup').className = document.getElementById('about').offsetheight;*/
-			height = document.getElementById('about').offsetHeight + 192;
-			document.getElementById('about').style.height = height + 'px';
-			/*if (document.getElementById('about').offsetHeight < '1010') document.getElementById('about').style.height='1010px';*/
-		} else {
-			text.style.display = 'none';
-			if (document.getElementById('price').style.display == 'block') document.getElementById('popup').style.height='758px';
-			else document.getElementById('popup').style.height='686px';
-			height = document.getElementById('about').offsetHeight - 192;
-			document.getElementById('about').style.height = height + 'px';
-			
-		}
-	};
-	
 	if (type == 'price') {
 		if (text.style.display == 'none') {
 			text.style.display = 'block';
-			if (document.getElementById('principles').style.display == 'block') document.getElementById('popup').style.height='950px';
-			else document.getElementById('popup').style.height='758px';
-			/*document.getElementById('popup').className = document.getElementById('about').offsetheight;*/
+			document.getElementById('popup').style.height='950px';
 			height = document.getElementById('about').offsetHeight + 72;
 			document.getElementById('about').style.height = height + 'px';
-			/*if (document.getElementById('about').offsetHeight < '1010') document.getElementById('about').style.height='1010px';*/
 		} else {
 			text.style.display = 'none';
-			if (document.getElementById('principles').style.display == 'block') document.getElementById('popup').style.height='878px';
-			else document.getElementById('popup').style.height='686px';
+			document.getElementById('popup').style.height='878px';
 			height = document.getElementById('about').offsetHeight - 72;
 			document.getElementById('about').style.height = height + 'px';
 			
