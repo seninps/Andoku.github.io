@@ -51,7 +51,6 @@ myBlurFunction2 = function(state) {
         	document.getElementById('product-background').className='';
     	};
         document.getElementById('about').style.display='block';
-        document.getElementById('principles').style.display='none';
         document.getElementById('price').style.display='none';
         document.getElementById('popup').style.height='686px';
         document.getElementById('product-background').style.display='block';
