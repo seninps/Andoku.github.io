@@ -304,14 +304,14 @@ hide = function(type) {
 	if (type == 'principles') {
 		if (text.style.display == 'none') {
 			text.style.display = 'block';
-			document.getElementByClassName('name-principles').className='revealed';
+			document.getElementById('name-principles').className='revealed';
 			/*height = document.getElementById('popup').offsetHeight + 72;
 			document.getElementById('popup').style.height = height + 'px';
 			height = document.getElementById('about').offsetHeight + 72;
 			document.getElementById('about').style.height = height + 'px';*/
 		} else {
 			text.style.display = 'none';
-			document.getElementByClassName('name-principles').className='';
+			document.getElementById('name-principles').className='';
 			/*height = document.getElementById('popup').offsetHeight - 72;
 			document.getElementById('popup').style.height = height + 'px';
 			height = document.getElementById('about').offsetHeight - 72;
