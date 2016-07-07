@@ -1003,6 +1003,15 @@ input[type="text"]:focus, input[type="email"]:focus {
 	background-position: 0 -300px;
 }
 
+.menu-image:nth-child(12) .image {
+	background-image: url(/menu/small-12.png);
+	background-position: 0 0;
+}
+
+.menu-image:nth-child(12) .image:hover {
+	background-position: 0 -300px;
+}
+
 .menu-image p {
 	padding: 260px 100px 0 0;
 	font-size: 30px;
@@ -1069,6 +1078,11 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 #product-11 .product-image {
 	background-image: url(/menu/11/main.png);
+	background-position: center center;
+}
+
+#product-12 .product-image {
+	background-image: url(/menu/12/main.png);
 	background-position: center center;
 }
 
