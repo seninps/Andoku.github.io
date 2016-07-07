@@ -834,7 +834,8 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 p#price, p#principles {
-	background-image: url('/img/arrow-1.png');	
+	background-image: url('/img/arrow-1.png');
+	background-repeat: no-repeat;
 }
 
 .revealed {
