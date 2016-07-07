@@ -823,13 +823,22 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 #about .hide {
 	font-weight: bold;
-	color: #f9e588;
+	color: #dbad51;
 	text-decoration: none;
+	margin-left: 35px;
 }
 
 #about .hide:hover {
-	color: #ffa54f;
+	color: #d1a347;
 	text-decoration: underline;
+}
+
+.price, .principles {
+	background-image: url('/img/arrow-1.png');	
+}
+
+.revealed {
+	background-image: url('/img/arrow-2.png');
 }
 
 #about #price {
