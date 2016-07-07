@@ -823,13 +823,13 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 #about .hide {
 	font-weight: bold;
-	color: #dbad51;
+	color: #f9e588;
 	text-decoration: none;
 	margin-left: 35px;
 }
 
 #about .hide:hover {
-	color: #d1a347;
+	color: #ffa54f;
 	text-decoration: underline;
 }
 
