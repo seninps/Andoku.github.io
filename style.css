@@ -169,6 +169,7 @@
 	width: 45%;
 	min-width: 560px;
 	left: 20%;
+	top: 20px;
 }
 
 h1 {
@@ -607,8 +608,12 @@ input[type="text"]:focus, input[type="email"]:focus {
 	background-size: cover;
 }
 
-#product .header img, #about .header img {
+#product .header img {
 	height: 117px;	
+}
+
+#about .header img {
+	height: 160px;
 }
 
 .block-components, .block-why-we {
