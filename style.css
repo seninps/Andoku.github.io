@@ -418,39 +418,39 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 .vk .social-block {
-	background-image: url(/img/vkontakte-1.png);
+	background-image: url(/img/v-o-f-i.png);
 	background-position: 0 0;
 }
 
 .vk .social-block:hover {
-	background-position: 0 -81px;
+	background-position: 0 -82px;
 }
 
 .ok .social-block {
-	background-image: url(/img/odnoklassniki.png);
-	background-position: 0 0;
-}
-
-.ok .social-block:hover {
-	background-position: 0 -82px;
-}
-
-.fb .social-block {
-	background-image: url(/img/f-i.png);
-	background-position: 0 0;
-}
-
-.fb .social-block:hover {
-	background-position: 0 -82px;
-}
-
-.ig .social-block {
-	background-image: url(/img/f-i.png);
+	background-image: url(/img/v-o-f-i.png);
 	background-position: -304px 0;
 }
 
-.ig .social-block:hover {
+.ok .social-block:hover {
 	background-position: -304px -82px;
+}
+
+.fb .social-block {
+	background-image: url(/img/v-o-f-i.png);
+	background-position: -608px 0;
+}
+
+.fb .social-block:hover {
+	background-position: -608px -82px;
+}
+
+.ig .social-block {
+	background-image: url(/img/v-o-f-i.png);
+	background-position: -912px 0;
+}
+
+.ig .social-block:hover {
+	background-position: -912px -82px;
 }
 
 #social, #delivery, #about, #product, #photo, #menu, #question {
