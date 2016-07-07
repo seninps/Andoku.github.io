@@ -1276,7 +1276,7 @@ img.cont {
 	display: none;
 }
 
-#about p, #product p, #about li, #product li, #principles {
+#about #popup p, #product #popup p, #about li, #product li, #principles {
     text-align: justify;
     font-weight: normal;
     font-size: 20px;
