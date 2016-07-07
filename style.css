@@ -340,14 +340,9 @@ input[type="text"]:focus, input[type="email"]:focus {
 
 .phone-logo {
 	width: 370px;
-	height: 73px;
+	height: 74px;
 	background-image: url(/img/phone.png);
-	background-position: 0 0;
 	margin: auto;
-}
-
-#blur-div .phone-logo:hover {
-	background-position: 0 -73px;
 }
 
 .delivery-logo {
