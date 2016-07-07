@@ -52,6 +52,7 @@ myBlurFunction2 = function(state) {
     	};
         document.getElementById('about').style.display='block';
         document.getElementById('price').style.display='none';
+        document.getElementById('principles').style.display='none';
         document.getElementById('popup').style.height='686px';
         document.getElementById('product-background').style.display='block';
         document.getElementById('product-background').className='';
@@ -282,6 +283,23 @@ document.ready = function() {
 hide = function(type) {
 	text=document.getElementById(type);
 	if (type == 'price') {
+		if (text.style.display == 'none') {
+			text.style.display = 'block';
+			/*height = document.getElementById('popup').offsetHeight + 72;
+			document.getElementById('popup').style.height = height + 'px';
+			height = document.getElementById('about').offsetHeight + 72;
+			document.getElementById('about').style.height = height + 'px';*/
+		} else {
+			text.style.display = 'none';
+			/*height = document.getElementById('popup').offsetHeight - 72;
+			document.getElementById('popup').style.height = height + 'px';
+			height = document.getElementById('about').offsetHeight - 72;
+			document.getElementById('about').style.height = height + 'px';*/
+			
+		}
+	};
+	
+	if (type == 'principles') {
 		if (text.style.display == 'none') {
 			text.style.display = 'block';
 			/*height = document.getElementById('popup').offsetHeight + 72;
