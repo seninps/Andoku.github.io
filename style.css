@@ -351,6 +351,9 @@ input[type="text"]:focus, input[type="email"]:focus {
 	font-size: 50px;
 	font-weight: 400;
 	margin: 0;
+}
+
+.phone-logo p {
 	padding: 7px 0 0 55px;
 }
 
