@@ -345,7 +345,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 	margin: auto;
 }
 
-.phone-logo p {
+.phone-logo p, .phone-logo a {
 	color: #595959;
 	font-family: Bebas;
 	font-size: 50px;
