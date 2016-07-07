@@ -292,7 +292,7 @@ hide = function(type) {
 			document.getElementById('about').style.height = height + 'px';*/
 		} else {
 			text.style.display = 'none';
-			document.getElementsByClassName('price').className=''
+			document.getElementsByClassName('price').className='';
 			/*height = document.getElementById('popup').offsetHeight - 72;
 			document.getElementById('popup').style.height = height + 'px';
 			height = document.getElementById('about').offsetHeight - 72;
