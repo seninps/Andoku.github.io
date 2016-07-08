@@ -51,8 +51,10 @@ myBlurFunction2 = function(state) {
         	document.getElementById('product-background').className='';
     	};
         document.getElementById('about').style.display='block';
-        document.getElementById('price').style.display='none';
-        document.getElementById('principles').style.display='none';
+    	document.getElementById('price').style.display='none';
+    	document.getElementById('principles').style.display='none';
+        document.getElementById('name-price').className='';
+        document.getElementById('name-principles').className='';
         document.getElementById('popup').style.height='686px';
         document.getElementById('product-background').style.display='block';
         document.getElementById('product-background').className='';
@@ -109,10 +111,10 @@ myBlurFunction2 = function(state) {
 	    			document.getElementById('about').style.display='block';
 	    			document.getElementById('product-background').style.display='block';
 	    			document.getElementById('product-background').className='';
-        			document.getElementById('name-price').className='';
-        			document.getElementById('name-principles').className='';
     				document.getElementById('price').style.display='none';
     				document.getElementById('principles').style.display='none';
+        			document.getElementById('name-price').className='';
+        			document.getElementById('name-principles').className='';
 	    		};
 	    		if (document.getElementById('product-background').className=='product') { 
 	    			document.getElementById('product').style.display='block';
@@ -124,8 +126,6 @@ myBlurFunction2 = function(state) {
 	    			document.getElementById('about').style.display='none';
 	    			document.getElementById('product-background').className='';
 	    			document.getElementById('product-background').style.display='none';
-        			document.getElementById('name-price').className='';
-        			document.getElementById('name-principles').className='';
 	    			player.pauseVideo();
 	    		};
 	    		if (document.getElementById('product').style.display=='block') {
