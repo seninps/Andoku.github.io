@@ -891,12 +891,15 @@ input[type="text"]:focus, input[type="email"]:focus {
 	width: 750px;
 }
 
-.menu-image .image {
+.menu-image {
 	display: inline-block;
 	width: 211px;
 	height: 300px;
 	vertical-align: top;
 	margin: 10px;
+}
+
+.image {
 	opacity: 0;
 	-webkit-transition: opacity 150ms;
 	-moz-transition: opacity 150ms;
