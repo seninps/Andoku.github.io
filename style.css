@@ -899,18 +899,6 @@ input[type="text"]:focus, input[type="email"]:focus {
 	margin: 10px;
 }
 
-.menu-image .fancybox {
-	opacity: 0;
-	-webkit-transition: opacity 150ms;
-	-moz-transition: opacity 150ms;
-	-ms-transition: opacity 150ms;
-	transition: opacity 150ms;
-}
-
-.menu-image .fancybox.loaded {
-	opacity: 1;
-}
-
 .menu-image a {
 	text-decoration: none;
 }
