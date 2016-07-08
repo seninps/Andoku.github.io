@@ -24,6 +24,8 @@ myBlurFunction2 = function(state) {
     		document.getElementById('about').style.display='none';
     		document.getElementById('product-background').style.display='none';
         	document.getElementById('product-background').className='about';
+        	document.getElementById('price').className='';
+        	document.getElementById('principles').className='';
         	player.pauseVideo();
     	};
         document.getElementById('blur-div').className='alerting-1';
@@ -39,6 +41,8 @@ myBlurFunction2 = function(state) {
     		document.getElementById('about').style.display='none';
     		document.getElementById('product-background').style.display='none';
         	document.getElementById('product-background').className='about';
+        	document.getElementById('price').className='';
+        	document.getElementById('principles').className='';
         	player.pauseVideo();
     	};
         document.getElementById('blur-div').className='alerting-1';
@@ -61,6 +65,8 @@ myBlurFunction2 = function(state) {
     		document.getElementById('about').style.display='none';
     		document.getElementById('product-background').style.display='none';
         	document.getElementById('product-background').className='';
+        	document.getElementById('price').className='';
+        	document.getElementById('principles').className='';
         	player.pauseVideo();
     	};
         document.getElementById('product').style.display='block';
@@ -76,6 +82,8 @@ myBlurFunction2 = function(state) {
     		document.getElementById('about').style.display='none';
     		document.getElementById('product-background').style.display='none';
         	document.getElementById('product-background').className='about';
+        	document.getElementById('price').className='';
+        	document.getElementById('principles').className='';
         	player.pauseVideo();
     	};
         document.getElementById('blur-div').className='alerting';
@@ -91,6 +99,8 @@ myBlurFunction2 = function(state) {
     		document.getElementById('about').style.display='none';
         	document.getElementById('product-background').className='about';
     		document.getElementById('product-background').style.display='none';
+        	document.getElementById('price').className='';
+        	document.getElementById('principles').className='';
     		player.pauseVideo();
     	};
         document.getElementById('blur-div').className='alerting';
@@ -120,6 +130,8 @@ myBlurFunction2 = function(state) {
 	    			document.getElementById('about').style.display='none';
 	    			document.getElementById('product-background').className='';
 	    			document.getElementById('product-background').style.display='none';
+        			document.getElementById('price').className='';
+        			document.getElementById('principles').className='';
 	    			player.pauseVideo();
 	    		};
 	    		if (document.getElementById('product').style.display=='block') {
@@ -138,6 +150,8 @@ myBlurFunction2 = function(state) {
 	    		document.getElementById('about').style.display='none';
 	    		document.getElementById('product-background').style.display='none';
 	        	document.getElementById('product-background').className='';
+        		document.getElementById('price').className='';
+        		document.getElementById('principles').className='';
 	        	player.pauseVideo();
 	    	};
 	}
