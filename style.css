@@ -891,7 +891,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 	width: 750px;
 }
 
-.menu-image {
+.menu-image .image {
 	display: inline-block;
 	width: 211px;
 	height: 300px;
@@ -902,6 +902,10 @@ input[type="text"]:focus, input[type="email"]:focus {
 	-moz-transition: opacity 150ms;
 	-ms-transition: opacity 150ms;
 	transition: opacity 150ms;
+}
+
+.image.loaded {
+	opacity: 1;
 }
 
 .menu-image a {
