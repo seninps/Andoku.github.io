@@ -277,6 +277,32 @@ document.ready = function() {
 		 	$(this).siblings(".image").removeClass("active");
 		});
 	});
+	
+	var heroArray = [
+        '/menu/small-1.png',
+        '/menu/small-2.png',
+        '/menu/small-3.png',
+        '/menu/small-4.png',
+        '/menu/small-5.png',
+        '/menu/small-6.png',
+        '/menu/small-7.png',
+        '/menu/small-8.png',
+        '/menu/small-9.png',
+        '/menu/small-10.png',
+        '/menu/small-11.png',
+        '/menu/small-12.png',
+	]
+	
+	function preCacheHeros(){
+	    $.each(heroArray, function(){
+	        var img = new Image();
+	        img.src = this;
+	    });
+	};
+	 
+	$(window).load(function(){
+	    preCacheHeros();
+	});
 };
 
 /* ShowInformation = function (category) {
