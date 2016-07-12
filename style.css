@@ -1214,6 +1214,7 @@ body {
     margin: 0;
     padding: 0;
     background: #000;
+    min-width: 850px;
 }
 
 #blur-div {
