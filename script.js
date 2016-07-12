@@ -188,6 +188,7 @@ document.ready = function() {
 	});*/
 	$(".send").click(function(){
 		$(this).load("question.php","&name="+$(".name").val()+"&email="+$(".email").val()+"&message="+$(".message").val());
+		alert ('Ваше сообщение отправлено!');
 	});
 	
 	$(document).ready(function(){
