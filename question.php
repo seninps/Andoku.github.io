@@ -1,6 +1,6 @@
 ﻿<?php
 
-	$to = 'r-snack@mail.ru';
+	$to = 'info@r-snack.ru';
 	$subject = 'R-snack Question';
 	$message = '
 Имя: '.$_REQUEST['name']."<br>".'
