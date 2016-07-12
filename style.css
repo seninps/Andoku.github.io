@@ -1223,6 +1223,7 @@ body {
     background-size: cover;
     background-position: 50% 50%;
     min-width: 850px;
+    position: absolute;
 }
 
 .alerting {
