@@ -1214,7 +1214,6 @@ body {
     margin: 0;
     padding: 0;
     background: #000;
-    min-width: 850px;
 }
 
 #blur-div {
@@ -1223,6 +1222,7 @@ body {
     background-image: url('/images/1.jpg');
     background-size: cover;
     background-position: 50% 50%;
+    min-width: 850px;
 }
 
 .alerting {
