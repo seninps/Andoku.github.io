@@ -586,11 +586,11 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 
 #delivery .time:nth-child(2) {
-	margin-right: 95px;
+	margin-right: 101px;
 }
 
 #delivery .time:nth-child(3) {
-	margin-right: 57px;
+	margin-right: 62px;
 }
 
 #delivery .number {
